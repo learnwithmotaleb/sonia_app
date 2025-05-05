@@ -1,102 +1,2255 @@
 var bdInformations = {
+
+
   "divisions": {
+    //dhaka thana completed
     "dhaka": {
       "name": "Dhaka",
-      "Latitude": 23.8103,
-      "Longitude": 90.4125,
+      "latitude": 23.8103,
+      "longitude": 90.4125,
       "phone": 01701577479,
       "officePhone": 01577479,
       "email": "dhaka@gmail.com",
-      "Districts": {
-        "Dhaka City": {
-          "Latitude": 23.8103,
-          "Longitude": 90.4125,
+      "districts": {
+        "dhaka": {
+          "name":"Dhaka",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "Upazilas": {
-            "Kotwali": {
-              "Latitude": 23.8103,
-              "Longitude": 90.4125,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Kawran Bazar": {
-                  "Latitude": 23.8103,
-                  "Longitude": 90.4125,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Shantinagar": {
-                  "Latitude": 23.8103,
-                  "Longitude": 90.4125,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+          "upazilas": {
+              "dhamrai": {
+                "latitude": 23.7167,
+                "longitude": 90.3667,
+                "phone": "01701234567",
+                "officePhone": "N/A",
+                "email": "dhamraiu@dhaka.gov.bd",
+                "name": "Dhamrai Upazila",
+                "unions": {
+                  "dhamrai": {
+                    "name": "Dhamrai Union",
+                    "chairman": "Md. Rafiqul Islam",
+                    "contact": "01701234567"
+                  },
+                  "shibpur": {
+                    "name": "Shibpur Union",
+                    "chairman": "Md. Kabir Hossain",
+                    "contact": "01701234568"
+                  }
+                }
               },
-            },
-            "Motijheel": {
-              "Latitude": 23.8103,
-              "Longitude": 90.4125,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Motijheel": {
-                  "Latitude": 23.8103,
-                  "Longitude": 90.4125,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Paltan": {
-                  "Latitude": 23.8103,
-                  "Longitude": 90.4125,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+              "dohar": {
+                "latitude": 23.7167,
+                "longitude": 90.4000,
+                "phone": "01703456789",
+                "officePhone": "N/A",
+                "email": "doharupazila@dhaka.gov.bd",
+                "name": "Dohar Upazila",
+                "unions": {
+                  "dohar": {
+                    "name": "Dohar Union",
+                    "chairman": "Md. Shamim Reza",
+                    "contact": "01703456789"
+                  },
+                  "vander": {
+                    "name": "Vander Union",
+                    "chairman": "Md. Rafiqul Islam",
+                    "contact": "01703456790"
+                  }
+                }
               },
-            },
+              "keraniganj": {
+                "latitude": 23.6500,
+                "longitude": 90.5000,
+                "phone": "01705432101",
+                "officePhone": "N/A",
+                "email": "keraniganj@dhaka.gov.bd",
+                "name": "Keraniganj Upazila",
+                "unions": {
+                  "keraniganj": {
+                    "name": "Keraniganj Union",
+                    "chairman": "Md. Rafiqul Alam",
+                    "contact": "01705432101"
+                  },
+                  "chatta": {
+                    "name": "Chatta Union",
+                    "chairman": "Md. Alamgir Hossain",
+                    "contact": "01705432102"
+                  }
+                }
+              },
+              "nawabganj": {
+                "latitude": 23.8500,
+                "longitude": 90.6500,
+                "phone": "01701122334",
+                "officePhone": "N/A",
+                "email": "nawabganj@dhaka.gov.bd",
+                "name": "Nawabganj Upazila",
+                "unions": {
+                  "nawabganj": {
+                    "name": "Nawabganj Union",
+                    "chairman": "Md. Tareq Ahmed",
+                    "contact": "01701122334"
+                  },
+                  "shibpur": {
+                    "name": "Shibpur Union",
+                    "chairman": "Md. Abdul Hannan",
+                    "contact": "01701122335"
+                  }
+                }
+              },
+              "savar": {
+                "latitude": 23.8500,
+                "longitude": 90.3500,
+                "phone": "01701234500",
+                "officePhone": "N/A",
+                "email": "savar@dhaka.gov.bd",
+                "name": "Savar Upazila",
+                "unions": {
+                  "savar": {
+                    "name": "Savar Union",
+                    "chairman": "Md. Jashim Uddin",
+                    "contact": "01701234500"
+                  },
+                  "boalia": {
+                    "name": "Boalia Union",
+                    "chairman": "Md. Shahinur Rahman",
+                    "contact": "01701234501"
+                  }
+                }
+              }
           },
         },
-        "Narayanganj": {
-          "Latitude": 23.6112,
-          "Longitude": 90.5000,
+
+
+        "faridpur": {
+          "name":"Faridpur",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "Upazilas": {
-            "Narayanganj Sadar": {
-              "Latitude": 23.6112,
-              "Longitude": 90.5000,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Narayanganj": {
-                  "Latitude": 23.6112,
-                  "Longitude": 90.5000,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sonargaon": {
-                  "Latitude": 23.6112,
-                  "Longitude": 90.5000,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "upazilas": {
+
+              "alfadanga": {
+                "latitude": 23.0167,
+                "longitude": 90.2500,
+                "phone": "01707335467",
+                "officePhone": "N/A",
+                "email": "alfaudc@gmail.com",
+                "name": "Alfadanga Upazila",
+                "unions": {
+                  "alipur": {
+                    "name": "Alipur Union",
+                    "chairman": "Sohrab Hossain Bulbul",
+                    "contact": "01707335467"
+                  },
+                  "baras": {
+                    "name": "Baras Union",
+                    "chairman": "Md. Rafik Talukder",
+                    "contact": "01731646536"
+                  }
+                }
+              },
+              "bhanga": {
+                "latitude": 23.1000,
+                "longitude": 90.2000,
+                "phone": "01701670030",
+                "officePhone": "0632356124",
+                "email": "unobhanga@mopa.gov.bd",
+                "name": "Bhanga Upazila",
+                "unions": {
+                  "bhanga": {
+                    "name": "Bhanga Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01701670030"
+                  },
+                  "charbhadrasan": {
+                    "name": "Charbhadrasan Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01701670030"
+                  }
+                }
+              },
+              "boalmari": {
+                "latitude": 23.2000,
+                "longitude": 90.3000,
+                "phone": "01718248644",
+                "officePhone": "0632456185",
+                "email": "raju.boalmari@gmail.com",
+                "name": "Boalmari Upazila",
+                "unions": {
+                  "boalmari": {
+                    "name": "Boalmari Union",
+                    "chairman": "Swapon Kumar",
+                    "contact": "01718248644"
+                  },
+                  "chandipur": {
+                    "name": "Chandipur Union",
+                    "chairman": "Swapon Kumar",
+                    "contact": "01718248644"
+                  }
+                }
+              },
+              "charbhadrasan": {
+                "latitude": 23.3000,
+                "longitude": 90.4000,
+                "phone": "01701670024",
+                "officePhone": "0632556001",
+                "email": "unocharbhadrasan@gmail.com",
+                "name": "Charbhadrasan Upazila",
+                "unions": {
+                  "charbhadrasan": {
+                    "name": "Charbhadrasan Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01701670024"
+                  },
+                  "kashipur": {
+                    "name": "Kashipur Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01701670024"
+                  }
+                }
+              },
+              "faridpurSadar": {
+                "latitude": 23.6000,
+                "longitude": 90.7000,
+                "phone": "01741118886",
+                "officePhone": "02478803022",
+                "email": "dcfaridpur@mopa.gov.bd",
+                "name": "Faridpur Sadar Upazila",
+                "unions": {
+                  "faridpur": {
+                    "name": "Faridpur Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01741118886"
+                  },
+                  "kashipur": {
+                    "name": "Kashipur Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "01741118886"
+                  }
+                }
+              },
+              "madhukhali": {
+                "latitude": 23.7000,
+                "longitude": 90.8000,
+                "phone": "01701670027",
+                "officePhone": "02478802797",
+                "email": "unomadhukhali@mopa.gov.bd",
+                "name": "Madhukhali Upazila",
+                "unions": {
+                  "madhukhali": {
+                    "name": "Madhukhali Union",
+                    "chairman": "Md. Abu Rashel",
+                    "contact": "01701670027"
+                  },
+                  "saltha": {
+                    "name": "Saltha Union",
+                    "chairman": "Md. Abu Rashel",
+                    "contact": "01701670027"
+                  }
+                }
+              },
+              "nagarkanda": {
+                "latitude": 23.8000,
+                "longitude": 90.9000,
+                "phone": "017110033319",
+                "officePhone": "N/A",
+                "email": "unonagarkanda@mopa.gov.bd",
+                "name": "Nagarkanda Upazila",
+                "unions": {
+                  "nagarkanda": {
+                    "name": "Nagarkanda Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "017110033319"
+                  },
+                  "kashipur": {
+                    "name": "Kashipur Union",
+                    "chairman": "Md. Yeasin Kabir",
+                    "contact": "017110033319"
+                  }
+                }
+              },
+              "sadarpur": {
+                "latitude": 23.9000,
+                "longitude": 91.0000,
+                "phone": "01701670031",
+                "officePhone": "0632875300",
+                "email": "unosadarpur@mopa.gov.bd",
+                "name": "Sadarpur Upazila",
+                "unions": {
+                  "sadarpur": {
+                    "name": "Sadarpur Union",
+                    "chairman": "Zakia Sultana",
+                    "contact": "01701670031"
+                  },
+                  "kashipur": {
+                    "name": "Kashipur Union",
+                    "chairman": "Zakia Sultana",
+                    "contact": "01701670031"
+                  }
+                }
+              },
+              "saltha": {
+                "latitude": 24.0000,
+                "longitude": 91.1000,
+                "phone": "01710368402",
+                "officePhone": "N/A",
+                "email": "uaosaltha@dae.gov.bd",
+                "name": "Saltha Upazila",
+                "unions": {
+                  "saltha": {
+                    "name": "Saltha Union",
+                    "chairman": "Md. Akter Hossen Shahin",
+                    "contact": "01710368402"
+                  },
+                  "kashipur": {
+                    "name": "Kashipur Union",
+                    "chairman": "Md. Akter Hossen Shahin",
+                    "contact": "01710368402"
+                  }
+                }
+              }
+
+          },
+        },
+        "gazipur": {
+          "name":"Gazipur",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "gazipurSadar": {
+                "latitude": 24.0000,
+                "longitude": 90.8333,
+                "phone": "01700888333",
+                "officePhone": "02-49273070",
+                "email": "dcgazipur@mopa.gov.bd",
+                "name": "Gazipur Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
+              "kaliakair": {
+                "latitude": 23.9500,
+                "longitude": 90.3500,
+                "phone": "01726051735",
+                "officePhone": "N/A",
+                "email": "tajwar3317568@gmail.com",
+                "name": "Kaliakair Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kaliganj": {
+                "latitude": 23.9000,
+                "longitude": 90.4000,
+                "phone": "01783865882",
+                "officePhone": "02-49273006",
+                "email": "unokaliganj@gmail.com",
+                "name": "Kaliganj Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kapasia": {
+                "latitude": 23.8000,
+                "longitude": 90.4000,
+                "phone": "01783865884",
+                "officePhone": "02-49273004",
+                "email": "unokapasia@gmail.com",
+                "name": "Kapasia Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sreepur": {
+                "latitude": 23.7000,
+                "longitude": 90.5000,
+                "phone": "01783865886",
+                "officePhone": "02-49273002",
+                "email": "unosreepurgazipur@mopa.gov.bd",
+                "name": "Sreepur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "gopalganj": {
+          "name":"Gopalganj",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "gopalganjSadar": {
+                "latitude": 23.0000,
+                "longitude": 89.8333,
+                "phone": "02478821727",
+                "officePhone": "01320099300",
+                "email": "spgopalgonj@police.gov.bd",
+                "name": "Gopalganj Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kashiani": {
+                "latitude": 23.0000,
+                "longitude": 89.8333,
+                "phone": "0665256450",
+                "officePhone": "01991-132828",
+                "email": "N/A",
+                "name": "Kashiani Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kotalipara": {
+                "latitude": 23.0000,
+                "longitude": 89.8333,
+                "phone": "01762687008",
+                "officePhone": "N/A",
+                "email": "unomonohardi@mopa.gov.bd",
+                "name": "Kotalipara Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "muksudpur": {
+                "latitude": 23.0000,
+                "longitude": 89.8333,
+                "phone": "0665456218",
+                "officePhone": "N/A",
+                "email": "ue.muksudpur@lged.gov.bd",
+                "name": "Muksudpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tungipara": {
+                "latitude": 23.0000,
+                "longitude": 89.8333,
+                "phone": "01715025461",
+                "officePhone": "N/A",
+                "email": "useo.tungipara@yahoo.com",
+                "name": "Tungipara Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+
+
+        "kishoreganj": {
+          "name":"Kishoreganj",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "kishoreganjSadar": {
+                "latitude": 24.0000,
+                "longitude": 90.9667,
+                "phone": "02997761672",
+                "officePhone": "01716-099698",
+                "email": "ucokishoreganjsador@gmail.com",
+                "name": "Kishoreganj Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bajitpur": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01958400418",
+                "officePhone": "N/A",
+                "email": "aclbajitpurkishoreganj@lrb.gov.bd",
+                "name": "Bajitpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bhairab": {
+                "latitude": 24.0167,
+                "longitude": 91.0833,
+                "phone": "01766-254882",
+                "officePhone": "029470572",
+                "email": "unomonohardi@mopa.gov.bd",
+                "name": "Bhairab Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "hossainpur": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01762687008",
+                "officePhone": "N/A",
+                "email": "unomonohardi@mopa.gov.bd",
+                "name": "Hossainpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "itna": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01332857123",
+                "officePhone": "N/A",
+                "email": "unoitna@mopa.gov.bd",
+                "name": "Itna Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "karimganj": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01738009542",
+                "officePhone": "01738009542",
+                "email": "khademulislamkhan@gmail.com",
+                "name": "Karimganj Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "katiadi": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01332857117",
+                "officePhone": "N/A",
+                "email": "unokatiadi@mopa.gov.bd",
+                "name": "Katiadi Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kuliarchar": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01752498200",
+                "officePhone": "N/A",
+                "email": "saedphekuliarchark@gmail.com",
+                "name": "Kuliarchar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mithamain": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01778414727",
+                "officePhone": "N/A",
+                "email": "sujanb742682@gmail.com",
+                "name": "Mithamain Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nikli": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01721912016",
+                "officePhone": "N/A",
+                "email": "nikli@dyd.gov.bd",
+                "name": "Nikli Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "pakundia": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "01856470500",
+                "officePhone": "N/A",
+                "email": "ansarvdp.kgsadar@gmail.com",
+                "name": "Pakundia Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tarail": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "09434-75079",
+                "officePhone": "N/A",
+                "email": "ue@tarailuzp.gov.bd",
+                "name": "Tarail Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "austagram": {
+                "latitude": 24.0167,
+                "longitude": 90.9167,
+                "phone": "0942256043",
+                "officePhone": "N/A",
+                "email": "aclaustagramkishoreganj@lrb.gov.bd",
+                "name": "Austagram Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "madaripur": {
+          "name":"Madaripur",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+
+              "madaripurSadar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "+88 066162506",
+                "officePhone": "+88 01733351421",
+                "email": "unomadaripur@gmail.com",
+                "name": "Madaripur Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kalkini": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "+88 01737917729",
+                "officePhone": "+88 01737917729",
+                "email": "sr.kalkini.madaripur@gmail.com",
+                "name": "Kalkini Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rajoir": {
+                "latitude": 23.2282,
+                "longitude": 90.0264,
+                "phone": "+88 01716026411",
+                "officePhone": "+88 01716026411",
+                "email": "urdorajoir@gmail.com",
+                "name": "Rajoir Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shibchar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "+88 01733351434",
+                "officePhone": "+88 01733351434",
+                "email": "unoshibchar@mopa.gov.bd",
+                "name": "Shibchar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dasar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "+88 01778793902",
+                "officePhone": "+88 01778793902",
+                "email": "shihabsawrav@gmail.com",
+                "name": "Dasar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+
+          },
+        },
+        "manikganj": {
+          "name":"Manikganj",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "manikganjSadar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "N/A",
+                "name": "Manikganj Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "daulatpur": {
+                "latitude": 23.9617,
+                "longitude": 89.8417,
+                "phone": "027715002",
+                "officePhone": "N/A",
+                "email": "unodaulatpurmanikganj@mopa.gov.bd",
+                "name": "Daulatpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "ghior": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "N/A",
+                "name": "Ghior Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "harirampur": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "01320094453",
+                "email": "N/A",
+                "name": "Harirampur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "saturia": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "N/A",
+                "name": "Saturia Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shivalaya": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "01716-443805",
+                "email": "ue.shivalaya@lged.gov.bd",
+                "name": "Shivalaya Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "singair": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "N/A",
+                "name": "Singair Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "munshiganj": {
+          "name":"Munshiganj",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "munshiganj_sadar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "munshiganjsadar@munshiganj.gov.bd",
+                "name": "Munshiganj Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sreenagar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "sreenagar@munshiganj.gov.bd",
+                "name": "Sreenagar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "lohajang": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "lohajang@munshiganj.gov.bd",
+                "name": "Lohajang Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sirajdikhan": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "sirajdikhan@munshiganj.gov.bd",
+                "name": "Sirajdikhan Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tongibari": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "tongibari@munshiganj.gov.bd",
+                "name": "Tongibari Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gazaria": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "gazaria@munshiganj.gov.bd",
+                "name": "Gazaria Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "narayanganj": {
+          "name":"Narayanganj",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "narayanganjSadar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "narsingdisadar@narayanganj.gov.bd",
+                "name": "Narayanganj Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sonargaon": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "sonargaon@narayanganj.gov.bd",
+                "name": "Sonargaon Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bandar": {
+                "latitude": 23.6000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "bandar@narayanganj.gov.bd",
+                "name": "Bandar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "araihazar": {
+                "latitude": 23.7917,
+                "longitude": 90.6500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "araihazar@narayanganj.gov.bd",
+                "name": "Araihazar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rupganj": {
+                "latitude": 23.7933,
+                "longitude": 90.5170,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "rupganj@narayanganj.gov.bd",
+                "name": "Rupganj Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "narsingdi": {
+          "name":"Narsingdi",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "narsingdi_sadar": {
+                "latitude": 23.9167,
+                "longitude": 90.7250,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "narsingdisadar@narsingdi.gov.bd",
+                "name": "Narsingdi Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "palash": {
+                "latitude": 23.9500,
+                "longitude": 90.6250,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "palash@narsingdi.gov.bd",
+                "name": "Palash Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shibpur": {
+                "latitude": 24.3750,
+                "longitude": 90.7383,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "shibpur@narsingdi.gov.bd",
+                "name": "Shibpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "belabo": {
+                "latitude": 24.0917,
+                "longitude": 90.8500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "belabo@narsingdi.gov.bd",
+                "name": "Belabo Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "monohardi": {
+                "latitude": 24.1278,
+                "longitude": 90.7000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "monohardi@narsingdi.gov.bd",
+                "name": "Monohardi Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "raipura": {
+                "latitude": 23.9667,
+                "longitude": 90.8750,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "raipura@narsingdi.gov.bd",
+                "name": "Raipura Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+          },
+        },
+        "rajbari": {
+          "name":"Rajbari",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "rajbariSadar": {
+                "latitude": 23.4167,
+                "longitude": 89.6667,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "rajbarisadar@rajbari.gov.bd",
+                "name": "Rajbari Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "goalanda": {
+                "latitude": 23.7500,
+                "longitude": 89.7833,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "goalanda@rajbari.gov.bd",
+                "name": "Goalanda Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "pangsha": {
+                "latitude": 23.7167,
+                "longitude": 89.4000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "pangsha@rajbari.gov.bd",
+                "name": "Pangsha Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "baliakandi": {
+                "latitude": 23.6000,
+                "longitude": 89.5500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "baliakandi@rajbari.gov.bd",
+                "name": "Baliakandi Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kalukhali": {
+                "latitude": 23.7167,
+                "longitude": 89.5167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "kalukhali@rajbari.gov.bd",
+                "name": "Kalukhali Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+
+
+
+
+
+
+          },
+        },
+        "shariatpur": {
+          "name":"Shariatpur",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "shariatpurSadar": {
+                "latitude": 23.2167,
+                "longitude": 90.3500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "shariatpursadar@shariatpur.gov.bd",
+                "name": "Shariatpur Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "damudya": {
+                "latitude": 23.2167,
+                "longitude": 90.3667,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "damudya@shariatpur.gov.bd",
+                "name": "Damudya Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "naria": {
+                "latitude": 23.2333,
+                "longitude": 90.4167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "naria@shariatpur.gov.bd",
+                "name": "Naria Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "zanjira": {
+                "latitude": 23.3667,
+                "longitude": 90.3000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "zanjira@shariatpur.gov.bd",
+                "name": "Zanjira Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bhedarganj": {
+                "latitude": 23.3500,
+                "longitude": 90.4167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "bhedarganj@shariatpur.gov.bd",
+                "name": "Bhedarganj Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gosairhat": {
+                "latitude": 23.0000,
+                "longitude": 90.5000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "gosairhat@shariatpur.gov.bd",
+                "name": "Gosairhat Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
+
+
+
+          },
+        },
+        "tangail": {
+          "name":"Tangail",
+          "latitude": 23.8103,
+          "longitude": 90.4125,
+          "phone": 01701577479,
+          "officePhone": 01577479,
+          "email": "dhaka@gmail.com",
+          "upazilas": {
+              "tangailSadar": {
+                "latitude": 24.2513,
+                "longitude": 89.9167,
+                "phone": "01712-231136",
+                "officePhone": "N/A",
+                "email": "tangailsadar@tangail.gov.bd",
+                "name": "Tangail Sadar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "basail": {
+                "latitude": 24.2333,
+                "longitude": 90.0167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "basail@tangail.gov.bd",
+                "name": "Basail Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bhuapur": {
+                "latitude": 24.3167,
+                "longitude": 89.9167,
+                "phone": "01717-838707",
+                "officePhone": "N/A",
+                "email": "bhuapur@tangail.gov.bd",
+                "name": "Bhuapur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "delduar": {
+                "latitude": 24.0833,
+                "longitude": 89.9833,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "delduar@tangail.gov.bd",
+                "name": "Delduar Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dhanbari": {
+                "latitude": 24.5667,
+                "longitude": 89.9167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "dhanbari@tangail.gov.bd",
+                "name": "Dhanbari Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "ghatail": {
+                "latitude": 24.4667,
+                "longitude": 89.9500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "ghatail@tangail.gov.bd",
+                "name": "Ghatail Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gopalpur": {
+                "latitude": 24.4333,
+                "longitude": 89.9167,
+                "phone": "01746-209150",
+                "officePhone": "N/A",
+                "email": "gopalpur@tangail.gov.bd",
+                "name": "Gopalpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kalihati": {
+                "latitude": 24.3167,
+                "longitude": 89.9500,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "kalihati@tangail.gov.bd",
+                "name": "Kalihati Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "madhupur": {
+                "latitude": 24.5000,
+                "longitude": 90.0167,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "madhupur@tangail.gov.bd",
+                "name": "Madhupur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mirzapur": {
+                "latitude": 24.1000,
+                "longitude": 90.1000,
+                "phone": "01712-588210",
+                "officePhone": "N/A",
+                "email": "mirzapur@tangail.gov.bd",
+                "name": "Mirzapur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nagarpur": {
+                "latitude": 24.0833,
+                "longitude": 89.9000,
+                "phone": "N/A",
+                "officePhone": "N/A",
+                "email": "nagarpur@tangail.gov.bd",
+                "name": "Nagarpur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sakhipur": {
+                "latitude": 24.3167,
+                "longitude": 90.1667,
+                "phone": "01819-846667",
+                "officePhone": "N/A",
+                "email": "sakhipur@tangail.gov.bd",
+                "name": "Sakhipur Upazila",
+                "unions": {
+                  "Motijheel": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Paltan": {
+                    "Latitude": 23.8103,
+                    "Longitude": 90.4125,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              }
           },
         },
       },
     },
+    //chattogram thana completed
     "chattogram": {
       "name": "Chattogram",
       "latitude": 22.3569,
@@ -113,30 +2266,125 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
-
-            "Pahartali": {
-              "Latitude": 22.3569,
-              "Longitude": 91.7832,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+              "bandarban_sadar": {
+                "latitude": 22.1953,
+                "longitude": 92.2195,
+                "phone": "0361-000001",
+                "officePhone": "0361-000002",
+                "email": "bandarbansadar@bandarban.gov.bd",
+                "name": "Bandarban Sadar Upazila",
+                "unions": {
+                  "Bandarban Union": {
+                    "Latitude": 22.2000,
+                    "Longitude": 92.2200,
+                    "phone": "0361-000003",
+                    "officePhone": "0361-000004",
+                    "email": "bandarbanunion@bandarban.gov.bd"
+                  }
+                }
               },
-            },
+              "thanchi": {
+                "latitude": 21.9167,
+                "longitude": 92.5333,
+                "phone": "0361-000005",
+                "officePhone": "0361-000006",
+                "email": "thanchi@bandarban.gov.bd",
+                "name": "Thanchi Upazila",
+                "unions": {
+                  "Remakree": {
+                    "Latitude": 21.9200,
+                    "Longitude": 92.5400,
+                    "phone": "0361-000007",
+                    "officePhone": "0361-000008",
+                    "email": "remakree@bandarban.gov.bd"
+                  }
+                }
+              },
+              "ruma": {
+                "latitude": 22.0500,
+                "longitude": 92.4167,
+                "phone": "0361-000009",
+                "officePhone": "0361-000010",
+                "email": "ruma@bandarban.gov.bd",
+                "name": "Ruma Upazila",
+                "unions": {
+                  "Ruma Union": {
+                    "Latitude": 22.0550,
+                    "Longitude": 92.4200,
+                    "phone": "0361-000011",
+                    "officePhone": "0361-000012",
+                    "email": "rumaunion@bandarban.gov.bd"
+                  }
+                }
+              },
+              "rowangchhari": {
+                "latitude": 22.0667,
+                "longitude": 92.2000,
+                "phone": "0361-000013",
+                "officePhone": "0361-000014",
+                "email": "rowangchhari@bandarban.gov.bd",
+                "name": "Rowangchhari Upazila",
+                "unions": {
+                  "Rowangchhari Union": {
+                    "Latitude": 22.0700,
+                    "Longitude": 92.2050,
+                    "phone": "0361-000015",
+                    "officePhone": "0361-000016",
+                    "email": "rowangchhariunion@bandarban.gov.bd"
+                  }
+                }
+              },
+              "lama": {
+                "latitude": 21.8333,
+                "longitude": 92.2167,
+                "phone": "0361-000017",
+                "officePhone": "0361-000018",
+                "email": "lama@bandarban.gov.bd",
+                "name": "Lama Upazila",
+                "unions": {
+                  "Lama Union": {
+                    "Latitude": 21.8400,
+                    "Longitude": 92.2200,
+                    "phone": "0361-000019",
+                    "officePhone": "0361-000020",
+                    "email": "lamaunion@bandarban.gov.bd"
+                  }
+                }
+              },
+              "alikadam": {
+                "latitude": 21.6333,
+                "longitude": 92.3167,
+                "phone": "0361-000021",
+                "officePhone": "0361-000022",
+                "email": "alikadam@bandarban.gov.bd",
+                "name": "Alikadam Upazila",
+                "unions": {
+                  "Alikadam Union": {
+                    "Latitude": 21.6400,
+                    "Longitude": 92.3200,
+                    "phone": "0361-000023",
+                    "officePhone": "0361-000024",
+                    "email": "alikadamunion@bandarban.gov.bd"
+                  }
+                }
+              },
+              "naikhongchhari": {
+                "latitude": 21.1833,
+                "longitude": 92.1667,
+                "phone": "0361-000025",
+                "officePhone": "0361-000026",
+                "email": "naikhongchhari@bandarban.gov.bd",
+                "name": "Naikhongchhari Upazila",
+                "unions": {
+                  "Naikhongchhari Union": {
+                    "Latitude": 21.1900,
+                    "Longitude": 92.1700,
+                    "phone": "0361-000027",
+                    "officePhone": "0361-000028",
+                    "email": "naikhongchhariunion@bandarban.gov.bd"
+                  }
+                }
+              },
           },
         },
         "brahmanbaria": {
@@ -147,30 +2395,160 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
-
-            "Pahartali": {
-              "Latitude": 22.3569,
-              "Longitude": 91.7832,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+              "brahmanbariaSadar": {
+                "latitude": 23.0734,
+                "longitude": 91.0995,
+                "phone": "0321-000032",
+                "officePhone": "0321-000033",
+                "email": "brahmanbariasadar@brahmanbaria.gov.bd",
+                "name": "Brahmanbaria Sadar Upazila",
+                "unions": {
+                  "Gungun": {
+                    "Latitude": 23.0780,
+                    "Longitude": 91.1050,
+                    "phone": "0321-000034",
+                    "officePhone": "0321-000035",
+                    "email": "gungun@brahmanbaria.gov.bd"
+                  }
+                }
               },
-            },
+              "kasba": {
+                "latitude": 23.1250,
+                "longitude": 91.1700,
+                "phone": "0321-000036",
+                "officePhone": "0321-000037",
+                "email": "kasba@brahmanbaria.gov.bd",
+                "name": "Kasba Upazila",
+                "unions": {
+                  "Baliadi": {
+                    "Latitude": 23.1300,
+                    "Longitude": 91.1750,
+                    "phone": "0321-000038",
+                    "officePhone": "0321-000039",
+                    "email": "baliadi@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "akhaura": {
+                "latitude": 23.1255,
+                "longitude": 91.0245,
+                "phone": "0321-000040",
+                "officePhone": "0321-000041",
+                "email": "akhaura@brahmanbaria.gov.bd",
+                "name": "Akhaura Upazila",
+                "unions": {
+                  "Jadabpur": {
+                    "Latitude": 23.1305,
+                    "Longitude": 91.0305,
+                    "phone": "0321-000042",
+                    "officePhone": "0321-000043",
+                    "email": "jadabpur@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "ashuganj": {
+                "latitude": 23.6600,
+                "longitude": 91.1100,
+                "phone": "0321-000044",
+                "officePhone": "0321-000045",
+                "email": "ashuganj@brahmanbaria.gov.bd",
+                "name": "Ashuganj Upazila",
+                "unions": {
+                  "Bishwanath": {
+                    "Latitude": 23.6650,
+                    "Longitude": 91.1150,
+                    "phone": "0321-000046",
+                    "officePhone": "0321-000047",
+                    "email": "bishwanath@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "bancharampur": {
+                "latitude": 23.0150,
+                "longitude": 91.1850,
+                "phone": "0321-000048",
+                "officePhone": "0321-000049",
+                "email": "bancharampur@brahmanbaria.gov.bd",
+                "name": "Bancharampur Upazila",
+                "unions": {
+                  "Kandirpar": {
+                    "Latitude": 23.0200,
+                    "Longitude": 91.1900,
+                    "phone": "0321-000050",
+                    "officePhone": "0321-000051",
+                    "email": "kandirpar@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "bijoynagar": {
+                "latitude": 23.3600,
+                "longitude": 91.1200,
+                "phone": "0321-000052",
+                "officePhone": "0321-000053",
+                "email": "bijoynagar@brahmanbaria.gov.bd",
+                "name": "Bijoynagar Upazila",
+                "unions": {
+                  "Sonapur": {
+                    "Latitude": 23.3650,
+                    "Longitude": 91.1250,
+                    "phone": "0321-000054",
+                    "officePhone": "0321-000055",
+                    "email": "sonapur@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "nasirnagar": {
+                "latitude": 23.5300,
+                "longitude": 91.0200,
+                "phone": "0321-000056",
+                "officePhone": "0321-000057",
+                "email": "nasirnagar@brahmanbaria.gov.bd",
+                "name": "Nasirnagar Upazila",
+                "unions": {
+                  "Ranishwar": {
+                    "Latitude": 23.5350,
+                    "Longitude": 91.0250,
+                    "phone": "0321-000058",
+                    "officePhone": "0321-000059",
+                    "email": "ranishwar@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "nabinagar": {
+                "latitude": 23.5600,
+                "longitude": 91.0500,
+                "phone": "0321-000060",
+                "officePhone": "0321-000061",
+                "email": "nabinagar@brahmanbaria.gov.bd",
+                "name": "Nabinagar Upazila",
+                "unions": {
+                  "Sonatala": {
+                    "Latitude": 23.5650,
+                    "Longitude": 91.0550,
+                    "phone": "0321-000062",
+                    "officePhone": "0321-000063",
+                    "email": "sonatala@brahmanbaria.gov.bd"
+                  }
+                }
+              },
+              "sarail": {
+                "latitude": 23.1070,
+                "longitude": 91.1400,
+                "phone": "0321-000064",
+                "officePhone": "0321-000065",
+                "email": "sarail@brahmanbaria.gov.bd",
+                "name": "Sarail Upazila",
+                "unions": {
+                  "Bhawanipur": {
+                    "Latitude": 23.1120,
+                    "Longitude": 91.1450,
+                    "phone": "0321-000066",
+                    "officePhone": "0321-000067",
+                    "email": "bhawanipur@brahmanbaria.gov.bd"
+                  }
+                }
+              }
+
           },
         },
         "chandpur": {
@@ -181,30 +2559,142 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
-
-            "Pahartali": {
-              "Latitude": 22.3569,
-              "Longitude": 91.7832,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+              "chandpurSadar": {
+                "latitude": 23.2321,
+                "longitude": 90.6694,
+                "phone": "0321-000000",
+                "officePhone": "0321-000001",
+                "email": "chandpursadar@chandpur.gov.bd",
+                "name": "Chandpur Sadar Upazila",
+                "unions": {
+                  "Puranbazar": {
+                    "Latitude": 23.2370,
+                    "Longitude": 90.6740,
+                    "phone": "0321-000002",
+                    "officePhone": "0321-000003",
+                    "email": "puranbazar@chandpur.gov.bd"
+                  }
+                }
               },
-            },
+              "hajiganj": {
+                "latitude": 23.2300,
+                "longitude": 90.6700,
+                "phone": "0321-000004",
+                "officePhone": "0321-000005",
+                "email": "hajiganj@chandpur.gov.bd",
+                "name": "Hajiganj Upazila",
+                "unions": {
+                  "Chandrapur": {
+                    "Latitude": 23.2350,
+                    "Longitude": 90.6750,
+                    "phone": "0321-000006",
+                    "officePhone": "0321-000007",
+                    "email": "chandrapur@chandpur.gov.bd"
+                  }
+                }
+              },
+              "kachua": {
+                "latitude": 23.2530,
+                "longitude": 90.6880,
+                "phone": "0321-000008",
+                "officePhone": "0321-000009",
+                "email": "kachua@chandpur.gov.bd",
+                "name": "Kachua Upazila",
+                "unions": {
+                  "Madhabpur": {
+                    "Latitude": 23.2580,
+                    "Longitude": 90.6930,
+                    "phone": "0321-000010",
+                    "officePhone": "0321-000011",
+                    "email": "madhabpur@chandpur.gov.bd"
+                  }
+                }
+              },
+              "faridganj": {
+                "latitude": 23.2200,
+                "longitude": 90.6900,
+                "phone": "0321-000012",
+                "officePhone": "0321-000013",
+                "email": "faridganj@chandpur.gov.bd",
+                "name": "Faridganj Upazila",
+                "unions": {
+                  "Sathia": {
+                    "Latitude": 23.2250,
+                    "Longitude": 90.6950,
+                    "phone": "0321-000014",
+                    "officePhone": "0321-000015",
+                    "email": "sathia@chandpur.gov.bd"
+                  }
+                }
+              },
+              "matlab_uttar": {
+                "latitude": 23.4400,
+                "longitude": 90.6700,
+                "phone": "0321-000016",
+                "officePhone": "0321-000017",
+                "email": "matlabuttar@chandpur.gov.bd",
+                "name": "Matlab Uttar Upazila (Matlab North)",
+                "unions": {
+                  "Bishwanath": {
+                    "Latitude": 23.4450,
+                    "Longitude": 90.6750,
+                    "phone": "0321-000018",
+                    "officePhone": "0321-000019",
+                    "email": "bishwanath@chandpur.gov.bd"
+                  }
+                }
+              },
+              "matlab_dakshin": {
+                "latitude": 23.4000,
+                "longitude": 90.6600,
+                "phone": "0321-000020",
+                "officePhone": "0321-000021",
+                "email": "matlabdakshin@chandpur.gov.bd",
+                "name": "Matlab Dakshin Upazila (Matlab South)",
+                "unions": {
+                  "Rajapur": {
+                    "Latitude": 23.4050,
+                    "Longitude": 90.6650,
+                    "phone": "0321-000022",
+                    "officePhone": "0321-000023",
+                    "email": "rajapur@chandpur.gov.bd"
+                  }
+                }
+              },
+              "haimchar": {
+                "latitude": 23.2900,
+                "longitude": 90.6000,
+                "phone": "0321-000024",
+                "officePhone": "0321-000025",
+                "email": "haimchar@chandpur.gov.bd",
+                "name": "Haimchar Upazila",
+                "unions": {
+                  "Madhabpur": {
+                    "Latitude": 23.2950,
+                    "Longitude": 90.6050,
+                    "phone": "0321-000026",
+                    "officePhone": "0321-000027",
+                    "email": "madhabpur@chandpur.gov.bd"
+                  }
+                }
+              },
+              "shahrasti": {
+                "latitude": 23.2150,
+                "longitude": 90.7100,
+                "phone": "0321-000028",
+                "officePhone": "0321-000029",
+                "email": "shahrasti@chandpur.gov.bd",
+                "name": "Shahrasti Upazila",
+                "unions": {
+                  "Bashurhat": {
+                    "Latitude": 23.2200,
+                    "Longitude": 90.7150,
+                    "phone": "0321-000030",
+                    "officePhone": "0321-000031",
+                    "email": "bashurhat@chandpur.gov.bd"
+                  }
+                }
+              }
           },
         },
         "chattogram": {
@@ -215,30 +2705,263 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
-
-            "Pahartali": {
-              "Latitude": 22.3569,
-              "Longitude": 91.7832,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+              "anwara": {
+                "latitude": 22.3589,
+                "longitude": 91.7815,
+                "phone": "031-000000",
+                "officePhone": "031-000001",
+                "email": "anwara@chattogram.gov.bd",
+                "name": "Anwara Upazila",
+                "unions": {
+                  "Dhalghat": {
+                    "Latitude": 22.3650,
+                    "Longitude": 91.7850,
+                    "phone": "031-000002",
+                    "officePhone": "031-000003",
+                    "email": "dhalghat@chattogram.gov.bd"
+                  }
+                }
               },
-            },
+              "banshkhali": {
+                "latitude": 22.3000,
+                "longitude": 91.7000,
+                "phone": "031-000004",
+                "officePhone": "031-000005",
+                "email": "banshkhali@chattogram.gov.bd",
+                "name": "Banshkhali Upazila",
+                "unions": {
+                  "Dohazari": {
+                    "Latitude": 22.3050,
+                    "Longitude": 91.7100,
+                    "phone": "031-000006",
+                    "officePhone": "031-000007",
+                    "email": "dohazari@chattogram.gov.bd"
+                  }
+                }
+              },
+              "boalkhali": {
+                "latitude": 22.3700,
+                "longitude": 91.7000,
+                "phone": "031-000008",
+                "officePhone": "031-000009",
+                "email": "boalkhali@chattogram.gov.bd",
+                "name": "Boalkhali Upazila",
+                "unions": {
+                  "Bashpata": {
+                    "Latitude": 22.3750,
+                    "Longitude": 91.7100,
+                    "phone": "031-000010",
+                    "officePhone": "031-000011",
+                    "email": "bashpata@chattogram.gov.bd"
+                  }
+                }
+              },
+              "chandanaish": {
+                "latitude": 22.3600,
+                "longitude": 91.7100,
+                "phone": "031-000012",
+                "officePhone": "031-000013",
+                "email": "chandanaish@chattogram.gov.bd",
+                "name": "Chandanaish Upazila",
+                "unions": {
+                  "Chandanaish Union": {
+                    "Latitude": 22.3650,
+                    "Longitude": 91.7150,
+                    "phone": "031-000014",
+                    "officePhone": "031-000015",
+                    "email": "chandanaish.union@chattogram.gov.bd"
+                  }
+                }
+              },
+              "fatikchhari": {
+                "latitude": 22.4500,
+                "longitude": 91.8000,
+                "phone": "031-000016",
+                "officePhone": "031-000017",
+                "email": "fatikchhari@chattogram.gov.bd",
+                "name": "Fatikchhari Upazila",
+                "unions": {
+                  "Bojonpur": {
+                    "Latitude": 22.4550,
+                    "Longitude": 91.8100,
+                    "phone": "031-000018",
+                    "officePhone": "031-000019",
+                    "email": "bojonpur@chattogram.gov.bd"
+                  }
+                }
+              },
+              "hathazari": {
+                "latitude": 22.4900,
+                "longitude": 91.7000,
+                "phone": "031-000020",
+                "officePhone": "031-000021",
+                "email": "hathazari@chattogram.gov.bd",
+                "name": "Hathazari Upazila",
+                "unions": {
+                  "Fatehabad": {
+                    "Latitude": 22.4950,
+                    "Longitude": 91.7050,
+                    "phone": "031-000022",
+                    "officePhone": "031-000023",
+                    "email": "fatehabad@chattogram.gov.bd"
+                  }
+                }
+              },
+              "karnaphuli": {
+                "latitude": 22.3800,
+                "longitude": 91.7000,
+                "phone": "031-000024",
+                "officePhone": "031-000025",
+                "email": "karnaphuli@chattogram.gov.bd",
+                "name": "Karnaphuli Upazila",
+                "unions": {
+                  "Chandanaish Union": {
+                    "Latitude": 22.3850,
+                    "Longitude": 91.7100,
+                    "phone": "031-000026",
+                    "officePhone": "031-000027",
+                    "email": "chandanaish.union@chattogram.gov.bd"
+                  }
+                }
+              },
+              "lohagara": {
+                "latitude": 22.4200,
+                "longitude": 91.6500,
+                "phone": "031-000028",
+                "officePhone": "031-000029",
+                "email": "lohagara@chattogram.gov.bd",
+                "name": "Lohagara Upazila",
+                "unions": {
+                  "Lohagara Union": {
+                    "Latitude": 22.4250,
+                    "Longitude": 91.6550,
+                    "phone": "031-000030",
+                    "officePhone": "031-000031",
+                    "email": "lohagara.union@chattogram.gov.bd"
+                  }
+                }
+              },
+              "mirsharai": {
+                "latitude": 22.4800,
+                "longitude": 91.8000,
+                "phone": "031-000032",
+                "officePhone": "031-000033",
+                "email": "mirsharai@chattogram.gov.bd",
+                "name": "Mirsharai Upazila",
+                "unions": {
+                  "Mirsharai Union": {
+                    "Latitude": 22.4850,
+                    "Longitude": 91.8050,
+                    "phone": "031-000034",
+                    "officePhone": "031-000035",
+                    "email": "mirsharai.union@chattogram.gov.bd"
+                  }
+                }
+              },
+              "patiya": {
+                "latitude": 22.3700,
+                "longitude": 91.5500,
+                "phone": "031-000036",
+                "officePhone": "031-000037",
+                "email": "patiya@chattogram.gov.bd",
+                "name": "Patiya Upazila",
+                "unions": {
+                  "Bujuripara": {
+                    "Latitude": 22.3750,
+                    "Longitude": 91.5550,
+                    "phone": "031-000038",
+                    "officePhone": "031-000039",
+                    "email": "bujuripara@chattogram.gov.bd"
+                  }
+                }
+              },
+              "rangunia": {
+                "latitude": 22.4600,
+                "longitude": 91.7500,
+                "phone": "031-000040",
+                "officePhone": "031-000041",
+                "email": "rangunia@chattogram.gov.bd",
+                "name": "Rangunia Upazila",
+                "unions": {
+                  "Gogora": {
+                    "Latitude": 22.4650,
+                    "Longitude": 91.7550,
+                    "phone": "031-000042",
+                    "officePhone": "031-000043",
+                    "email": "gogora@chattogram.gov.bd"
+                  }
+                }
+              },
+              "raozen": {
+                "latitude": 22.5000,
+                "longitude": 91.7100,
+                "phone": "031-000044",
+                "officePhone": "031-000045",
+                "email": "raozen@chattogram.gov.bd",
+                "name": "Raozan Upazila",
+                "unions": {
+                  "Raozan Union": {
+                    "Latitude": 22.5050,
+                    "Longitude": 91.7150,
+                    "phone": "031-000046",
+                    "officePhone": "031-000047",
+                    "email": "raozen.union@chattogram.gov.bd"
+                  }
+                }
+              },
+              "sandwip": {
+                "latitude": 22.7000,
+                "longitude": 91.8000,
+                "phone": "031-000048",
+                "officePhone": "031-000049",
+                "email": "sandwip@chattogram.gov.bd",
+                "name": "Sandwip Upazila",
+                "unions": {
+                  "Dhalghat": {
+                    "Latitude": 22.7050,
+                    "Longitude": 91.8050,
+                    "phone": "031-000050",
+                    "officePhone": "031-000051",
+                    "email": "dhalghat@chattogram.gov.bd"
+                  }
+                }
+              },
+              "satkania": {
+                "latitude": 22.4900,
+                "longitude": 91.6000,
+                "phone": "031-000052",
+                "officePhone": "031-000053",
+                "email": "satkania@chattogram.gov.bd",
+                "name": "Satkania Upazila",
+                "unions": {
+                  "Hathazari": {
+                    "Latitude": 22.4950,
+                    "Longitude": 91.6050,
+                    "phone": "031-000054",
+                    "officePhone": "031-000055",
+                    "email": "hathazari@chattogram.gov.bd"
+                  }
+                }
+              },
+              "sitakunda": {
+                "latitude": 22.4300,
+                "longitude": 91.5700,
+                "phone": "031-000056",
+                "officePhone": "031-000057",
+                "email": "sitakunda@chattogram.gov.bd",
+                "name": "Sitakunda Upazila",
+                "unions": {
+                  "Sitakunda Union": {
+                    "Latitude": 22.4350,
+                    "Longitude": 91.5750,
+                    "phone": "031-000058",
+                    "officePhone": "031-000059",
+                    "email": "sitakunda.union@chattogram.gov.bd"
+                  }
+                }
+              },
+
+
           },
         },
         "cumilla": {
@@ -249,6 +2972,421 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
+            "comillaAdarshaSadar": {
+              "latitude": 23.4607,
+              "longitude": 91.1809,
+              "phone": "081-000000",
+              "officePhone": "081-000001",
+              "email": "adarsha.sadar@cumilla.gov.bd",
+              "name": "Comilla Adarsha Sadar Upazila",
+              "unions": {
+                "Kalirbazar": {
+                  "Latitude": 23.4625,
+                  "Longitude": 91.1820,
+                  "phone": "081-000002",
+                  "officePhone": "081-000003",
+                  "email": "kalirbazar@cumilla.gov.bd"
+                },
+                "Durghapur Uttar": {
+                  "Latitude": 23.4650,
+                  "Longitude": 91.1850,
+                  "phone": "081-000004",
+                  "officePhone": "081-000005",
+                  "email": "durghapur.uttar@cumilla.gov.bd"
+                }
+              }
+            },
+            "barura": {
+              "latitude": 23.3000,
+              "longitude": 91.1000,
+              "phone": "081-000006",
+              "officePhone": "081-000007",
+              "email": "barura@cumilla.gov.bd",
+              "name": "Barura Upazila",
+              "unions": {
+                "Aganagar": {
+                  "Latitude": 23.3100,
+                  "Longitude": 91.1050,
+                  "phone": "081-000008",
+                  "officePhone": "081-000009",
+                  "email": "aganagar@cumilla.gov.bd"
+                },
+                "Bhubanipur": {
+                  "Latitude": 23.2950,
+                  "Longitude": 91.0950,
+                  "phone": "081-000010",
+                  "officePhone": "081-000011",
+                  "email": "bhubanipur@cumilla.gov.bd"
+                }
+              }
+            },
+            "brahmanpara": {
+              "latitude": 23.4000,
+              "longitude": 91.2000,
+              "phone": "081-000012",
+              "officePhone": "081-000013",
+              "email": "brahmanpara@cumilla.gov.bd",
+              "name": "Brahmanpara Upazila",
+              "unions": {
+                "Shidlai": {
+                  "Latitude": 23.4050,
+                  "Longitude": 91.2050,
+                  "phone": "081-000014",
+                  "officePhone": "081-000015",
+                  "email": "shidlai@cumilla.gov.bd"
+                },
+                "Chandla": {
+                  "Latitude": 23.3950,
+                  "Longitude": 91.1950,
+                  "phone": "081-000016",
+                  "officePhone": "081-000017",
+                  "email": "chandla@cumilla.gov.bd"
+                }
+              }
+            },
+            "burichong": {
+              "latitude": 23.4500,
+              "longitude": 91.1500,
+              "phone": "081-000018",
+              "officePhone": "081-000019",
+              "email": "burichong@cumilla.gov.bd",
+              "name": "Burichong Upazila",
+              "unions": {
+                "Moynamoti": {
+                  "Latitude": 23.4550,
+                  "Longitude": 91.1550,
+                  "phone": "081-000020",
+                  "officePhone": "081-000021",
+                  "email": "moynamoti@cumilla.gov.bd"
+                },
+                "Baksimul": {
+                  "Latitude": 23.4450,
+                  "Longitude": 91.1450,
+                  "phone": "081-000022",
+                  "officePhone": "081-000023",
+                  "email": "baksimul@cumilla.gov.bd"
+                }
+              }
+            },
+            "chandina": {
+              "latitude": 23.5000,
+              "longitude": 91.2000,
+              "phone": "081-000024",
+              "officePhone": "081-000025",
+              "email": "chandina@cumilla.gov.bd",
+              "name": "Chandina Upazila",
+              "unions": {
+                "Suhilpur": {
+                  "Latitude": 23.5050,
+                  "Longitude": 91.2050,
+                  "phone": "081-000026",
+                  "officePhone": "081-000027",
+                  "email": "suhilpur@cumilla.gov.bd"
+                },
+                "Bataghasi": {
+                  "Latitude": 23.4950,
+                  "Longitude": 91.1950,
+                  "phone": "081-000028",
+                  "officePhone": "081-000029",
+                  "email": "bataghasi@cumilla.gov.bd"
+                }
+              }
+            },
+            "chauddagram": {
+              "latitude": 23.2500,
+              "longitude": 91.3000,
+              "phone": "081-000030",
+              "officePhone": "081-000031",
+              "email": "chauddagram@cumilla.gov.bd",
+              "name": "Chauddagram Upazila",
+              "unions": {
+                "Shreepur": {
+                  "Latitude": 23.2550,
+                  "Longitude": 91.3050,
+                  "phone": "081-000032",
+                  "officePhone": "081-000033",
+                  "email": "shreepur@cumilla.gov.bd"
+                },
+                "Kashinagar": {
+                  "Latitude": 23.2450,
+                  "Longitude": 91.2950,
+                  "phone": "081-000034",
+                  "officePhone": "081-000035",
+                  "email": "kashinagar@cumilla.gov.bd"
+                }
+              }
+            },
+            "daudkandi": {
+              "latitude": 23.6000,
+              "longitude": 90.8000,
+              "phone": "081-000036",
+              "officePhone": "081-000037",
+              "email": "daudkandi@cumilla.gov.bd",
+              "name": "Daudkandi Upazila",
+              "unions": {
+                "Barpara": {
+                  "Latitude": 23.6050,
+                  "Longitude": 90.8050,
+                  "phone": "081-000038",
+                  "officePhone": "081-000039",
+                  "email": "barpara@cumilla.gov.bd"
+                },
+                "Uttar Daudkandi": {
+                  "Latitude": 23.5950,
+                  "Longitude": 90.7950,
+                  "phone": "081-000040",
+                  "officePhone": "081-000041",
+                  "email": "uttar.daudkandi@cumilla.gov.bd"
+                }
+              }
+            },
+            "debidwar": {
+              "latitude": 23.5500,
+              "longitude": 91.1000,
+              "phone": "081-000042",
+              "officePhone": "081-000043",
+              "email": "debidwar@cumilla.gov.bd",
+              "name": "Debidwar Upazila",
+              "unions": {
+                "Subil": {
+                  "Latitude": 23.5550,
+                  "Longitude": 91.1050,
+                  "phone": "081-000044",
+                  "officePhone": "081-000045",
+                  "email": "subil@cumilla.gov.bd"
+                },
+                "Rasulpur": {
+                  "Latitude": 23.5450,
+                  "Longitude": 91.0950,
+                  "phone": "081-000046",
+                  "officePhone": "081-000047",
+                  "email": "rasulpur@cumilla.gov.bd"
+                }
+              }
+            },
+            "homna": {
+              "latitude": 23.6500,
+              "longitude": 90.9000,
+              "phone": "081-000048",
+              "officePhone": "081-000049",
+              "email": "homna@cumilla.gov.bd",
+              "name": "Homna Upazila",
+              "unions": {
+                "Mathabhanga": {
+                  "Latitude": 23.6550,
+                  "Longitude": 90.9050,
+                  "phone": "081-000050",
+                  "officePhone": "081-000051",
+                  "email": "mathabhanga@cumilla.gov.bd"
+                },
+                "Ghagutia": {
+                  "Latitude": 23.6450,
+                  "Longitude": 90.8950,
+                  "phone": "081-000052",
+                  "officePhone": "081-000053",
+                  "email": "ghagutia@cumilla.gov.bd"
+                }
+              }
+            },
+            "laksam": {
+              "latitude": 23.2000,
+              "longitude": 91.1000,
+              "phone": "081-000054",
+              "officePhone": "081-000055",
+              "email": "laksam@cumilla.gov.bd",
+              "name": "Laksam Upazila",
+              "unions": {
+                "Bakoi": {
+                  "Latitude": 23.2050,
+                  "Longitude": 91.1050,
+                  "phone": "081-000056",
+                  "officePhone": "081-000057",
+                  "email": "bakoi@cumilla.gov.bd"
+                },
+                "Mudaffarganj": {
+                  "Latitude": 23.1950,
+                  "Longitude": 91.0950,
+                  "phone": "081-000058",
+                  "officePhone": "081-000059",
+                  "email": "mudaffarganj@cumilla.gov.bd"
+                }
+              }
+            },
+            "comilla_sadar_dakshin": {
+              "latitude": 23.4300,
+              "longitude": 91.1700,
+              "phone": "081-000060",
+              "officePhone": "081-000061",
+              "email": "sadar.dakshin@cumilla.gov.bd",
+              "name": "Comilla Sadar Dakshin Upazila",
+              "unions": {
+                "Bagmara": {
+                  "Latitude": 23.4350,
+                  "Longitude": 91.1750,
+                  "phone": "081-000062",
+                  "officePhone": "081-000063",
+                  "email": "bagmara@cumilla.gov.bd"
+                },
+                "Bholain": {
+                  "Latitude": 23.4250,
+                  "Longitude": 91.1650,
+                  "phone": "081-000064",
+                  "officePhone": "081-000065",
+                  "email": "bholain@cumilla.gov.bd"
+                }
+              }
+            },
+            "lalmai": {
+              "latitude": 23.4100,
+              "longitude": 91.1500,
+              "phone": "081-000066",
+              "officePhone": "081-000067",
+              "email": "lalmai@cumilla.gov.bd",
+              "name": "Lalmai Upazila",
+              "unions": {
+                "Perul": {
+                  "Latitude": 23.4150,
+                  "Longitude": 91.1550,
+                  "phone": "081-000068",
+                  "officePhone": "081-000069",
+                  "email": "perul@cumilla.gov.bd"
+                },
+                "Bagmara": {
+                  "Latitude": 23.4050,
+                  "Longitude": 91.1450,
+                  "phone": "081-000070",
+                  "officePhone": "081-000071",
+                  "email": "bagmara.lalmai@cumilla.gov.bd"
+                }
+              }
+            },
+            "monohorgonj": {
+              "latitude": 23.2700,
+              "longitude": 91.0800,
+              "phone": "081-000072",
+              "officePhone": "081-000073",
+              "email": "monohorgonj@cumilla.gov.bd",
+              "name": "Monohorgonj Upazila",
+              "unions": {
+                "Chitodda": {
+                  "Latitude": 23.2750,
+                  "Longitude": 91.0850,
+                  "phone": "081-000074",
+                  "officePhone": "081-000075",
+                  "email": "chitodda@cumilla.gov.bd"
+                },
+                "Bipulashar": {
+                  "Latitude": 23.2650,
+                  "Longitude": 91.0750,
+                  "phone": "081-000076",
+                  "officePhone": "081-000077",
+                  "email": "bipulashar@cumilla.gov.bd"
+                }
+              }
+            },
+            "meghna": {
+              "latitude": 23.6000,
+              "longitude": 90.9000,
+              "phone": "081-000078",
+              "officePhone": "081-000079",
+              "email": "meghna@cumilla.gov.bd",
+              "name": "Meghna Upazila",
+              "unions": {
+                "Meghna": {
+                  "Latitude": 23.6050,
+                  "Longitude": 90.9050,
+                  "phone": "081-000080",
+                  "officePhone": "081-000081",
+                  "email": "meghna.union@cumilla.gov.bd"
+                },
+                "Gobindapur": {
+                  "Latitude": 23.5950,
+                  "Longitude": 90.8950,
+                  "phone": "081-000082",
+                  "officePhone": "081-000083",
+                  "email": "gobindapur@cumilla.gov.bd"
+                }
+              }
+            },
+            "muradnagar": {
+              "latitude": 23.5500,
+              "longitude": 91.0500,
+              "phone": "081-000084",
+              "officePhone": "081-000085",
+              "email": "muradnagar@cumilla.gov.bd",
+              "name": "Muradnagar Upazila",
+              "unions": {
+                "Bangra": {
+                  "Latitude": 23.5550,
+                  "Longitude": 91.0550,
+                  "phone": "081-000086",
+                  "officePhone": "081-000087",
+                  "email": "bangra@cumilla.gov.bd"
+                },
+                "Purbadhair": {
+                  "Latitude": 23.5450,
+                  "Longitude": 91.0450,
+                  "phone": "081-000088",
+                  "officePhone": "081-000089",
+                  "email": "purbadhair@cumilla.gov.bd"
+                }
+              }
+            },
+            "nangalkot": {
+              "latitude": 23.2800,
+              "longitude": 91.1500,
+              "phone": "081-000090",
+              "officePhone": "081-000091",
+              "email": "nangalkot@cumilla.gov.bd",
+              "name": "Nangalkot Upazila",
+              "unions": {
+                "Adra": {
+                  "Latitude": 23.2850,
+                  "Longitude": 91.1550,
+                  "phone": "081-000092",
+                  "officePhone": "081-000093",
+                  "email": "adra@cumilla.gov.bd"
+                },
+                "Jodda": {
+                  "Latitude": 23.2750,
+                  "Longitude": 91.1450,
+                  "phone": "081-000094",
+                  "officePhone": "081-000095",
+                  "email": "jodda@cumilla.gov.bd"
+                }
+              }
+            },
+            "titas": {
+              "latitude": 23.5800,
+              "longitude": 90.8500,
+              "phone": "081-000096",
+              "officePhone": "081-000097",
+              "email": "titas@cumilla.gov.bd",
+              "name": "Titas Upazila",
+              "unions": {
+                "Titas": {
+                  "Latitude": 23.5850,
+                  "Longitude": 90.8550,
+                  "phone": "081-000098",
+                  "officePhone": "081-000099",
+                  "email": "titas.union@cumilla.gov.bd"
+                },
+                "Zinglatoli": {
+                  "Latitude": 23.5750,
+                  "Longitude": 90.8450,
+                  "phone": "081-000100",
+                  "officePhone": "081-000101",
+                  "email": "zinglatoli@cumilla.gov.bd"
+                }
+              }
+            },
+
+
+
+
+
+
+
 
             "Pahartali": {
               "Latitude": 22.3569,
@@ -275,7 +3413,6 @@ var bdInformations = {
             },
           },
         },
-
         "coxsBazar": {
           "name": "Cox\'s Bazar",
           "latitude": 22.3569,
@@ -288,7 +3425,7 @@ var bdInformations = {
                 "sadar": {
                   "latitude": 21.4272,
                   "longitude": 92.0058,
-                  "Phone": "01320-108471",
+                  "phone": "01320-108471",
                   "officePhone": 01577479,
                   "email": "oc.coxsbazar@police.gov.bd",
                   "name": "Sadar Model Police Station",
@@ -312,7 +3449,7 @@ var bdInformations = {
                 "eidgaon": {
                   "latitude": 21.3667,
                   "longitude": 92.0167,
-                  "Phone": "01320-108475",
+                  "phone": "01320-108475",
                   "officePhone": 01577479,
                   "email": "oc.eidgaon@police.gov.bd",
                   "name": "Eidgaon Police Station",
@@ -336,7 +3473,7 @@ var bdInformations = {
                 "ukhiya": {
                   "latitude": 21.2833,
                   "longitude": 92.1000,
-                  "Phone": "01320-108523",
+                  "phone": "01320-108523",
                   "officePhone": 01577479,
                   "email": "oc.ukhiya@police.gov.bd",
                   "name": "Ukhiya Police Station",
@@ -360,7 +3497,7 @@ var bdInformations = {
                 "ramu": {
                   "latitude": 21.4500,
                   "longitude": 92.1000,
-                  "Phone": "01320-108497",
+                  "phone": "01320-108497",
                   "officePhone": 01577479,
                   "email": "oc.ramu@police.gov.bd",
                   "name": "Ramu Police Station",
@@ -384,7 +3521,7 @@ var bdInformations = {
                 "teknaf": {
                   "latitude": 20.8667,
                   "longitude": 92.3000,
-                  "Phone": "01320-108549",
+                  "phone": "01320-108549",
                   "officePhone": 01577479,
                   "email": "oc.teknaf@police.gov.bd",
                   "name": "Teknaf Model Police Station",
@@ -408,7 +3545,7 @@ var bdInformations = {
                 "moheshkhali": {
                   "latitude": 21.8167,
                   "longitude": 91.9500,
-                  "Phone": "01320-108627",
+                  "phone": "01320-108627",
                   "officePhone": 01577479,
                   "email": "oc.moheshkhali@police.gov.bd",
                   "name": "Moheshkhali Police Station",
@@ -432,7 +3569,7 @@ var bdInformations = {
                 "chakaria": {
                   "latitude": 21.7833,
                   "longitude": 92.0667,
-                  "Phone": "01320-108575",
+                  "phone": "01320-108575",
                   "officePhone": 01577479,
                   "email": "oc.chakaria@police.gov.bd",
                   "name": "Chakaria Police Station",
@@ -456,7 +3593,7 @@ var bdInformations = {
                 "kutubdia": {
                   "latitude": 21.8167,
                   "longitude": 91.8500,
-                  "Phone": "01320-108601",
+                  "phone": "01320-108601",
                   "officePhone": 01577479,
                   "email": "oc.kutubdia@police.gov.bd",
                   "name": "Kutubdia Police Station",
@@ -480,7 +3617,7 @@ var bdInformations = {
                 "pekua": {
                   "latitude": 21.7833,
                   "longitude": 91.9500,
-                  "Phone": "01320-108649",
+                  "phone": "01320-108649",
                   "officePhone": 01577479,
                   "email": "oc.pekua@police.gov.bd",
                   "name": "Pekua Police Station",
@@ -515,7 +3652,7 @@ var bdInformations = {
                 "feni": {
                   "latitude": 23.0159,
                   "longitude": 91.3966,
-                  "Phone": "01320-112976",
+                  "phone": "01320-112976",
                   "email": "ocfen.fen@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Feni Model Police Station",
@@ -539,7 +3676,7 @@ var bdInformations = {
                 "sonagazi": {
                   "latitude": 22.9333,
                   "longitude": 91.4167,
-                  "Phone": "01320-113028",
+                  "phone": "01320-113028",
                   "email": "ocfen.sho@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Sonagazi Model Police Station",
@@ -563,7 +3700,7 @@ var bdInformations = {
                 "fulgazi": {
                   "latitude": 23.1333,
                   "longitude": 91.4500,
-                  "Phone": "01320-113080",
+                  "phone": "01320-113080",
                   "email": "ocfen.ful@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Fulgazi Police Station",
@@ -587,7 +3724,7 @@ var bdInformations = {
                 "parshuram": {
                   "latitude": 23.2000,
                   "longitude": 91.4167,
-                  "Phone": "01320-113106",
+                  "phone": "01320-113106",
                   "email": "ocfen.por@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Parshuram Police Station",
@@ -611,7 +3748,7 @@ var bdInformations = {
                 "chhagalnaiya": {
                   "latitude": 23.0167,
                   "longitude": 91.5000,
-                  "Phone": "01320-113002",
+                  "phone": "01320-113002",
                   "email": "ocfen.cha@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Chhagalnaiya Police Station",
@@ -636,7 +3773,7 @@ var bdInformations = {
                 "daganbhuiyan": {
                   "Latitude": 23.0500,
                   "Longitude": 91.3833,
-                  "Phone": "01320-113002",
+                  "phone": "01320-113002",
                   "email": "ocfen.dag@police.gov.bd",
                   "officePhone": 01577479,
                   "name":"Daganbhuiyan Police Station",
@@ -673,7 +3810,7 @@ var bdInformations = {
                 "khagrachari": {
                   "latitude": 23.1193,
                   "longitude": 91.9840,
-                  "Phone": "01320109981",
+                  "phone": "01320109981",
                   "officePhone": "01320109986",
                   "name":"Khagrachari Sadar Police Station",
                   "email": "dhaka@gmail.com",
@@ -697,7 +3834,7 @@ var bdInformations = {
                 "matiranga": {
                   "latitude": 23.0000,
                   "longitude": 91.9000,
-                  "Phone": "01755551150",
+                  "phone": "01755551150",
                   "officePhone": "01320110116",
                   "name":"Matiranga Police Station",
                   "email": "dhaka@gmail.com",
@@ -721,7 +3858,7 @@ var bdInformations = {
                 "dighinala": {
                   "latitude": 23.3000,
                   "longitude": 92.0000,
-                  "Phone": "01320110007",
+                  "phone": "01320110007",
                   "officePhone": "01320110012",
                   "name":"Dighinala Police Station",
                   "email": "dhaka@gmail.com",
@@ -745,7 +3882,7 @@ var bdInformations = {
                 "panchari": {
                   "latitude": 23.2000,
                   "longitude": 91.9500,
-                  "Phone": "01320110059",
+                  "phone": "01320110059",
                   "officePhone": "01320110064",
                   "name":"Panchari Police Station",
                   "email": "dhaka@gmail.com",
@@ -769,7 +3906,7 @@ var bdInformations = {
                 "mahalchari": {
                   "latitude": 23.1000,
                   "longitude": 91.9000,
-                  "Phone": "01320110033",
+                  "phone": "01320110033",
                   "officePhone": "01320110038",
                   "name":"Mahalchari Police Station",
                   "email": "dhaka@gmail.com",
@@ -793,7 +3930,7 @@ var bdInformations = {
                 "guimara": {
                   "latitude": 23.0500,
                   "longitude": 91.9500,
-                  "Phone": "01320110189",
+                  "phone": "01320110189",
                   "officePhone": "01320110194",
                   "name":"Guimara Police Station",
                   "email": "dhaka@gmail.com",
@@ -817,7 +3954,7 @@ var bdInformations = {
                 "manikchari": {
                   "latitude": 23.1500,
                   "longitude": 91.8500,
-                  "Phone": "01320110137",
+                  "phone": "01320110137",
                   "officePhone": "01320110142",
                   "name":"Manikchari Police Station",
                   "email": "dhaka@gmail.com",
@@ -841,7 +3978,7 @@ var bdInformations = {
                 "laxmichari": {
                   "latitude": 23.2500,
                   "longitude": 91.8500,
-                  "Phone": "01320110163",
+                  "phone": "01320110163",
                   "officePhone": "01320110168",
                   "name":"Laxmichari Police Station",
                   "email": "dhaka@gmail.com",
@@ -865,7 +4002,7 @@ var bdInformations = {
                 "ramgarh": {
                   "latitude": 23.1000,
                   "longitude": 91.7000,
-                  "Phone": "01320110085",
+                  "phone": "01320110085",
                   "officePhone": "01320110090",
                   "name":"Ramgarh Police Station",
                   "email": "dhaka@gmail.com",
@@ -889,7 +4026,7 @@ var bdInformations = {
                 "detectiveBranch": {
                   "latitude": 23.1193,
                   "longitude": 91.9840,
-                  "Phone": "01320110215",
+                  "phone": "01320110215",
                   "officePhone": "01320110215",
                   "name":"Detective Branch (DB)",
                   "email": "dhaka@gmail.com",
@@ -924,7 +4061,7 @@ var bdInformations = {
                 "lakshmipurSadar": {
                   "latitude": 22.9500,
                   "longitude": 90.8250,
-                  "Phone": "01320111900",
+                  "phone": "01320111900",
                   "officePhone": 01320111946,
                   "email": "dhaka@gmail.com",
                   "name": "Lakshmipur Sadar Police Station",
@@ -949,7 +4086,7 @@ var bdInformations = {
                 "raipur": {
                   "latitude": 23.0333,
                   "longitude": 90.7667,
-                  "Phone": "01320111956",
+                  "phone": "01320111956",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name": "Raipur Police Station",
@@ -973,7 +4110,7 @@ var bdInformations = {
                 "ramganj": {
                   "latitude": 23.1000,
                   "longitude": 90.9500,
-                  "Phone": null,
+                  "phone": null,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name": "Ramganj Police Station",
@@ -997,7 +4134,7 @@ var bdInformations = {
                 "ramgati": {
                   "latitude": 22.6500,
                   "longitude": 90.8500,
-                  "Phone": "01320111951",
+                  "phone": "01320111951",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name": "Ramgati Police Station",
@@ -1022,7 +4159,7 @@ var bdInformations = {
                 "kamalnagar": {
                   "latitude": 22.7000,
                   "longitude": 90.8000,
-                  "Phone":null,
+                  "phone":null,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name": "Kamalnagar Police Station",
@@ -1046,7 +4183,7 @@ var bdInformations = {
                 "chandragonj": {
                   "latitude": 22.9833,
                   "longitude": 90.8000,
-                  "Phone":null,
+                  "phone":null,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name": "Chandragonj Police Station",
@@ -1084,7 +4221,7 @@ var bdInformations = {
                 "sudharam": {
                   "latitude": 22.9576,
                   "longitude": 91.1063,
-                  "Phone": "01713373647",
+                  "phone": "01713373647",
                   "officePhone": 01577479,
                   "email": "ocnoa.sud@police.gov.bd",
                   "name":"Sudharam Model Police Station",
@@ -1108,7 +4245,7 @@ var bdInformations = {
                 "begumganj": {
                   "latitude": 22.9819,
                   "longitude": 91.1456,
-                  "Phone": "01713373749",
+                  "phone": "01713373749",
                   "officePhone": 01577479,
                   "email": "ocnoa.beg@police.gov.bd",
                   "name":"Begumganj Police Station",
@@ -1132,7 +4269,7 @@ var bdInformations = {
                 "senbagh": {
                   "latitude": 22.9833,
                   "longitude": 91.2500,
-                  "Phone": "01713373750",
+                  "phone": "01713373750",
                   "officePhone": 01577479,
                   "email": "ocnoa.sen@police.gov.bd",
                   "name":"Senbagh Police Station",
@@ -1156,7 +4293,7 @@ var bdInformations = {
                 "sonaimuri": {
                   "latitude": 22.9667,
                   "longitude": 91.3000,
-                  "Phone": "01713373751",
+                  "phone": "01713373751",
                   "officePhone": 01577479,
                   "email": "ocnoa.son@police.gov.bd",
                   "name":"Sonaimuri Police Station",
@@ -1180,7 +4317,7 @@ var bdInformations = {
                 "companyganj": {
                   "latitude": 22.9500,
                   "longitude": 91.3500,
-                  "Phone": "01713373652",
+                  "phone": "01713373652",
                   "officePhone": 01577479,
                   "email": "ocnoa.com@police.gov.bd",
                   "name":"Companyganj Police Station",
@@ -1204,7 +4341,7 @@ var bdInformations = {
                 "chatkhil": {
                   "latitude": 22.9333,
                   "longitude": 91.4000,
-                  "Phone": "01713373753",
+                  "phone": "01713373753",
                   "officePhone": 01577479,
                   "email": "ocnoa.cha@police.gov.bd",
                   "name":"Chatkhil Police Station",
@@ -1228,7 +4365,7 @@ var bdInformations = {
                 "hatia": {
                   "latitude": 22.8500,
                   "longitude": 91.4500,
-                  "Phone": "01713373754",
+                  "phone": "01713373754",
                   "officePhone": 01577479,
                   "email": "ocnoa.hat@police.gov.bd",
                   "name":"Hatia Police Station",
@@ -1252,7 +4389,7 @@ var bdInformations = {
                 "charjabbar": {
                   "latitude": 22.8000,
                   "longitude": 91.5000,
-                  "Phone": "01713373755",
+                  "phone": "01713373755",
                   "officePhone": 01577479,
                   "email": "ocnoa.cha@police.gov.bd",
                   "name":"Charjabbar Police Station",
@@ -1277,7 +4414,7 @@ var bdInformations = {
                 "kabirhat": {
                   "latitude": 22.7500,
                   "longitude": 91.5500,
-                  "Phone": "01713373756",
+                  "phone": "01713373756",
                   "officePhone": 01577479,
                   "email": "ocnoa.kab@police.gov.bd",
                   "name":"Kabirhat Police Station",
@@ -1301,7 +4438,7 @@ var bdInformations = {
                 "vashanchar": {
                   "latitude": 22.7000,
                   "longitude": 91.6000,
-                  "Phone": "01713373757",
+                  "phone": "01713373757",
                   "officePhone": 01577479,
                   "email": "ocnoa.bas@police.gov.bd",
                   "name":"Vashanchar Police Station",
@@ -1332,11 +4469,10 @@ var bdInformations = {
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
           "upazilas": {
-
-            "Kotowali": {
+            "kotowali": {
                   "latitude": 22.6500,
                   "longitude": 92.2000,
-                  "Phone": "01320-109481",
+                  "phone": "01320-109481",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Kotowali Police Station",
@@ -1360,7 +4496,7 @@ var bdInformations = {
                 "kaptai": {
                   "latitude": 22.5000,
                   "longitude": 92.2000,
-                  "Phone": "01320-109559",
+                  "phone": "01320-109559",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Kaptai Police Station",
@@ -1384,7 +4520,7 @@ var bdInformations = {
                 "kaukhali": {
                   "latitude": 22.5833,
                   "longitude": 92.1000,
-                  "Phone": "01320-109533",
+                  "phone": "01320-109533",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Kaukhali Police Station",
@@ -1408,7 +4544,7 @@ var bdInformations = {
                 "naniarchar": {
                   "latitude": 22.7333,
                   "longitude": 92.0333,
-                  "Phone": "01320-109507",
+                  "phone": "01320-109507",
                   "email": "dhaka@gmail.com",
                   "name":"Naniarchar Police Station",
                   "unions": {
@@ -1431,7 +4567,7 @@ var bdInformations = {
                 "longdu": {
                   "latitude": 22.9000,
                   "longitude": 92.1833,
-                  "Phone": "01320-109611",
+                  "phone": "01320-109611",
                   "email": "dhaka@gmail.com",
                   "name":"Longdu Police Station",
                   "unions": {
@@ -1454,7 +4590,7 @@ var bdInformations = {
                 "jurachhari": {
                   "latitude": 22.5167,
                   "longitude": 92.3333,
-                  "Phone": "01320-109689",
+                  "phone": "01320-109689",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Jurachhari Police Station",
@@ -1478,7 +4614,7 @@ var bdInformations = {
                 "baghaichhari": {
                   "latitude": 23.1000,
                   "longitude": 92.2333,
-                  "Phone": "01320-109637",
+                  "phone": "01320-109637",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Baghaichhari Police Station",
@@ -1502,7 +4638,7 @@ var bdInformations = {
                 "barkal": {
                   "latitude": 22.6500,
                   "longitude": 92.4000,
-                  "Phone": "01842-392596",
+                  "phone": "01842-392596",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Barkal Police Station",
@@ -1526,7 +4662,7 @@ var bdInformations = {
                 "bilaichhari": {
                   "latitude": 22.5833,
                   "longitude": 92.3500,
-                  "Phone": "01320-109741",
+                  "phone": "01320-109741",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Bilaichhari Police Station",
@@ -1550,7 +4686,7 @@ var bdInformations = {
                 "rajsthali": {
                   "latitude": 22.4333,
                   "longitude": 92.1333,
-                  "Phone": "01320-109663",
+                  "phone": "01320-109663",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Rajsthali Police Station",
@@ -1574,7 +4710,7 @@ var bdInformations = {
                 "chandroghona": {
                   "latitude": 22.4700,
                   "longitude": 92.1430,
-                  "Phone": "01320-109585",
+                  "phone": "01320-109585",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Chandroghona Police Station",
@@ -1598,7 +4734,7 @@ var bdInformations = {
                 "sajek": {
                   "latitude": 23.2500,
                   "longitude": 92.4333,
-                  "Phone": "01320-109715",
+                  "phone": "01320-109715",
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                   "name":"Sajek Police Station",
@@ -1625,7 +4761,6 @@ var bdInformations = {
         },
       },
     },
-
     //rajshahi thana completed
     "rajshahi": {
       "name": "Rajshahi",
