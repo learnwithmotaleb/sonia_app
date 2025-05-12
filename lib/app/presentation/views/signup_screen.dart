@@ -14,11 +14,13 @@ class SignupScreen extends StatefulWidget {
 class _SignupScreenState extends State<SignupScreen> {
   final _formKey = GlobalKey<FormState>();
   final TextEditingController _nameController = TextEditingController();
+  final TextEditingController _phoneController = TextEditingController();
   final TextEditingController _birthdayController = TextEditingController();
   final TextEditingController _genderController = TextEditingController();
   final TextEditingController _emailController = TextEditingController();
   final TextEditingController _passwordController = TextEditingController();
   final FocusNode _nameFocus = FocusNode();
+  final FocusNode _phoneFocus = FocusNode();
   final FocusNode _birthdayFocus = FocusNode();
   final FocusNode _genderFocus = FocusNode();
   final FocusNode _emailFocus = FocusNode();
@@ -28,12 +30,14 @@ class _SignupScreenState extends State<SignupScreen> {
   @override
   void dispose() {
     _nameController.dispose();
+    _phoneController.dispose();
     _birthdayController.dispose();
     _genderController.dispose();
     _emailController.dispose();
     _passwordController.dispose();
 
     _nameFocus.dispose();
+    _phoneFocus.dispose();
     _birthdayFocus.dispose();
     _genderFocus.dispose();
     _emailFocus.dispose();
@@ -135,6 +139,46 @@ class _SignupScreenState extends State<SignupScreen> {
                     validator: (value) {
                       if (value == null || value.isEmpty) {
                         return "Please enter your name";
+                      }
+                      return null;
+                    },
+                    textInputAction: TextInputAction.next,
+                    onFieldSubmitted: (_) {
+                      FocusScope.of(context).requestFocus(_phoneFocus);
+                    },
+                  ),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  TextFormField(
+                    controller: _phoneController,
+                    focusNode: _phoneFocus,
+                    keyboardType: TextInputType.emailAddress,
+                    decoration: InputDecoration(
+                      labelText: "Phone",
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      enabledBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        borderSide: BorderSide(color: Colors.grey),
+                      ),
+                      focusedBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        borderSide: BorderSide(color: AppColors.primary),
+                      ),
+                      errorBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        borderSide: BorderSide(color: Colors.red),
+                      ),
+                      focusedErrorBorder: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(15),
+                        borderSide: BorderSide(color: Colors.red),
+                      ),
+                    ),
+                    validator: (value) {
+                      if (value == null || value.isEmpty) {
+                        return "Please enter your Phone";
                       }
                       return null;
                     },

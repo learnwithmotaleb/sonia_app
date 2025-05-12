@@ -1,24 +1,22 @@
-var bdInformations = {
-
-
-  "divisions": {
-    //dhaka thana completed
-    "dhaka": {
-      "name": "Dhaka",
-      "latitude": 23.8103,
-      "longitude": 90.4125,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "dhaka": {
-          "name":"Dhaka",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+const bdInformations = {
+  "divisions": [
+    {
+      "dhaka": {
+        "name": "Dhaka",
+        "latitude": 23.8103,
+        "longitude": 90.4125,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "dhaka": {
+            "name": "Dhaka",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "dhamrai": {
                 "latitude": 23.7167,
                 "longitude": 90.3667,
@@ -30,14 +28,14 @@ var bdInformations = {
                   "dhamrai": {
                     "name": "Dhamrai Union",
                     "chairman": "Md. Rafiqul Islam",
-                    "contact": "01701234567"
+                    "contact": "01701234567",
                   },
                   "shibpur": {
                     "name": "Shibpur Union",
                     "chairman": "Md. Kabir Hossain",
-                    "contact": "01701234568"
-                  }
-                }
+                    "contact": "01701234568",
+                  },
+                },
               },
               "dohar": {
                 "latitude": 23.7167,
@@ -50,14 +48,14 @@ var bdInformations = {
                   "dohar": {
                     "name": "Dohar Union",
                     "chairman": "Md. Shamim Reza",
-                    "contact": "01703456789"
+                    "contact": "01703456789",
                   },
                   "vander": {
                     "name": "Vander Union",
                     "chairman": "Md. Rafiqul Islam",
-                    "contact": "01703456790"
-                  }
-                }
+                    "contact": "01703456790",
+                  },
+                },
               },
               "keraniganj": {
                 "latitude": 23.6500,
@@ -70,14 +68,14 @@ var bdInformations = {
                   "keraniganj": {
                     "name": "Keraniganj Union",
                     "chairman": "Md. Rafiqul Alam",
-                    "contact": "01705432101"
+                    "contact": "01705432101",
                   },
                   "chatta": {
                     "name": "Chatta Union",
                     "chairman": "Md. Alamgir Hossain",
-                    "contact": "01705432102"
-                  }
-                }
+                    "contact": "01705432102",
+                  },
+                },
               },
               "nawabganj": {
                 "latitude": 23.8500,
@@ -90,14 +88,14 @@ var bdInformations = {
                   "nawabganj": {
                     "name": "Nawabganj Union",
                     "chairman": "Md. Tareq Ahmed",
-                    "contact": "01701122334"
+                    "contact": "01701122334",
                   },
                   "shibpur": {
                     "name": "Shibpur Union",
                     "chairman": "Md. Abdul Hannan",
-                    "contact": "01701122335"
-                  }
-                }
+                    "contact": "01701122335",
+                  },
+                },
               },
               "savar": {
                 "latitude": 23.8500,
@@ -110,28 +108,25 @@ var bdInformations = {
                   "savar": {
                     "name": "Savar Union",
                     "chairman": "Md. Jashim Uddin",
-                    "contact": "01701234500"
+                    "contact": "01701234500",
                   },
                   "boalia": {
                     "name": "Boalia Union",
                     "chairman": "Md. Shahinur Rahman",
-                    "contact": "01701234501"
-                  }
-                }
-              }
+                    "contact": "01701234501",
+                  },
+                },
+              },
+            },
           },
-        },
-
-
-        "faridpur": {
-          "name":"Faridpur",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-
+          "faridpur": {
+            "name": "Faridpur",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "alfadanga": {
                 "latitude": 23.0167,
                 "longitude": 90.2500,
@@ -143,14 +138,14 @@ var bdInformations = {
                   "alipur": {
                     "name": "Alipur Union",
                     "chairman": "Sohrab Hossain Bulbul",
-                    "contact": "01707335467"
+                    "contact": "01707335467",
                   },
                   "baras": {
                     "name": "Baras Union",
                     "chairman": "Md. Rafik Talukder",
-                    "contact": "01731646536"
-                  }
-                }
+                    "contact": "01731646536",
+                  },
+                },
               },
               "bhanga": {
                 "latitude": 23.1000,
@@ -163,14 +158,14 @@ var bdInformations = {
                   "bhanga": {
                     "name": "Bhanga Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01701670030"
+                    "contact": "01701670030",
                   },
                   "charbhadrasan": {
                     "name": "Charbhadrasan Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01701670030"
-                  }
-                }
+                    "contact": "01701670030",
+                  },
+                },
               },
               "boalmari": {
                 "latitude": 23.2000,
@@ -183,14 +178,14 @@ var bdInformations = {
                   "boalmari": {
                     "name": "Boalmari Union",
                     "chairman": "Swapon Kumar",
-                    "contact": "01718248644"
+                    "contact": "01718248644",
                   },
                   "chandipur": {
                     "name": "Chandipur Union",
                     "chairman": "Swapon Kumar",
-                    "contact": "01718248644"
-                  }
-                }
+                    "contact": "01718248644",
+                  },
+                },
               },
               "charbhadrasan": {
                 "latitude": 23.3000,
@@ -203,14 +198,14 @@ var bdInformations = {
                   "charbhadrasan": {
                     "name": "Charbhadrasan Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01701670024"
+                    "contact": "01701670024",
                   },
                   "kashipur": {
                     "name": "Kashipur Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01701670024"
-                  }
-                }
+                    "contact": "01701670024",
+                  },
+                },
               },
               "faridpurSadar": {
                 "latitude": 23.6000,
@@ -223,14 +218,14 @@ var bdInformations = {
                   "faridpur": {
                     "name": "Faridpur Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01741118886"
+                    "contact": "01741118886",
                   },
                   "kashipur": {
                     "name": "Kashipur Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "01741118886"
-                  }
-                }
+                    "contact": "01741118886",
+                  },
+                },
               },
               "madhukhali": {
                 "latitude": 23.7000,
@@ -243,14 +238,14 @@ var bdInformations = {
                   "madhukhali": {
                     "name": "Madhukhali Union",
                     "chairman": "Md. Abu Rashel",
-                    "contact": "01701670027"
+                    "contact": "01701670027",
                   },
                   "saltha": {
                     "name": "Saltha Union",
                     "chairman": "Md. Abu Rashel",
-                    "contact": "01701670027"
-                  }
-                }
+                    "contact": "01701670027",
+                  },
+                },
               },
               "nagarkanda": {
                 "latitude": 23.8000,
@@ -263,14 +258,14 @@ var bdInformations = {
                   "nagarkanda": {
                     "name": "Nagarkanda Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "017110033319"
+                    "contact": "017110033319",
                   },
                   "kashipur": {
                     "name": "Kashipur Union",
                     "chairman": "Md. Yeasin Kabir",
-                    "contact": "017110033319"
-                  }
-                }
+                    "contact": "017110033319",
+                  },
+                },
               },
               "sadarpur": {
                 "latitude": 23.9000,
@@ -283,14 +278,14 @@ var bdInformations = {
                   "sadarpur": {
                     "name": "Sadarpur Union",
                     "chairman": "Zakia Sultana",
-                    "contact": "01701670031"
+                    "contact": "01701670031",
                   },
                   "kashipur": {
                     "name": "Kashipur Union",
                     "chairman": "Zakia Sultana",
-                    "contact": "01701670031"
-                  }
-                }
+                    "contact": "01701670031",
+                  },
+                },
               },
               "saltha": {
                 "latitude": 24.0000,
@@ -303,26 +298,25 @@ var bdInformations = {
                   "saltha": {
                     "name": "Saltha Union",
                     "chairman": "Md. Akter Hossen Shahin",
-                    "contact": "01710368402"
+                    "contact": "01710368402",
                   },
                   "kashipur": {
                     "name": "Kashipur Union",
                     "chairman": "Md. Akter Hossen Shahin",
-                    "contact": "01710368402"
-                  }
-                }
-              }
-
+                    "contact": "01710368402",
+                  },
+                },
+              },
+            },
           },
-        },
-        "gazipur": {
-          "name":"Gazipur",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "gazipur": {
+            "name": "Gazipur",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "gazipurSadar": {
                 "latitude": 24.0000,
                 "longitude": 90.8333,
@@ -442,18 +436,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "gopalganj": {
-          "name":"Gopalganj",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "gopalganj": {
+            "name": "Gopalganj",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "gopalganjSadar": {
                 "latitude": 23.0000,
                 "longitude": 89.8333,
@@ -573,20 +566,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-
-
-        "kishoreganj": {
-          "name":"Kishoreganj",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "kishoreganj": {
+            "name": "Kishoreganj",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "kishoreganjSadar": {
                 "latitude": 24.0000,
                 "longitude": 90.9667,
@@ -898,19 +888,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "madaripur": {
-          "name":"Madaripur",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-
+          "madaripur": {
+            "name": "Madaripur",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "madaripurSadar": {
                 "latitude": 23.6000,
                 "longitude": 90.5000,
@@ -1030,19 +1018,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
-
+              },
+            },
           },
-        },
-        "manikganj": {
-          "name":"Manikganj",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "manikganj": {
+            "name": "Manikganj",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "manikganjSadar": {
                 "latitude": 23.6000,
                 "longitude": 90.5000,
@@ -1210,18 +1196,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "munshiganj": {
-          "name":"Munshiganj",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "munshiganj": {
+            "name": "Munshiganj",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "munshiganj_sadar": {
                 "latitude": 23.6000,
                 "longitude": 90.5000,
@@ -1365,18 +1350,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "narayanganj": {
-          "name":"Narayanganj",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "narayanganj": {
+            "name": "Narayanganj",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "narayanganjSadar": {
                 "latitude": 23.6000,
                 "longitude": 90.5000,
@@ -1496,18 +1480,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "narsingdi": {
-          "name":"Narsingdi",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "narsingdi": {
+            "name": "Narsingdi",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "narsingdi_sadar": {
                 "latitude": 23.9167,
                 "longitude": 90.7250,
@@ -1651,18 +1634,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
+              },
+            },
           },
-        },
-        "rajbari": {
-          "name":"Rajbari",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "rajbari": {
+            "name": "Rajbari",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "rajbariSadar": {
                 "latitude": 23.4167,
                 "longitude": 89.6667,
@@ -1782,24 +1764,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
-
-
-
-
-
-
+              },
+            },
           },
-        },
-        "shariatpur": {
-          "name":"Shariatpur",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "shariatpur": {
+            "name": "Shariatpur",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "shariatpurSadar": {
                 "latitude": 23.2167,
                 "longitude": 90.3500,
@@ -1943,20 +1918,17 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
-
-
-
+              },
+            },
           },
-        },
-        "tangail": {
-          "name":"Tangail",
-          "latitude": 23.8103,
-          "longitude": 90.4125,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "tangail": {
+            "name": "Tangail",
+            "latitude": 23.8103,
+            "longitude": 90.4125,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "tangailSadar": {
                 "latitude": 24.2513,
                 "longitude": 89.9167,
@@ -2244,28 +2216,29 @@ var bdInformations = {
                     "email": "dhaka@gmail.com",
                   },
                 },
-              }
+              },
+            },
           },
         },
       },
     },
-    //chattogram thana completed
-    "chattogram": {
-      "name": "Chattogram",
-      "latitude": 22.3569,
-      "longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "bandarban": {
-          "name": "Bandarban",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+    {
+      "chattogram": {
+        "name": "Chattogram",
+        "latitude": 22.3569,
+        "longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "bandarban": {
+            "name": "Bandarban",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "bandarban_sadar": {
                 "latitude": 22.1953,
                 "longitude": 92.2195,
@@ -2279,9 +2252,9 @@ var bdInformations = {
                     "Longitude": 92.2200,
                     "phone": "0361-000003",
                     "officePhone": "0361-000004",
-                    "email": "bandarbanunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "bandarbanunion@bandarban.gov.bd",
+                  },
+                },
               },
               "thanchi": {
                 "latitude": 21.9167,
@@ -2296,9 +2269,9 @@ var bdInformations = {
                     "Longitude": 92.5400,
                     "phone": "0361-000007",
                     "officePhone": "0361-000008",
-                    "email": "remakree@bandarban.gov.bd"
-                  }
-                }
+                    "email": "remakree@bandarban.gov.bd",
+                  },
+                },
               },
               "ruma": {
                 "latitude": 22.0500,
@@ -2313,9 +2286,9 @@ var bdInformations = {
                     "Longitude": 92.4200,
                     "phone": "0361-000011",
                     "officePhone": "0361-000012",
-                    "email": "rumaunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "rumaunion@bandarban.gov.bd",
+                  },
+                },
               },
               "rowangchhari": {
                 "latitude": 22.0667,
@@ -2330,9 +2303,9 @@ var bdInformations = {
                     "Longitude": 92.2050,
                     "phone": "0361-000015",
                     "officePhone": "0361-000016",
-                    "email": "rowangchhariunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "rowangchhariunion@bandarban.gov.bd",
+                  },
+                },
               },
               "lama": {
                 "latitude": 21.8333,
@@ -2347,9 +2320,9 @@ var bdInformations = {
                     "Longitude": 92.2200,
                     "phone": "0361-000019",
                     "officePhone": "0361-000020",
-                    "email": "lamaunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "lamaunion@bandarban.gov.bd",
+                  },
+                },
               },
               "alikadam": {
                 "latitude": 21.6333,
@@ -2364,9 +2337,9 @@ var bdInformations = {
                     "Longitude": 92.3200,
                     "phone": "0361-000023",
                     "officePhone": "0361-000024",
-                    "email": "alikadamunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "alikadamunion@bandarban.gov.bd",
+                  },
+                },
               },
               "naikhongchhari": {
                 "latitude": 21.1833,
@@ -2381,20 +2354,20 @@ var bdInformations = {
                     "Longitude": 92.1700,
                     "phone": "0361-000027",
                     "officePhone": "0361-000028",
-                    "email": "naikhongchhariunion@bandarban.gov.bd"
-                  }
-                }
+                    "email": "naikhongchhariunion@bandarban.gov.bd",
+                  },
+                },
               },
+            },
           },
-        },
-        "brahmanbaria": {
-          "name": "Brahmanbaria",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "brahmanbaria": {
+            "name": "Brahmanbaria",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "brahmanbariaSadar": {
                 "latitude": 23.0734,
                 "longitude": 91.0995,
@@ -2408,9 +2381,9 @@ var bdInformations = {
                     "Longitude": 91.1050,
                     "phone": "0321-000034",
                     "officePhone": "0321-000035",
-                    "email": "gungun@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "gungun@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "kasba": {
                 "latitude": 23.1250,
@@ -2425,9 +2398,9 @@ var bdInformations = {
                     "Longitude": 91.1750,
                     "phone": "0321-000038",
                     "officePhone": "0321-000039",
-                    "email": "baliadi@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "baliadi@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "akhaura": {
                 "latitude": 23.1255,
@@ -2442,9 +2415,9 @@ var bdInformations = {
                     "Longitude": 91.0305,
                     "phone": "0321-000042",
                     "officePhone": "0321-000043",
-                    "email": "jadabpur@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "jadabpur@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "ashuganj": {
                 "latitude": 23.6600,
@@ -2459,9 +2432,9 @@ var bdInformations = {
                     "Longitude": 91.1150,
                     "phone": "0321-000046",
                     "officePhone": "0321-000047",
-                    "email": "bishwanath@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "bishwanath@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "bancharampur": {
                 "latitude": 23.0150,
@@ -2476,9 +2449,9 @@ var bdInformations = {
                     "Longitude": 91.1900,
                     "phone": "0321-000050",
                     "officePhone": "0321-000051",
-                    "email": "kandirpar@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "kandirpar@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "bijoynagar": {
                 "latitude": 23.3600,
@@ -2493,9 +2466,9 @@ var bdInformations = {
                     "Longitude": 91.1250,
                     "phone": "0321-000054",
                     "officePhone": "0321-000055",
-                    "email": "sonapur@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "sonapur@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "nasirnagar": {
                 "latitude": 23.5300,
@@ -2510,9 +2483,9 @@ var bdInformations = {
                     "Longitude": 91.0250,
                     "phone": "0321-000058",
                     "officePhone": "0321-000059",
-                    "email": "ranishwar@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "ranishwar@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "nabinagar": {
                 "latitude": 23.5600,
@@ -2527,9 +2500,9 @@ var bdInformations = {
                     "Longitude": 91.0550,
                     "phone": "0321-000062",
                     "officePhone": "0321-000063",
-                    "email": "sonatala@brahmanbaria.gov.bd"
-                  }
-                }
+                    "email": "sonatala@brahmanbaria.gov.bd",
+                  },
+                },
               },
               "sarail": {
                 "latitude": 23.1070,
@@ -2544,21 +2517,20 @@ var bdInformations = {
                     "Longitude": 91.1450,
                     "phone": "0321-000066",
                     "officePhone": "0321-000067",
-                    "email": "bhawanipur@brahmanbaria.gov.bd"
-                  }
-                }
-              }
-
+                    "email": "bhawanipur@brahmanbaria.gov.bd",
+                  },
+                },
+              },
+            },
           },
-        },
-        "chandpur": {
-          "name": "Chandpur",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "chandpur": {
+            "name": "Chandpur",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "chandpurSadar": {
                 "latitude": 23.2321,
                 "longitude": 90.6694,
@@ -2572,9 +2544,9 @@ var bdInformations = {
                     "Longitude": 90.6740,
                     "phone": "0321-000002",
                     "officePhone": "0321-000003",
-                    "email": "puranbazar@chandpur.gov.bd"
-                  }
-                }
+                    "email": "puranbazar@chandpur.gov.bd",
+                  },
+                },
               },
               "hajiganj": {
                 "latitude": 23.2300,
@@ -2589,9 +2561,9 @@ var bdInformations = {
                     "Longitude": 90.6750,
                     "phone": "0321-000006",
                     "officePhone": "0321-000007",
-                    "email": "chandrapur@chandpur.gov.bd"
-                  }
-                }
+                    "email": "chandrapur@chandpur.gov.bd",
+                  },
+                },
               },
               "kachua": {
                 "latitude": 23.2530,
@@ -2606,9 +2578,9 @@ var bdInformations = {
                     "Longitude": 90.6930,
                     "phone": "0321-000010",
                     "officePhone": "0321-000011",
-                    "email": "madhabpur@chandpur.gov.bd"
-                  }
-                }
+                    "email": "madhabpur@chandpur.gov.bd",
+                  },
+                },
               },
               "faridganj": {
                 "latitude": 23.2200,
@@ -2623,9 +2595,9 @@ var bdInformations = {
                     "Longitude": 90.6950,
                     "phone": "0321-000014",
                     "officePhone": "0321-000015",
-                    "email": "sathia@chandpur.gov.bd"
-                  }
-                }
+                    "email": "sathia@chandpur.gov.bd",
+                  },
+                },
               },
               "matlab_uttar": {
                 "latitude": 23.4400,
@@ -2640,9 +2612,9 @@ var bdInformations = {
                     "Longitude": 90.6750,
                     "phone": "0321-000018",
                     "officePhone": "0321-000019",
-                    "email": "bishwanath@chandpur.gov.bd"
-                  }
-                }
+                    "email": "bishwanath@chandpur.gov.bd",
+                  },
+                },
               },
               "matlab_dakshin": {
                 "latitude": 23.4000,
@@ -2657,9 +2629,9 @@ var bdInformations = {
                     "Longitude": 90.6650,
                     "phone": "0321-000022",
                     "officePhone": "0321-000023",
-                    "email": "rajapur@chandpur.gov.bd"
-                  }
-                }
+                    "email": "rajapur@chandpur.gov.bd",
+                  },
+                },
               },
               "haimchar": {
                 "latitude": 23.2900,
@@ -2674,9 +2646,9 @@ var bdInformations = {
                     "Longitude": 90.6050,
                     "phone": "0321-000026",
                     "officePhone": "0321-000027",
-                    "email": "madhabpur@chandpur.gov.bd"
-                  }
-                }
+                    "email": "madhabpur@chandpur.gov.bd",
+                  },
+                },
               },
               "shahrasti": {
                 "latitude": 23.2150,
@@ -2691,20 +2663,20 @@ var bdInformations = {
                     "Longitude": 90.7150,
                     "phone": "0321-000030",
                     "officePhone": "0321-000031",
-                    "email": "bashurhat@chandpur.gov.bd"
-                  }
-                }
-              }
+                    "email": "bashurhat@chandpur.gov.bd",
+                  },
+                },
+              },
+            },
           },
-        },
-        "chattogram": {
-          "name": "Chattogram(Chittagong)",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
+          "chattogram": {
+            "name": "Chattogram(Chittagong)",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
               "anwara": {
                 "latitude": 22.3589,
                 "longitude": 91.7815,
@@ -2718,9 +2690,9 @@ var bdInformations = {
                     "Longitude": 91.7850,
                     "phone": "031-000002",
                     "officePhone": "031-000003",
-                    "email": "dhalghat@chattogram.gov.bd"
-                  }
-                }
+                    "email": "dhalghat@chattogram.gov.bd",
+                  },
+                },
               },
               "banshkhali": {
                 "latitude": 22.3000,
@@ -2735,9 +2707,9 @@ var bdInformations = {
                     "Longitude": 91.7100,
                     "phone": "031-000006",
                     "officePhone": "031-000007",
-                    "email": "dohazari@chattogram.gov.bd"
-                  }
-                }
+                    "email": "dohazari@chattogram.gov.bd",
+                  },
+                },
               },
               "boalkhali": {
                 "latitude": 22.3700,
@@ -2752,9 +2724,9 @@ var bdInformations = {
                     "Longitude": 91.7100,
                     "phone": "031-000010",
                     "officePhone": "031-000011",
-                    "email": "bashpata@chattogram.gov.bd"
-                  }
-                }
+                    "email": "bashpata@chattogram.gov.bd",
+                  },
+                },
               },
               "chandanaish": {
                 "latitude": 22.3600,
@@ -2769,9 +2741,9 @@ var bdInformations = {
                     "Longitude": 91.7150,
                     "phone": "031-000014",
                     "officePhone": "031-000015",
-                    "email": "chandanaish.union@chattogram.gov.bd"
-                  }
-                }
+                    "email": "chandanaish.union@chattogram.gov.bd",
+                  },
+                },
               },
               "fatikchhari": {
                 "latitude": 22.4500,
@@ -2786,9 +2758,9 @@ var bdInformations = {
                     "Longitude": 91.8100,
                     "phone": "031-000018",
                     "officePhone": "031-000019",
-                    "email": "bojonpur@chattogram.gov.bd"
-                  }
-                }
+                    "email": "bojonpur@chattogram.gov.bd",
+                  },
+                },
               },
               "hathazari": {
                 "latitude": 22.4900,
@@ -2803,9 +2775,9 @@ var bdInformations = {
                     "Longitude": 91.7050,
                     "phone": "031-000022",
                     "officePhone": "031-000023",
-                    "email": "fatehabad@chattogram.gov.bd"
-                  }
-                }
+                    "email": "fatehabad@chattogram.gov.bd",
+                  },
+                },
               },
               "karnaphuli": {
                 "latitude": 22.3800,
@@ -2820,9 +2792,9 @@ var bdInformations = {
                     "Longitude": 91.7100,
                     "phone": "031-000026",
                     "officePhone": "031-000027",
-                    "email": "chandanaish.union@chattogram.gov.bd"
-                  }
-                }
+                    "email": "chandanaish.union@chattogram.gov.bd",
+                  },
+                },
               },
               "lohagara": {
                 "latitude": 22.4200,
@@ -2837,9 +2809,9 @@ var bdInformations = {
                     "Longitude": 91.6550,
                     "phone": "031-000030",
                     "officePhone": "031-000031",
-                    "email": "lohagara.union@chattogram.gov.bd"
-                  }
-                }
+                    "email": "lohagara.union@chattogram.gov.bd",
+                  },
+                },
               },
               "mirsharai": {
                 "latitude": 22.4800,
@@ -2854,9 +2826,9 @@ var bdInformations = {
                     "Longitude": 91.8050,
                     "phone": "031-000034",
                     "officePhone": "031-000035",
-                    "email": "mirsharai.union@chattogram.gov.bd"
-                  }
-                }
+                    "email": "mirsharai.union@chattogram.gov.bd",
+                  },
+                },
               },
               "patiya": {
                 "latitude": 22.3700,
@@ -2871,9 +2843,9 @@ var bdInformations = {
                     "Longitude": 91.5550,
                     "phone": "031-000038",
                     "officePhone": "031-000039",
-                    "email": "bujuripara@chattogram.gov.bd"
-                  }
-                }
+                    "email": "bujuripara@chattogram.gov.bd",
+                  },
+                },
               },
               "rangunia": {
                 "latitude": 22.4600,
@@ -2888,9 +2860,9 @@ var bdInformations = {
                     "Longitude": 91.7550,
                     "phone": "031-000042",
                     "officePhone": "031-000043",
-                    "email": "gogora@chattogram.gov.bd"
-                  }
-                }
+                    "email": "gogora@chattogram.gov.bd",
+                  },
+                },
               },
               "raozen": {
                 "latitude": 22.5000,
@@ -2905,9 +2877,9 @@ var bdInformations = {
                     "Longitude": 91.7150,
                     "phone": "031-000046",
                     "officePhone": "031-000047",
-                    "email": "raozen.union@chattogram.gov.bd"
-                  }
-                }
+                    "email": "raozen.union@chattogram.gov.bd",
+                  },
+                },
               },
               "sandwip": {
                 "latitude": 22.7000,
@@ -2922,9 +2894,9 @@ var bdInformations = {
                     "Longitude": 91.8050,
                     "phone": "031-000050",
                     "officePhone": "031-000051",
-                    "email": "dhalghat@chattogram.gov.bd"
-                  }
-                }
+                    "email": "dhalghat@chattogram.gov.bd",
+                  },
+                },
               },
               "satkania": {
                 "latitude": 22.4900,
@@ -2939,9 +2911,9 @@ var bdInformations = {
                     "Longitude": 91.6050,
                     "phone": "031-000054",
                     "officePhone": "031-000055",
-                    "email": "hathazari@chattogram.gov.bd"
-                  }
-                }
+                    "email": "hathazari@chattogram.gov.bd",
+                  },
+                },
               },
               "sitakunda": {
                 "latitude": 22.4300,
@@ -2956,3599 +2928,1780 @@ var bdInformations = {
                     "Longitude": 91.5750,
                     "phone": "031-000058",
                     "officePhone": "031-000059",
-                    "email": "sitakunda.union@chattogram.gov.bd"
-                  }
-                }
-              },
-
-
-          },
-        },
-        "cumilla": {
-          "name": "Cumilla(Comilla)",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "comillaAdarshaSadar": {
-              "latitude": 23.4607,
-              "longitude": 91.1809,
-              "phone": "081-000000",
-              "officePhone": "081-000001",
-              "email": "adarsha.sadar@cumilla.gov.bd",
-              "name": "Comilla Adarsha Sadar Upazila",
-              "unions": {
-                "Kalirbazar": {
-                  "Latitude": 23.4625,
-                  "Longitude": 91.1820,
-                  "phone": "081-000002",
-                  "officePhone": "081-000003",
-                  "email": "kalirbazar@cumilla.gov.bd"
-                },
-                "Durghapur Uttar": {
-                  "Latitude": 23.4650,
-                  "Longitude": 91.1850,
-                  "phone": "081-000004",
-                  "officePhone": "081-000005",
-                  "email": "durghapur.uttar@cumilla.gov.bd"
-                }
-              }
-            },
-            "barura": {
-              "latitude": 23.3000,
-              "longitude": 91.1000,
-              "phone": "081-000006",
-              "officePhone": "081-000007",
-              "email": "barura@cumilla.gov.bd",
-              "name": "Barura Upazila",
-              "unions": {
-                "Aganagar": {
-                  "Latitude": 23.3100,
-                  "Longitude": 91.1050,
-                  "phone": "081-000008",
-                  "officePhone": "081-000009",
-                  "email": "aganagar@cumilla.gov.bd"
-                },
-                "Bhubanipur": {
-                  "Latitude": 23.2950,
-                  "Longitude": 91.0950,
-                  "phone": "081-000010",
-                  "officePhone": "081-000011",
-                  "email": "bhubanipur@cumilla.gov.bd"
-                }
-              }
-            },
-            "brahmanpara": {
-              "latitude": 23.4000,
-              "longitude": 91.2000,
-              "phone": "081-000012",
-              "officePhone": "081-000013",
-              "email": "brahmanpara@cumilla.gov.bd",
-              "name": "Brahmanpara Upazila",
-              "unions": {
-                "Shidlai": {
-                  "Latitude": 23.4050,
-                  "Longitude": 91.2050,
-                  "phone": "081-000014",
-                  "officePhone": "081-000015",
-                  "email": "shidlai@cumilla.gov.bd"
-                },
-                "Chandla": {
-                  "Latitude": 23.3950,
-                  "Longitude": 91.1950,
-                  "phone": "081-000016",
-                  "officePhone": "081-000017",
-                  "email": "chandla@cumilla.gov.bd"
-                }
-              }
-            },
-            "burichong": {
-              "latitude": 23.4500,
-              "longitude": 91.1500,
-              "phone": "081-000018",
-              "officePhone": "081-000019",
-              "email": "burichong@cumilla.gov.bd",
-              "name": "Burichong Upazila",
-              "unions": {
-                "Moynamoti": {
-                  "Latitude": 23.4550,
-                  "Longitude": 91.1550,
-                  "phone": "081-000020",
-                  "officePhone": "081-000021",
-                  "email": "moynamoti@cumilla.gov.bd"
-                },
-                "Baksimul": {
-                  "Latitude": 23.4450,
-                  "Longitude": 91.1450,
-                  "phone": "081-000022",
-                  "officePhone": "081-000023",
-                  "email": "baksimul@cumilla.gov.bd"
-                }
-              }
-            },
-            "chandina": {
-              "latitude": 23.5000,
-              "longitude": 91.2000,
-              "phone": "081-000024",
-              "officePhone": "081-000025",
-              "email": "chandina@cumilla.gov.bd",
-              "name": "Chandina Upazila",
-              "unions": {
-                "Suhilpur": {
-                  "Latitude": 23.5050,
-                  "Longitude": 91.2050,
-                  "phone": "081-000026",
-                  "officePhone": "081-000027",
-                  "email": "suhilpur@cumilla.gov.bd"
-                },
-                "Bataghasi": {
-                  "Latitude": 23.4950,
-                  "Longitude": 91.1950,
-                  "phone": "081-000028",
-                  "officePhone": "081-000029",
-                  "email": "bataghasi@cumilla.gov.bd"
-                }
-              }
-            },
-            "chauddagram": {
-              "latitude": 23.2500,
-              "longitude": 91.3000,
-              "phone": "081-000030",
-              "officePhone": "081-000031",
-              "email": "chauddagram@cumilla.gov.bd",
-              "name": "Chauddagram Upazila",
-              "unions": {
-                "Shreepur": {
-                  "Latitude": 23.2550,
-                  "Longitude": 91.3050,
-                  "phone": "081-000032",
-                  "officePhone": "081-000033",
-                  "email": "shreepur@cumilla.gov.bd"
-                },
-                "Kashinagar": {
-                  "Latitude": 23.2450,
-                  "Longitude": 91.2950,
-                  "phone": "081-000034",
-                  "officePhone": "081-000035",
-                  "email": "kashinagar@cumilla.gov.bd"
-                }
-              }
-            },
-            "daudkandi": {
-              "latitude": 23.6000,
-              "longitude": 90.8000,
-              "phone": "081-000036",
-              "officePhone": "081-000037",
-              "email": "daudkandi@cumilla.gov.bd",
-              "name": "Daudkandi Upazila",
-              "unions": {
-                "Barpara": {
-                  "Latitude": 23.6050,
-                  "Longitude": 90.8050,
-                  "phone": "081-000038",
-                  "officePhone": "081-000039",
-                  "email": "barpara@cumilla.gov.bd"
-                },
-                "Uttar Daudkandi": {
-                  "Latitude": 23.5950,
-                  "Longitude": 90.7950,
-                  "phone": "081-000040",
-                  "officePhone": "081-000041",
-                  "email": "uttar.daudkandi@cumilla.gov.bd"
-                }
-              }
-            },
-            "debidwar": {
-              "latitude": 23.5500,
-              "longitude": 91.1000,
-              "phone": "081-000042",
-              "officePhone": "081-000043",
-              "email": "debidwar@cumilla.gov.bd",
-              "name": "Debidwar Upazila",
-              "unions": {
-                "Subil": {
-                  "Latitude": 23.5550,
-                  "Longitude": 91.1050,
-                  "phone": "081-000044",
-                  "officePhone": "081-000045",
-                  "email": "subil@cumilla.gov.bd"
-                },
-                "Rasulpur": {
-                  "Latitude": 23.5450,
-                  "Longitude": 91.0950,
-                  "phone": "081-000046",
-                  "officePhone": "081-000047",
-                  "email": "rasulpur@cumilla.gov.bd"
-                }
-              }
-            },
-            "homna": {
-              "latitude": 23.6500,
-              "longitude": 90.9000,
-              "phone": "081-000048",
-              "officePhone": "081-000049",
-              "email": "homna@cumilla.gov.bd",
-              "name": "Homna Upazila",
-              "unions": {
-                "Mathabhanga": {
-                  "Latitude": 23.6550,
-                  "Longitude": 90.9050,
-                  "phone": "081-000050",
-                  "officePhone": "081-000051",
-                  "email": "mathabhanga@cumilla.gov.bd"
-                },
-                "Ghagutia": {
-                  "Latitude": 23.6450,
-                  "Longitude": 90.8950,
-                  "phone": "081-000052",
-                  "officePhone": "081-000053",
-                  "email": "ghagutia@cumilla.gov.bd"
-                }
-              }
-            },
-            "laksam": {
-              "latitude": 23.2000,
-              "longitude": 91.1000,
-              "phone": "081-000054",
-              "officePhone": "081-000055",
-              "email": "laksam@cumilla.gov.bd",
-              "name": "Laksam Upazila",
-              "unions": {
-                "Bakoi": {
-                  "Latitude": 23.2050,
-                  "Longitude": 91.1050,
-                  "phone": "081-000056",
-                  "officePhone": "081-000057",
-                  "email": "bakoi@cumilla.gov.bd"
-                },
-                "Mudaffarganj": {
-                  "Latitude": 23.1950,
-                  "Longitude": 91.0950,
-                  "phone": "081-000058",
-                  "officePhone": "081-000059",
-                  "email": "mudaffarganj@cumilla.gov.bd"
-                }
-              }
-            },
-            "comilla_sadar_dakshin": {
-              "latitude": 23.4300,
-              "longitude": 91.1700,
-              "phone": "081-000060",
-              "officePhone": "081-000061",
-              "email": "sadar.dakshin@cumilla.gov.bd",
-              "name": "Comilla Sadar Dakshin Upazila",
-              "unions": {
-                "Bagmara": {
-                  "Latitude": 23.4350,
-                  "Longitude": 91.1750,
-                  "phone": "081-000062",
-                  "officePhone": "081-000063",
-                  "email": "bagmara@cumilla.gov.bd"
-                },
-                "Bholain": {
-                  "Latitude": 23.4250,
-                  "Longitude": 91.1650,
-                  "phone": "081-000064",
-                  "officePhone": "081-000065",
-                  "email": "bholain@cumilla.gov.bd"
-                }
-              }
-            },
-            "lalmai": {
-              "latitude": 23.4100,
-              "longitude": 91.1500,
-              "phone": "081-000066",
-              "officePhone": "081-000067",
-              "email": "lalmai@cumilla.gov.bd",
-              "name": "Lalmai Upazila",
-              "unions": {
-                "Perul": {
-                  "Latitude": 23.4150,
-                  "Longitude": 91.1550,
-                  "phone": "081-000068",
-                  "officePhone": "081-000069",
-                  "email": "perul@cumilla.gov.bd"
-                },
-                "Bagmara": {
-                  "Latitude": 23.4050,
-                  "Longitude": 91.1450,
-                  "phone": "081-000070",
-                  "officePhone": "081-000071",
-                  "email": "bagmara.lalmai@cumilla.gov.bd"
-                }
-              }
-            },
-            "monohorgonj": {
-              "latitude": 23.2700,
-              "longitude": 91.0800,
-              "phone": "081-000072",
-              "officePhone": "081-000073",
-              "email": "monohorgonj@cumilla.gov.bd",
-              "name": "Monohorgonj Upazila",
-              "unions": {
-                "Chitodda": {
-                  "Latitude": 23.2750,
-                  "Longitude": 91.0850,
-                  "phone": "081-000074",
-                  "officePhone": "081-000075",
-                  "email": "chitodda@cumilla.gov.bd"
-                },
-                "Bipulashar": {
-                  "Latitude": 23.2650,
-                  "Longitude": 91.0750,
-                  "phone": "081-000076",
-                  "officePhone": "081-000077",
-                  "email": "bipulashar@cumilla.gov.bd"
-                }
-              }
-            },
-            "meghna": {
-              "latitude": 23.6000,
-              "longitude": 90.9000,
-              "phone": "081-000078",
-              "officePhone": "081-000079",
-              "email": "meghna@cumilla.gov.bd",
-              "name": "Meghna Upazila",
-              "unions": {
-                "Meghna": {
-                  "Latitude": 23.6050,
-                  "Longitude": 90.9050,
-                  "phone": "081-000080",
-                  "officePhone": "081-000081",
-                  "email": "meghna.union@cumilla.gov.bd"
-                },
-                "Gobindapur": {
-                  "Latitude": 23.5950,
-                  "Longitude": 90.8950,
-                  "phone": "081-000082",
-                  "officePhone": "081-000083",
-                  "email": "gobindapur@cumilla.gov.bd"
-                }
-              }
-            },
-            "muradnagar": {
-              "latitude": 23.5500,
-              "longitude": 91.0500,
-              "phone": "081-000084",
-              "officePhone": "081-000085",
-              "email": "muradnagar@cumilla.gov.bd",
-              "name": "Muradnagar Upazila",
-              "unions": {
-                "Bangra": {
-                  "Latitude": 23.5550,
-                  "Longitude": 91.0550,
-                  "phone": "081-000086",
-                  "officePhone": "081-000087",
-                  "email": "bangra@cumilla.gov.bd"
-                },
-                "Purbadhair": {
-                  "Latitude": 23.5450,
-                  "Longitude": 91.0450,
-                  "phone": "081-000088",
-                  "officePhone": "081-000089",
-                  "email": "purbadhair@cumilla.gov.bd"
-                }
-              }
-            },
-            "nangalkot": {
-              "latitude": 23.2800,
-              "longitude": 91.1500,
-              "phone": "081-000090",
-              "officePhone": "081-000091",
-              "email": "nangalkot@cumilla.gov.bd",
-              "name": "Nangalkot Upazila",
-              "unions": {
-                "Adra": {
-                  "Latitude": 23.2850,
-                  "Longitude": 91.1550,
-                  "phone": "081-000092",
-                  "officePhone": "081-000093",
-                  "email": "adra@cumilla.gov.bd"
-                },
-                "Jodda": {
-                  "Latitude": 23.2750,
-                  "Longitude": 91.1450,
-                  "phone": "081-000094",
-                  "officePhone": "081-000095",
-                  "email": "jodda@cumilla.gov.bd"
-                }
-              }
-            },
-            "titas": {
-              "latitude": 23.5800,
-              "longitude": 90.8500,
-              "phone": "081-000096",
-              "officePhone": "081-000097",
-              "email": "titas@cumilla.gov.bd",
-              "name": "Titas Upazila",
-              "unions": {
-                "Titas": {
-                  "Latitude": 23.5850,
-                  "Longitude": 90.8550,
-                  "phone": "081-000098",
-                  "officePhone": "081-000099",
-                  "email": "titas.union@cumilla.gov.bd"
-                },
-                "Zinglatoli": {
-                  "Latitude": 23.5750,
-                  "Longitude": 90.8450,
-                  "phone": "081-000100",
-                  "officePhone": "081-000101",
-                  "email": "zinglatoli@cumilla.gov.bd"
-                }
-              }
-            },
-
-
-
-
-
-
-
-
-            "Pahartali": {
-              "Latitude": 22.3569,
-              "Longitude": 91.7832,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "Unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+                    "email": "sitakunda.union@chattogram.gov.bd",
+                  },
                 },
               },
             },
           },
-        },
-        "coxsBazar": {
-          "name": "Cox\'s Bazar",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-
-                "sadar": {
-                  "latitude": 21.4272,
-                  "longitude": 92.0058,
-                  "phone": "01320-108471",
-                  "officePhone": 01577479,
-                  "email": "oc.coxsbazar@police.gov.bd",
-                  "name": "Sadar Model Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
+          "cumilla": {
+            "name": "Cumilla(Comilla)",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "comillaAdarshaSadar": {
+                "latitude": 23.4607,
+                "longitude": 91.1809,
+                "phone": "081-000000",
+                "officePhone": "081-000001",
+                "email": "adarsha.sadar@cumilla.gov.bd",
+                "name": "Comilla Adarsha Sadar Upazila",
+                "unions": {
+                  "Kalirbazar": {
+                    "Latitude": 23.4625,
+                    "Longitude": 91.1820,
+                    "phone": "081-000002",
+                    "officePhone": "081-000003",
+                    "email": "kalirbazar@cumilla.gov.bd",
                   },
-                },
-                "eidgaon": {
-                  "latitude": 21.3667,
-                  "longitude": 92.0167,
-                  "phone": "01320-108475",
-                  "officePhone": 01577479,
-                  "email": "oc.eidgaon@police.gov.bd",
-                  "name": "Eidgaon Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
+                  "Durghapur Uttar": {
+                    "Latitude": 23.4650,
+                    "Longitude": 91.1850,
+                    "phone": "081-000004",
+                    "officePhone": "081-000005",
+                    "email": "durghapur.uttar@cumilla.gov.bd",
                   },
-                },
-                "ukhiya": {
-                  "latitude": 21.2833,
-                  "longitude": 92.1000,
-                  "phone": "01320-108523",
-                  "officePhone": 01577479,
-                  "email": "oc.ukhiya@police.gov.bd",
-                  "name": "Ukhiya Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "ramu": {
-                  "latitude": 21.4500,
-                  "longitude": 92.1000,
-                  "phone": "01320-108497",
-                  "officePhone": 01577479,
-                  "email": "oc.ramu@police.gov.bd",
-                  "name": "Ramu Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "teknaf": {
-                  "latitude": 20.8667,
-                  "longitude": 92.3000,
-                  "phone": "01320-108549",
-                  "officePhone": 01577479,
-                  "email": "oc.teknaf@police.gov.bd",
-                  "name": "Teknaf Model Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "moheshkhali": {
-                  "latitude": 21.8167,
-                  "longitude": 91.9500,
-                  "phone": "01320-108627",
-                  "officePhone": 01577479,
-                  "email": "oc.moheshkhali@police.gov.bd",
-                  "name": "Moheshkhali Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "chakaria": {
-                  "latitude": 21.7833,
-                  "longitude": 92.0667,
-                  "phone": "01320-108575",
-                  "officePhone": 01577479,
-                  "email": "oc.chakaria@police.gov.bd",
-                  "name": "Chakaria Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "kutubdia": {
-                  "latitude": 21.8167,
-                  "longitude": 91.8500,
-                  "phone": "01320-108601",
-                  "officePhone": 01577479,
-                  "email": "oc.kutubdia@police.gov.bd",
-                  "name": "Kutubdia Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "pekua": {
-                  "latitude": 21.7833,
-                  "longitude": 91.9500,
-                  "phone": "01320-108649",
-                  "officePhone": 01577479,
-                  "email": "oc.pekua@police.gov.bd",
-                  "name": "Pekua Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                }
-
-          },
-        },
-        "feni": {
-          "name": "Feni",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-                "feni": {
-                  "latitude": 23.0159,
-                  "longitude": 91.3966,
-                  "phone": "01320-112976",
-                  "email": "ocfen.fen@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Feni Model Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "sonagazi": {
-                  "latitude": 22.9333,
-                  "longitude": 91.4167,
-                  "phone": "01320-113028",
-                  "email": "ocfen.sho@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Sonagazi Model Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "fulgazi": {
-                  "latitude": 23.1333,
-                  "longitude": 91.4500,
-                  "phone": "01320-113080",
-                  "email": "ocfen.ful@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Fulgazi Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "parshuram": {
-                  "latitude": 23.2000,
-                  "longitude": 91.4167,
-                  "phone": "01320-113106",
-                  "email": "ocfen.por@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Parshuram Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "chhagalnaiya": {
-                  "latitude": 23.0167,
-                  "longitude": 91.5000,
-                  "phone": "01320-113002",
-                  "email": "ocfen.cha@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Chhagalnaiya Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-
-                },
-                "daganbhuiyan": {
-                  "Latitude": 23.0500,
-                  "Longitude": 91.3833,
-                  "phone": "01320-113002",
-                  "email": "ocfen.dag@police.gov.bd",
-                  "officePhone": 01577479,
-                  "name":"Daganbhuiyan Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                }
-
-
-          },
-        },
-        "khagrachari": {
-          "name": "Khagrachari",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-
-                "khagrachari": {
-                  "latitude": 23.1193,
-                  "longitude": 91.9840,
-                  "phone": "01320109981",
-                  "officePhone": "01320109986",
-                  "name":"Khagrachari Sadar Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "matiranga": {
-                  "latitude": 23.0000,
-                  "longitude": 91.9000,
-                  "phone": "01755551150",
-                  "officePhone": "01320110116",
-                  "name":"Matiranga Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "dighinala": {
-                  "latitude": 23.3000,
-                  "longitude": 92.0000,
-                  "phone": "01320110007",
-                  "officePhone": "01320110012",
-                  "name":"Dighinala Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "panchari": {
-                  "latitude": 23.2000,
-                  "longitude": 91.9500,
-                  "phone": "01320110059",
-                  "officePhone": "01320110064",
-                  "name":"Panchari Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "mahalchari": {
-                  "latitude": 23.1000,
-                  "longitude": 91.9000,
-                  "phone": "01320110033",
-                  "officePhone": "01320110038",
-                  "name":"Mahalchari Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "guimara": {
-                  "latitude": 23.0500,
-                  "longitude": 91.9500,
-                  "phone": "01320110189",
-                  "officePhone": "01320110194",
-                  "name":"Guimara Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "manikchari": {
-                  "latitude": 23.1500,
-                  "longitude": 91.8500,
-                  "phone": "01320110137",
-                  "officePhone": "01320110142",
-                  "name":"Manikchari Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "laxmichari": {
-                  "latitude": 23.2500,
-                  "longitude": 91.8500,
-                  "phone": "01320110163",
-                  "officePhone": "01320110168",
-                  "name":"Laxmichari Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "ramgarh": {
-                  "latitude": 23.1000,
-                  "longitude": 91.7000,
-                  "phone": "01320110085",
-                  "officePhone": "01320110090",
-                  "name":"Ramgarh Police Station",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "detectiveBranch": {
-                  "latitude": 23.1193,
-                  "longitude": 91.9840,
-                  "phone": "01320110215",
-                  "officePhone": "01320110215",
-                  "name":"Detective Branch (DB)",
-                  "email": "dhaka@gmail.com",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                }
-
-          },
-        },
-        "lakshmipur": {
-          "name": "Lakshmipur",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-                "lakshmipurSadar": {
-                  "latitude": 22.9500,
-                  "longitude": 90.8250,
-                  "phone": "01320111900",
-                  "officePhone": 01320111946,
-                  "email": "dhaka@gmail.com",
-                  "name": "Lakshmipur Sadar Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-
-                },
-                "raipur": {
-                  "latitude": 23.0333,
-                  "longitude": 90.7667,
-                  "phone": "01320111956",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name": "Raipur Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "ramganj": {
-                  "latitude": 23.1000,
-                  "longitude": 90.9500,
-                  "phone": null,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name": "Ramganj Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "ramgati": {
-                  "latitude": 22.6500,
-                  "longitude": 90.8500,
-                  "phone": "01320111951",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name": "Ramgati Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-
-                },
-                "kamalnagar": {
-                  "latitude": 22.7000,
-                  "longitude": 90.8000,
-                  "phone":null,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name": "Kamalnagar Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "chandragonj": {
-                  "latitude": 22.9833,
-                  "longitude": 90.8000,
-                  "phone":null,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name": "Chandragonj Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                }
-
-
-
-
-          },
-        },
-        "noakhali": {
-          "name": "Noakhali",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-                "sudharam": {
-                  "latitude": 22.9576,
-                  "longitude": 91.1063,
-                  "phone": "01713373647",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.sud@police.gov.bd",
-                  "name":"Sudharam Model Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "begumganj": {
-                  "latitude": 22.9819,
-                  "longitude": 91.1456,
-                  "phone": "01713373749",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.beg@police.gov.bd",
-                  "name":"Begumganj Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "senbagh": {
-                  "latitude": 22.9833,
-                  "longitude": 91.2500,
-                  "phone": "01713373750",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.sen@police.gov.bd",
-                  "name":"Senbagh Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "sonaimuri": {
-                  "latitude": 22.9667,
-                  "longitude": 91.3000,
-                  "phone": "01713373751",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.son@police.gov.bd",
-                  "name":"Sonaimuri Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "companyganj": {
-                  "latitude": 22.9500,
-                  "longitude": 91.3500,
-                  "phone": "01713373652",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.com@police.gov.bd",
-                  "name":"Companyganj Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "chatkhil": {
-                  "latitude": 22.9333,
-                  "longitude": 91.4000,
-                  "phone": "01713373753",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.cha@police.gov.bd",
-                  "name":"Chatkhil Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "hatia": {
-                  "latitude": 22.8500,
-                  "longitude": 91.4500,
-                  "phone": "01713373754",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.hat@police.gov.bd",
-                  "name":"Hatia Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "charjabbar": {
-                  "latitude": 22.8000,
-                  "longitude": 91.5000,
-                  "phone": "01713373755",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.cha@police.gov.bd",
-                  "name":"Charjabbar Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-
-                },
-                "kabirhat": {
-                  "latitude": 22.7500,
-                  "longitude": 91.5500,
-                  "phone": "01713373756",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.kab@police.gov.bd",
-                  "name":"Kabirhat Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "vashanchar": {
-                  "latitude": 22.7000,
-                  "longitude": 91.6000,
-                  "phone": "01713373757",
-                  "officePhone": 01577479,
-                  "email": "ocnoa.bas@police.gov.bd",
-                  "name":"Vashanchar Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                }
-          },
-        },
-        "rangamati": {
-          "name": "Rangamati",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "kotowali": {
-                  "latitude": 22.6500,
-                  "longitude": 92.2000,
-                  "phone": "01320-109481",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Kotowali Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "kaptai": {
-                  "latitude": 22.5000,
-                  "longitude": 92.2000,
-                  "phone": "01320-109559",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Kaptai Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "kaukhali": {
-                  "latitude": 22.5833,
-                  "longitude": 92.1000,
-                  "phone": "01320-109533",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Kaukhali Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "naniarchar": {
-                  "latitude": 22.7333,
-                  "longitude": 92.0333,
-                  "phone": "01320-109507",
-                  "email": "dhaka@gmail.com",
-                  "name":"Naniarchar Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "longdu": {
-                  "latitude": 22.9000,
-                  "longitude": 92.1833,
-                  "phone": "01320-109611",
-                  "email": "dhaka@gmail.com",
-                  "name":"Longdu Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "jurachhari": {
-                  "latitude": 22.5167,
-                  "longitude": 92.3333,
-                  "phone": "01320-109689",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Jurachhari Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "baghaichhari": {
-                  "latitude": 23.1000,
-                  "longitude": 92.2333,
-                  "phone": "01320-109637",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Baghaichhari Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "barkal": {
-                  "latitude": 22.6500,
-                  "longitude": 92.4000,
-                  "phone": "01842-392596",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Barkal Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "bilaichhari": {
-                  "latitude": 22.5833,
-                  "longitude": 92.3500,
-                  "phone": "01320-109741",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Bilaichhari Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "rajsthali": {
-                  "latitude": 22.4333,
-                  "longitude": 92.1333,
-                  "phone": "01320-109663",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Rajsthali Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "chandroghona": {
-                  "latitude": 22.4700,
-                  "longitude": 92.1430,
-                  "phone": "01320-109585",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Chandroghona Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-                },
-                "sajek": {
-                  "latitude": 23.2500,
-                  "longitude": 92.4333,
-                  "phone": "01320-109715",
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                  "name":"Sajek Police Station",
-                  "unions": {
-                    "Pahartali": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                    "Sholashahar": {
-                      "Latitude": 22.3569,
-                      "Longitude": 91.7832,
-                      "phone": 01701577479,
-                      "officePhone": 01577479,
-                      "email": "dhaka@gmail.com",
-                    },
-                  },
-
-                }
-
-          },
-        },
-      },
-    },
-    //rajshahi thana completed
-    "rajshahi": {
-      "name": "Rajshahi",
-      "latitude": 22.3569,
-      "longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "bogura": {
-          "name": "Bogra (Bogura)",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "boguraSadar": {
-              "latitude": 24.8510,
-              "longitude": 89.3697,
-              "phone": "01320-126601",
-              "officePhone": "051-64959",
-              "email": "oc.bogurasadar@police.gov.bd",
-              "name": "Bogura Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
                 },
               },
-            },
-            "shibganj": {
-              "latitude": 24.8167,
-              "longitude": 89.3500,
-              "phone": "01320-126627",
-              "officePhone": "051-64960",
-              "email": "oc.shibganj@police.gov.bd",
-              "name": "Shibganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sonatala": {
-              "latitude": 24.8833,
-              "longitude": 89.4500,
-              "phone": "01320-126653",
-              "officePhone": "051-64961",
-              "email": "oc.sonatala@police.gov.bd",
-              "name": "Sonatala Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "barura": {
+                "latitude": 23.3000,
+                "longitude": 91.1000,
+                "phone": "081-000006",
+                "officePhone": "081-000007",
+                "email": "barura@cumilla.gov.bd",
+                "name": "Barura Upazila",
+                "unions": {
+                  "Aganagar": {
+                    "Latitude": 23.3100,
+                    "Longitude": 91.1050,
+                    "phone": "081-000008",
+                    "officePhone": "081-000009",
+                    "email": "aganagar@cumilla.gov.bd",
+                  },
+                  "Bhubanipur": {
+                    "Latitude": 23.2950,
+                    "Longitude": 91.0950,
+                    "phone": "081-000010",
+                    "officePhone": "081-000011",
+                    "email": "bhubanipur@cumilla.gov.bd",
+                  },
                 },
               },
-            },
-            "gabtoli": {
-              "latitude": 24.8500,
-              "longitude": 89.3667,
-              "phone": "01320-126679",
-              "officePhone": "051-64962",
-              "email": "oc.gabtoli@police.gov.bd",
-              "name": "Gabtoli Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sariakandi": {
-              "latitude": 24.9000,
-              "longitude": 89.5167,
-              "phone": "01320-126705",
-              "officePhone": "051-64963",
-              "email": "oc.sariakandi@police.gov.bd",
-              "name": "Sariakandi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "brahmanpara": {
+                "latitude": 23.4000,
+                "longitude": 91.2000,
+                "phone": "081-000012",
+                "officePhone": "081-000013",
+                "email": "brahmanpara@cumilla.gov.bd",
+                "name": "Brahmanpara Upazila",
+                "unions": {
+                  "Shidlai": {
+                    "Latitude": 23.4050,
+                    "Longitude": 91.2050,
+                    "phone": "081-000014",
+                    "officePhone": "081-000015",
+                    "email": "shidlai@cumilla.gov.bd",
+                  },
+                  "Chandla": {
+                    "Latitude": 23.3950,
+                    "Longitude": 91.1950,
+                    "phone": "081-000016",
+                    "officePhone": "081-000017",
+                    "email": "chandla@cumilla.gov.bd",
+                  },
                 },
               },
-            },
-            "adamdighi": {
-              "latitude": 24.8333,
-              "longitude": 89.0500,
-              "phone": "01320-126721",
-              "officePhone": "051-64964",
-              "email": "oc.adamdighi@police.gov.bd",
-              "name": "Adamdighi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dupchanchia": {
-              "latitude": 24.8500,
-              "longitude": 89.2000,
-              "phone": "01320-126747",
-              "officePhone": "051-64965",
-              "email": "oc.dupchanchia@police.gov.bd",
-              "name": "Dupchanchia Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "burichong": {
+                "latitude": 23.4500,
+                "longitude": 91.1500,
+                "phone": "081-000018",
+                "officePhone": "081-000019",
+                "email": "burichong@cumilla.gov.bd",
+                "name": "Burichong Upazila",
+                "unions": {
+                  "Moynamoti": {
+                    "Latitude": 23.4550,
+                    "Longitude": 91.1550,
+                    "phone": "081-000020",
+                    "officePhone": "081-000021",
+                    "email": "moynamoti@cumilla.gov.bd",
+                  },
+                  "Baksimul": {
+                    "Latitude": 23.4450,
+                    "Longitude": 91.1450,
+                    "phone": "081-000022",
+                    "officePhone": "081-000023",
+                    "email": "baksimul@cumilla.gov.bd",
+                  },
                 },
               },
-            },
-            "kahaloo": {
-              "latitude": 24.8000,
-              "longitude": 89.2000,
-              "phone": "01320-126773",
-              "officePhone": "051-64966",
-              "email": "oc.kahaloo@police.gov.bd",
-              "name": "Kahaloo Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sherpur": {
-              "latitude": 24.7833,
-              "longitude": 89.3167,
-              "phone": "01320-126799",
-              "officePhone": "051-64967",
-              "email": "oc.sherpur@police.gov.bd",
-              "name": "Sherpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chandina": {
+                "latitude": 23.5000,
+                "longitude": 91.2000,
+                "phone": "081-000024",
+                "officePhone": "081-000025",
+                "email": "chandina@cumilla.gov.bd",
+                "name": "Chandina Upazila",
+                "unions": {
+                  "Suhilpur": {
+                    "Latitude": 23.5050,
+                    "Longitude": 91.2050,
+                    "phone": "081-000026",
+                    "officePhone": "081-000027",
+                    "email": "suhilpur@cumilla.gov.bd",
+                  },
+                  "Bataghasi": {
+                    "Latitude": 23.4950,
+                    "Longitude": 91.1950,
+                    "phone": "081-000028",
+                    "officePhone": "081-000029",
+                    "email": "bataghasi@cumilla.gov.bd",
+                  },
                 },
               },
-            },
-            "dhunat": {
-              "latitude": 24.8667,
-              "longitude": 89.5167,
-              "phone": "01320-126825",
-              "officePhone": "051-64968",
-              "email": "oc.dhunat@police.gov.bd",
-              "name": "Dhunat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nandigram": {
-              "latitude": 24.7500,
-              "longitude": 89.1000,
-              "phone": "01320-126851",
-              "officePhone": "051-64969",
-              "email": "oc.nandigram@police.gov.bd",
-              "name": "Nandigram Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chauddagram": {
+                "latitude": 23.2500,
+                "longitude": 91.3000,
+                "phone": "081-000030",
+                "officePhone": "081-000031",
+                "email": "chauddagram@cumilla.gov.bd",
+                "name": "Chauddagram Upazila",
+                "unions": {
+                  "Shreepur": {
+                    "Latitude": 23.2550,
+                    "Longitude": 91.3050,
+                    "phone": "081-000032",
+                    "officePhone": "081-000033",
+                    "email": "shreepur@cumilla.gov.bd",
+                  },
+                  "Kashinagar": {
+                    "Latitude": 23.2450,
+                    "Longitude": 91.2950,
+                    "phone": "081-000034",
+                    "officePhone": "081-000035",
+                    "email": "kashinagar@cumilla.gov.bd",
+                  },
                 },
               },
-            },
-            "shajahanpur": {
-              "latitude": 24.8500,
-              "longitude": 89.3833,
-              "phone": "01320-126877",
-              "officePhone": "051-64970",
-              "email": "oc.shajahanpur@police.gov.bd",
-              "name": "Shajahanpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "daudkandi": {
+                "latitude": 23.6000,
+                "longitude": 90.8000,
+                "phone": "081-000036",
+                "officePhone": "081-000037",
+                "email": "daudkandi@cumilla.gov.bd",
+                "name": "Daudkandi Upazila",
+                "unions": {
+                  "Barpara": {
+                    "Latitude": 23.6050,
+                    "Longitude": 90.8050,
+                    "phone": "081-000038",
+                    "officePhone": "081-000039",
+                    "email": "barpara@cumilla.gov.bd",
+                  },
+                  "Uttar Daudkandi": {
+                    "Latitude": 23.5950,
+                    "Longitude": 90.7950,
+                    "phone": "081-000040",
+                    "officePhone": "081-000041",
+                    "email": "uttar.daudkandi@cumilla.gov.bd",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "debidwar": {
+                "latitude": 23.5500,
+                "longitude": 91.1000,
+                "phone": "081-000042",
+                "officePhone": "081-000043",
+                "email": "debidwar@cumilla.gov.bd",
+                "name": "Debidwar Upazila",
+                "unions": {
+                  "Subil": {
+                    "Latitude": 23.5550,
+                    "Longitude": 91.1050,
+                    "phone": "081-000044",
+                    "officePhone": "081-000045",
+                    "email": "subil@cumilla.gov.bd",
+                  },
+                  "Rasulpur": {
+                    "Latitude": 23.5450,
+                    "Longitude": 91.0950,
+                    "phone": "081-000046",
+                    "officePhone": "081-000047",
+                    "email": "rasulpur@cumilla.gov.bd",
+                  },
+                },
+              },
+              "homna": {
+                "latitude": 23.6500,
+                "longitude": 90.9000,
+                "phone": "081-000048",
+                "officePhone": "081-000049",
+                "email": "homna@cumilla.gov.bd",
+                "name": "Homna Upazila",
+                "unions": {
+                  "Mathabhanga": {
+                    "Latitude": 23.6550,
+                    "Longitude": 90.9050,
+                    "phone": "081-000050",
+                    "officePhone": "081-000051",
+                    "email": "mathabhanga@cumilla.gov.bd",
+                  },
+                  "Ghagutia": {
+                    "Latitude": 23.6450,
+                    "Longitude": 90.8950,
+                    "phone": "081-000052",
+                    "officePhone": "081-000053",
+                    "email": "ghagutia@cumilla.gov.bd",
+                  },
+                },
+              },
+              "laksam": {
+                "latitude": 23.2000,
+                "longitude": 91.1000,
+                "phone": "081-000054",
+                "officePhone": "081-000055",
+                "email": "laksam@cumilla.gov.bd",
+                "name": "Laksam Upazila",
+                "unions": {
+                  "Bakoi": {
+                    "Latitude": 23.2050,
+                    "Longitude": 91.1050,
+                    "phone": "081-000056",
+                    "officePhone": "081-000057",
+                    "email": "bakoi@cumilla.gov.bd",
+                  },
+                  "Mudaffarganj": {
+                    "Latitude": 23.1950,
+                    "Longitude": 91.0950,
+                    "phone": "081-000058",
+                    "officePhone": "081-000059",
+                    "email": "mudaffarganj@cumilla.gov.bd",
+                  },
+                },
+              },
+              "comilla_sadar_dakshin": {
+                "latitude": 23.4300,
+                "longitude": 91.1700,
+                "phone": "081-000060",
+                "officePhone": "081-000061",
+                "email": "sadar.dakshin@cumilla.gov.bd",
+                "name": "Comilla Sadar Dakshin Upazila",
+                "unions": {
+                  "Bagmara": {
+                    "Latitude": 23.4350,
+                    "Longitude": 91.1750,
+                    "phone": "081-000062",
+                    "officePhone": "081-000063",
+                    "email": "bagmara@cumilla.gov.bd",
+                  },
+                  "Bholain": {
+                    "Latitude": 23.4250,
+                    "Longitude": 91.1650,
+                    "phone": "081-000064",
+                    "officePhone": "081-000065",
+                    "email": "bholain@cumilla.gov.bd",
+                  },
+                },
+              },
+              "lalmai": {
+                "latitude": 23.4100,
+                "longitude": 91.1500,
+                "phone": "081-000066",
+                "officePhone": "081-000067",
+                "email": "lalmai@cumilla.gov.bd",
+                "name": "Lalmai Upazila",
+                "unions": {
+                  "Perul": {
+                    "Latitude": 23.4150,
+                    "Longitude": 91.1550,
+                    "phone": "081-000068",
+                    "officePhone": "081-000069",
+                    "email": "perul@cumilla.gov.bd",
+                  },
+                  "Bagmara": {
+                    "Latitude": 23.4050,
+                    "Longitude": 91.1450,
+                    "phone": "081-000070",
+                    "officePhone": "081-000071",
+                    "email": "bagmara.lalmai@cumilla.gov.bd",
+                  },
+                },
+              },
+              "monohorgonj": {
+                "latitude": 23.2700,
+                "longitude": 91.0800,
+                "phone": "081-000072",
+                "officePhone": "081-000073",
+                "email": "monohorgonj@cumilla.gov.bd",
+                "name": "Monohorgonj Upazila",
+                "unions": {
+                  "Chitodda": {
+                    "Latitude": 23.2750,
+                    "Longitude": 91.0850,
+                    "phone": "081-000074",
+                    "officePhone": "081-000075",
+                    "email": "chitodda@cumilla.gov.bd",
+                  },
+                  "Bipulashar": {
+                    "Latitude": 23.2650,
+                    "Longitude": 91.0750,
+                    "phone": "081-000076",
+                    "officePhone": "081-000077",
+                    "email": "bipulashar@cumilla.gov.bd",
+                  },
+                },
+              },
+              "meghna": {
+                "latitude": 23.6000,
+                "longitude": 90.9000,
+                "phone": "081-000078",
+                "officePhone": "081-000079",
+                "email": "meghna@cumilla.gov.bd",
+                "name": "Meghna Upazila",
+                "unions": {
+                  "Meghna": {
+                    "Latitude": 23.6050,
+                    "Longitude": 90.9050,
+                    "phone": "081-000080",
+                    "officePhone": "081-000081",
+                    "email": "meghna.union@cumilla.gov.bd",
+                  },
+                  "Gobindapur": {
+                    "Latitude": 23.5950,
+                    "Longitude": 90.8950,
+                    "phone": "081-000082",
+                    "officePhone": "081-000083",
+                    "email": "gobindapur@cumilla.gov.bd",
+                  },
+                },
+              },
+              "muradnagar": {
+                "latitude": 23.5500,
+                "longitude": 91.0500,
+                "phone": "081-000084",
+                "officePhone": "081-000085",
+                "email": "muradnagar@cumilla.gov.bd",
+                "name": "Muradnagar Upazila",
+                "unions": {
+                  "Bangra": {
+                    "Latitude": 23.5550,
+                    "Longitude": 91.0550,
+                    "phone": "081-000086",
+                    "officePhone": "081-000087",
+                    "email": "bangra@cumilla.gov.bd",
+                  },
+                  "Purbadhair": {
+                    "Latitude": 23.5450,
+                    "Longitude": 91.0450,
+                    "phone": "081-000088",
+                    "officePhone": "081-000089",
+                    "email": "purbadhair@cumilla.gov.bd",
+                  },
+                },
+              },
+              "nangalkot": {
+                "latitude": 23.2800,
+                "longitude": 91.1500,
+                "phone": "081-000090",
+                "officePhone": "081-000091",
+                "email": "nangalkot@cumilla.gov.bd",
+                "name": "Nangalkot Upazila",
+                "unions": {
+                  "Adra": {
+                    "Latitude": 23.2850,
+                    "Longitude": 91.1550,
+                    "phone": "081-000092",
+                    "officePhone": "081-000093",
+                    "email": "adra@cumilla.gov.bd",
+                  },
+                  "Jodda": {
+                    "Latitude": 23.2750,
+                    "Longitude": 91.1450,
+                    "phone": "081-000094",
+                    "officePhone": "081-000095",
+                    "email": "jodda@cumilla.gov.bd",
+                  },
+                },
+              },
+              "titas": {
+                "latitude": 23.5800,
+                "longitude": 90.8500,
+                "phone": "081-000096",
+                "officePhone": "081-000097",
+                "email": "titas@cumilla.gov.bd",
+                "name": "Titas Upazila",
+                "unions": {
+                  "Titas": {
+                    "Latitude": 23.5850,
+                    "Longitude": 90.8550,
+                    "phone": "081-000098",
+                    "officePhone": "081-000099",
+                    "email": "titas.union@cumilla.gov.bd",
+                  },
+                  "Zinglatoli": {
+                    "Latitude": 23.5750,
+                    "Longitude": 90.8450,
+                    "phone": "081-000100",
+                    "officePhone": "081-000101",
+                    "email": "zinglatoli@cumilla.gov.bd",
+                  },
+                },
+              },
+
+              "Pahartali": {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "Unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "joypurhat": {
-          "name": "Joypurhat",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "joypurhatSadar": {
-              "latitude": 25.0968,
-              "longitude": 89.0227,
-              "phone": "01320-127569",
-              "officePhone": "0571-62000",
-              "email": "oc.joypurhatsadar@police.gov.bd",
-              "name": "Joypurhat Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "panchbibi": {
-              "latitude": 25.1833,
-              "longitude": 89.1000,
-              "phone": "01720-127595",
-              "officePhone": "0571-62001",
-              "email": "oc.panchbibi@police.gov.bd",
-              "name": "Panchbibi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "coxsBazar": {
+            "name": "Cox\'s Bazar",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sadar": {
+                "latitude": 21.4272,
+                "longitude": 92.0058,
+                "phone": "01320-108471",
+                "officePhone": 01577479,
+                "email": "oc.coxsbazar@police.gov.bd",
+                "name": "Sadar Model Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "khetlal": {
-              "latitude": 25.0167,
-              "longitude": 89.1667,
-              "phone": "01720-127621",
-              "officePhone": "0571-62002",
-              "email": "oc.khetlal@police.gov.bd",
-              "name": "Khetlal Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "akkelpur": {
-              "latitude": 25.1000,
-              "longitude": 89.0000,
-              "phone": "01720-127673",
-              "officePhone": "0571-62003",
-              "email": "oc.akkelpur@police.gov.bd",
-              "name": "Akkelpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "eidgaon": {
+                "latitude": 21.3667,
+                "longitude": 92.0167,
+                "phone": "01320-108475",
+                "officePhone": 01577479,
+                "email": "oc.eidgaon@police.gov.bd",
+                "name": "Eidgaon Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kalai": {
-              "latitude": 25.0667,
-              "longitude": 89.2000,
-              "phone": "01720-127647",
-              "officePhone": "0571-62004",
-              "email": "oc.kalai@police.gov.bd",
-              "name": "Kalai Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "naogaon": {
-          "name": "Naogaon",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "naogaonSadar": {
-              "latitude": 24.7895,
-              "longitude": 88.9550,
-              "phone": "01713-373836",
-              "officePhone": "0741-62201",
-              "email": "ocnao.nao@police.gov.bd",
-              "name": "Naogaon Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ukhiya": {
+                "latitude": 21.2833,
+                "longitude": 92.1000,
+                "phone": "01320-108523",
+                "officePhone": 01577479,
+                "email": "oc.ukhiya@police.gov.bd",
+                "name": "Ukhiya Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "raninagar": {
-              "latitude": 24.7000,
-              "longitude": 88.9500,
-              "phone": "01713-373837",
-              "officePhone": "07433-56004",
-              "email": "ocnao.ran@police.gov.bd",
-              "name": "Raninagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "atrai": {
-              "latitude": 24.5833,
-              "longitude": 88.9500,
-              "phone": "01713-373838",
-              "officePhone": "07422-71011",
-              "email": "ocnao.atr@police.gov.bd",
-              "name": "Atrai Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ramu": {
+                "latitude": 21.4500,
+                "longitude": 92.1000,
+                "phone": "01320-108497",
+                "officePhone": 01577479,
+                "email": "oc.ramu@police.gov.bd",
+                "name": "Ramu Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "badalgachhi": {
-              "latitude": 24.9645,
-              "longitude": 88.9051,
-              "phone": "01320-123694",
-              "officePhone": "07423-56002",
-              "email": "ocnao.bad@police.gov.bd",
-              "name": "Badalgachhi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "mohadevpur": {
-              "latitude": 24.8500,
-              "longitude": 88.8500,
-              "phone": "01320-123720",
-              "officePhone": "07426-75004",
-              "email": "ocnao.mah@police.gov.bd",
-              "name": "Mohadevpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "teknaf": {
+                "latitude": 20.8667,
+                "longitude": 92.3000,
+                "phone": "01320-108549",
+                "officePhone": 01577479,
+                "email": "oc.teknaf@police.gov.bd",
+                "name": "Teknaf Model Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "niamatpur": {
-              "latitude": 24.7500,
-              "longitude": 88.8500,
-              "phone": "01713-373843",
-              "officePhone": "07427-56012",
-              "email": "ocnao.nya@police.gov.bd",
-              "name": "Niamatpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "manda": {
-              "latitude": 24.6833,
-              "longitude": 88.7500,
-              "phone": "01713-373844",
-              "officePhone": "07425-62013",
-              "email": "ocnao.man@police.gov.bd",
-              "name": "Manda Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "moheshkhali": {
+                "latitude": 21.8167,
+                "longitude": 91.9500,
+                "phone": "01320-108627",
+                "officePhone": 01577479,
+                "email": "oc.moheshkhali@police.gov.bd",
+                "name": "Moheshkhali Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "patnitala": {
-              "latitude": 25.0333,
-              "longitude": 88.8500,
-              "phone": "01713-373842",
-              "officePhone": "07428-63015",
-              "email": "ocnao.pat@police.gov.bd",
-              "name": "Patnitala Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dhamoirhat": {
-              "latitude": 25.1000,
-              "longitude": 88.7500,
-              "phone": "01320-123668",
-              "officePhone": "07424-56003",
-              "email": "ocnao.dah@police.gov.bd",
-              "name": "Dhamoirhat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chakaria": {
+                "latitude": 21.7833,
+                "longitude": 92.0667,
+                "phone": "01320-108575",
+                "officePhone": 01577479,
+                "email": "oc.chakaria@police.gov.bd",
+                "name": "Chakaria Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "sapahar": {
-              "latitude": 25.1167,
-              "longitude": 88.6000,
-              "phone": "01713-373845",
-              "officePhone": "07432-74014",
-              "email": "ocnao.sha@police.gov.bd",
-              "name": "Sapahar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kutubdia": {
+                "latitude": 21.8167,
+                "longitude": 91.8500,
+                "phone": "01320-108601",
+                "officePhone": 01577479,
+                "email": "oc.kutubdia@police.gov.bd",
+                "name": "Kutubdia Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "porsha": {
-              "latitude": 25.0000,
-              "longitude": 88.5500,
-              "phone": "01320-123850",
-              "officePhone": "07429-56022",
-              "email": "ocnao.por@police.gov.bd",
-              "name": "Porsha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "pekua": {
+                "latitude": 21.7833,
+                "longitude": 91.9500,
+                "phone": "01320-108649",
+                "officePhone": 01577479,
+                "email": "oc.pekua@police.gov.bd",
+                "name": "Pekua Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "natore": {
-          "name": "Natore",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "natoreSadar": {
-              "latitude": 24.4139,
-              "longitude": 88.9300,
-              "phone": "01320-124574",
-              "officePhone": "0771-66922",
-              "email": "ocnat.nat@police.gov.bd",
-              "name": "Natore Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "singra": {
-              "latitude": 24.5000,
-              "longitude": 89.1667,
-              "phone": "01320-124600",
-              "officePhone": "02588875733",
-              "email": "ocnat.sin@police.gov.bd",
-              "name": "Singra Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "feni": {
+            "name": "Feni",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "feni": {
+                "latitude": 23.0159,
+                "longitude": 91.3966,
+                "phone": "01320-112976",
+                "email": "ocfen.fen@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Feni Model Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bagatipara": {
-              "latitude": 24.3833,
-              "longitude": 88.9500,
-              "phone": "01320-124626",
-              "officePhone": "02588875004",
-              "email": "ocnat.bag@police.gov.bd",
-              "name": "Bagatipara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "gurudaspur": {
-              "latitude": 24.4333,
-              "longitude": 89.0000,
-              "phone": "01320-124652",
-              "officePhone": "02588874415",
-              "email": "ocnat.gur@police.gov.bd",
-              "name": "Lalpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "sonagazi": {
+                "latitude": 22.9333,
+                "longitude": 91.4167,
+                "phone": "01320-113028",
+                "email": "ocfen.sho@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Sonagazi Model Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "lalpur": {
-              "latitude": 24.1833,
-              "longitude": 88.9833,
-              "phone": "01320-124678",
-              "officePhone": "02588875409",
-              "email": "ocnat.lal@police.gov.bd",
-              "name": "name",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "baraigram": {
-              "latitude": 24.2500,
-              "longitude": 89.0500,
-              "phone": "01320-124704",
-              "officePhone": "0000000",
-              "email": "ocnat.bur@police.gov.bd",
-              "name": "Baraigram Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "fulgazi": {
+                "latitude": 23.1333,
+                "longitude": 91.4500,
+                "phone": "01320-113080",
+                "email": "ocfen.ful@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Fulgazi Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "naldanga": {
-              "latitude": 24.4000,
-              "longitude": 88.9500,
-              "phone": "01320-124730",
-              "officePhone": "02588876603",
-              "email": "ocnat.nol@police.gov.bd",
-              "name": "Naldanga Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "parshuram": {
+                "latitude": 23.2000,
+                "longitude": 91.4167,
+                "phone": "01320-113106",
+                "email": "ocfen.por@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Parshuram Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "chhagalnaiya": {
+                "latitude": 23.0167,
+                "longitude": 91.5000,
+                "phone": "01320-113002",
+                "email": "ocfen.cha@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Chhagalnaiya Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "daganbhuiyan": {
+                "Latitude": 23.0500,
+                "Longitude": 91.3833,
+                "phone": "01320-113002",
+                "email": "ocfen.dag@police.gov.bd",
+                "officePhone": 01577479,
+                "name": "Daganbhuiyan Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "chapainawabganj": {
-          "name": "Chapainawabganj",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "chapainawabganjSadar": {
-              "latitude": 24.5960,
-              "longitude": 88.2775,
-              "phone": "01320-125570",
-              "officePhone": "0781-62000",
-              "email": "ocnaw.naw@police.gov.bd",
-              "name": "Chapainawabganj Sadar Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "shibganj": {
-              "latitude": 24.6833,
-              "longitude": 88.1500,
-              "phone": "01320-125596",
-              "officePhone": "0782-62001",
-              "email": "ocnaw.shi@police.gov.bd",
-              "name": "Shibganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "khagrachari": {
+            "name": "Khagrachari",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "khagrachari": {
+                "latitude": 23.1193,
+                "longitude": 91.9840,
+                "phone": "01320109981",
+                "officePhone": "01320109986",
+                "name": "Khagrachari Sadar Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "gomostapur": {
-              "latitude": 24.7833,
-              "longitude": 88.2500,
-              "phone": "01320-125622",
-              "officePhone": "0783-62002",
-              "email": "ocnaw.gom@police.gov.bd",
-              "name": "Gomostapur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nachole": {
-              "latitude": 24.7000,
-              "longitude": 88.3000,
-              "phone": "01320-125648",
-              "officePhone": "0784-62003",
-              "email": "ocnaw.nac@police.gov.bd",
-              "name": "Nachole Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "matiranga": {
+                "latitude": 23.0000,
+                "longitude": 91.9000,
+                "phone": "01755551150",
+                "officePhone": "01320110116",
+                "name": "Matiranga Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bholahat": {
-              "latitude": 24.8167,
-              "longitude": 88.2000,
-              "phone": "01320-125674",
-              "officePhone": "0785-62004",
-              "email": "ocnaw.bho@police.gov.bd",
-              "name": "Bholahat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "pabna": {
-          "name": "Pabna",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "pabnaSadar": {
-              "latitude": 24.0064,
-              "longitude": 89.2372,
-              "phone": "01320-128586",
-              "officePhone": "0731-65005",
-              "email": "ocpabna@police.gov.bd",
-              "name": "Pabna Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "dighinala": {
+                "latitude": 23.3000,
+                "longitude": 92.0000,
+                "phone": "01320110007",
+                "officePhone": "01320110012",
+                "name": "Dighinala Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "ishwardi": {
-              "latitude": 24.1333,
-              "longitude": 89.0667,
-              "phone": "01320-128612",
-              "officePhone": "0732-65006",
-              "email": "ocishwardi@police.gov.bd",
-              "name": "Ishwardi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "ataikula": {
-              "latitude": 24.0500,
-              "longitude": 89.2500,
-              "phone": "01320-128820",
-              "officePhone": "0731-65007",
-              "email": "ocataikulapabna@police.gov.bd",
-              "name": "Ataikula Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "panchari": {
+                "latitude": 23.2000,
+                "longitude": 91.9500,
+                "phone": "01320110059",
+                "officePhone": "01320110064",
+                "name": "Panchari Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "atghoria": {
-              "latitude": 24.1000,
-              "longitude": 89.3000,
-              "phone": "01320-128638",
-              "officePhone": "0731-65008",
-              "email": "ocartghariapabna@police.gov.bd",
-              "name": "Atghoria Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "chatmohar": {
-              "latitude": 24.2167,
-              "longitude": 89.2167,
-              "phone": "01320-128664",
-              "officePhone": "0731-65009",
-              "email": "occhatmoharpabna@police.gov.bd",
-              "name": "Chatmohar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "mahalchari": {
+                "latitude": 23.1000,
+                "longitude": 91.9000,
+                "phone": "01320110033",
+                "officePhone": "01320110038",
+                "name": "Mahalchari Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bhangura": {
-              "latitude": 24.2500,
-              "longitude": 89.2000,
-              "phone": "01320-128690",
-              "officePhone": "0731-65010",
-              "email": "ocvanggurapabna@police.gov.bd",
-              "name": "Bhangura Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sujanagar": {
-              "latitude": 24.0500,
-              "longitude": 89.1500,
-              "phone": "01320-128742",
-              "officePhone": "0731-65011",
-              "email": "ocsujanagarpabna@police.gov.bd",
-              "name": "Sujanagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "guimara": {
+                "latitude": 23.0500,
+                "longitude": 91.9500,
+                "phone": "01320110189",
+                "officePhone": "01320110194",
+                "name": "Guimara Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bera": {
-              "latitude": 24.0833,
-              "longitude": 89.6500,
-              "phone": "01320-128768",
-              "officePhone": "0731-65012",
-              "email": "ocberapabna@police.gov.bd",
-              "name": "Bera Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "santhia": {
-              "latitude": 24.0500,
-              "longitude": 89.4000,
-              "phone": "01320-128794",
-              "officePhone": "0731-65013",
-              "email": "ocsanthiapabna@police.gov.bd",
-              "name": "Santhia Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "manikchari": {
+                "latitude": 23.1500,
+                "longitude": 91.8500,
+                "phone": "01320110137",
+                "officePhone": "01320110142",
+                "name": "Manikchari Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "faridpur": {
-              "latitude": 24.0500,
-              "longitude": 89.1000,
-              "phone": "01320-128716",
-              "officePhone": "0731-65014",
-              "email": "ocfaridpurpabna@police.gov.bd",
-              "name": "Faridpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "laxmichari": {
+                "latitude": 23.2500,
+                "longitude": 91.8500,
+                "phone": "01320110163",
+                "officePhone": "01320110168",
+                "name": "Laxmichari Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "aminpur": {
-              "latitude": 24.0333,
-              "longitude": 89.2000,
-              "phone": "01320-128846",
-              "officePhone": "0731-65015",
-              "email": "ocaminpurpabna@police.gov.bd",
-              "name": "Aminpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ramgarh": {
+                "latitude": 23.1000,
+                "longitude": 91.7000,
+                "phone": "01320110085",
+                "officePhone": "01320110090",
+                "name": "Ramgarh Police Station",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "detectiveBranch": {
+                "latitude": 23.1193,
+                "longitude": 91.9840,
+                "phone": "01320110215",
+                "officePhone": "01320110215",
+                "name": "Detective Branch (DB)",
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "rajshahi": {
-          "name": "Rajshahi",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "godagari": {
-              "latitude": 24.4667,
-              "longitude": 88.6000,
-              "phone": "01320-122594",
-              "officePhone": "0722-556003",
-              "email": "ocraj.god@police.gov.bd",
-              "name": "Godagari Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "tanore": {
-              "latitude": 24.5833,
-              "longitude": 88.5167,
-              "phone": "01320-122620",
-              "officePhone": "0247-851011",
-              "email": "ocraj.tan@police.gov.bd",
-              "name": "Tanore Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "lakshmipur": {
+            "name": "Lakshmipur",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "lakshmipurSadar": {
+                "latitude": 22.9500,
+                "longitude": 90.8250,
+                "phone": "01320111900",
+                "officePhone": 01320111946,
+                "email": "dhaka@gmail.com",
+                "name": "Lakshmipur Sadar Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mohanpur": {
-              "latitude": 24.6167,
-              "longitude": 88.8500,
-              "phone": "01320-122646",
-              "officePhone": "0722-656001",
-              "email": "ocraj.moh@police.gov.bd",
-              "name": "Mohanpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bagmara": {
-              "latitude": 24.7000,
-              "longitude": 88.8500,
-              "phone": "01320-122698",
-              "officePhone": "0722-256006",
-              "email": "ocraj.bam@police.gov.bd",
-              "name": "Bagmara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "raipur": {
+                "latitude": 23.0333,
+                "longitude": 90.7667,
+                "phone": "01320111956",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Raipur Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "puthia": {
-              "latitude": 24.3667,
-              "longitude": 88.8333,
-              "phone": "01320-122672",
-              "officePhone": "0722-856103",
-              "email": "ocraj.put@police.gov.bd",
-              "name": "Puthia Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "durgapur": {
-              "latitude": 24.3833,
-              "longitude": 88.9500,
-              "phone": "01320-122724",
-              "officePhone": "0722-456004",
-              "email": "ocraj.dur@police.gov.bd",
-              "name": "Durgapur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ramganj": {
+                "latitude": 23.1000,
+                "longitude": 90.9500,
+                "phone": null,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Ramganj Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bagha": {
-              "latitude": 24.2000,
-              "longitude": 88.8500,
-              "phone": "01320-122776",
-              "officePhone": "0723-356012",
-              "email": "ocraj.bag@police.gov.bd",
-              "name": "Bagha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ramgati": {
+                "latitude": 22.6500,
+                "longitude": 90.8500,
+                "phone": "01320111951",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Ramgati Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "charghat": {
-              "latitude": 24.2500,
-              "longitude": 88.8500,
-              "phone": "01320-122750",
-              "officePhone": "0722-356033",
-              "email": "ocraj.cha@police.gov.bd",
-              "name": "Charghat Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kamalnagar": {
+                "latitude": 22.7000,
+                "longitude": 90.8000,
+                "phone": null,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Kamalnagar Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "chandragonj": {
+                "latitude": 22.9833,
+                "longitude": 90.8000,
+                "phone": null,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Chandragonj Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "sirajganj": {
-          "name": "Sirajganj",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "sirajganj": {
-              "latitude": 24.4560,
-              "longitude": 89.7000,
-              "phone": "01320-129590",
-              "officePhone": 01577479,
-              "email": "ocsir.sir@police.gov.bd",
-              "name": "Sirajganj Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "noakhali": {
+            "name": "Noakhali",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sudharam": {
+                "latitude": 22.9576,
+                "longitude": 91.1063,
+                "phone": "01713373647",
+                "officePhone": 01577479,
+                "email": "ocnoa.sud@police.gov.bd",
+                "name": "Sudharam Model Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "begumganj": {
+                "latitude": 22.9819,
+                "longitude": 91.1456,
+                "phone": "01713373749",
+                "officePhone": 01577479,
+                "email": "ocnoa.beg@police.gov.bd",
+                "name": "Begumganj Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "senbagh": {
+                "latitude": 22.9833,
+                "longitude": 91.2500,
+                "phone": "01713373750",
+                "officePhone": 01577479,
+                "email": "ocnoa.sen@police.gov.bd",
+                "name": "Senbagh Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sonaimuri": {
+                "latitude": 22.9667,
+                "longitude": 91.3000,
+                "phone": "01713373751",
+                "officePhone": 01577479,
+                "email": "ocnoa.son@police.gov.bd",
+                "name": "Sonaimuri Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "companyganj": {
+                "latitude": 22.9500,
+                "longitude": 91.3500,
+                "phone": "01713373652",
+                "officePhone": 01577479,
+                "email": "ocnoa.com@police.gov.bd",
+                "name": "Companyganj Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "chatkhil": {
+                "latitude": 22.9333,
+                "longitude": 91.4000,
+                "phone": "01713373753",
+                "officePhone": 01577479,
+                "email": "ocnoa.cha@police.gov.bd",
+                "name": "Chatkhil Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "hatia": {
+                "latitude": 22.8500,
+                "longitude": 91.4500,
+                "phone": "01713373754",
+                "officePhone": 01577479,
+                "email": "ocnoa.hat@police.gov.bd",
+                "name": "Hatia Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "charjabbar": {
+                "latitude": 22.8000,
+                "longitude": 91.5000,
+                "phone": "01713373755",
+                "officePhone": 01577479,
+                "email": "ocnoa.cha@police.gov.bd",
+                "name": "Charjabbar Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kabirhat": {
+                "latitude": 22.7500,
+                "longitude": 91.5500,
+                "phone": "01713373756",
+                "officePhone": 01577479,
+                "email": "ocnoa.kab@police.gov.bd",
+                "name": "Kabirhat Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "vashanchar": {
+                "latitude": 22.7000,
+                "longitude": 91.6000,
+                "phone": "01713373757",
+                "officePhone": 01577479,
+                "email": "ocnoa.bas@police.gov.bd",
+                "name": "Vashanchar Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "kazipur": {
-              "latitude": 24.7833,
-              "longitude": 89.6500,
-              "phone": "01320-129720",
-              "officePhone": 01577479,
-              "email": "ocsir.kaz@police.gov.bd",
-              "name": "Kazipur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "belkuchi": {
-              "latitude": 24.4167,
-              "longitude": 89.6833,
-              "phone": "01320-129798",
-              "officePhone": 01577479,
-              "email": "ocsir.bel@police.gov.bd",
-              "name": "Belkuchi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "rangamati": {
+            "name": "Rangamati",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "kotowali": {
+                "latitude": 22.6500,
+                "longitude": 92.2000,
+                "phone": "01320-109481",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Kotowali Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bangabandhu": {
-              "latitude": 24.4500,
-              "longitude": 89.7667,
-              "phone": "01320-129824",
-              "officePhone": 01577479,
-              "email": "ocsir.bbw@police.gov.bd",
-              "name": "Bangabandhu Bridge West Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "raiganj": {
-              "latitude": 24.6000,
-              "longitude": 89.3000,
-              "phone": "01320-129772",
-              "officePhone": 01577479,
-              "email": "ocsir.rai@police.gov.bd",
-              "name": "Raiganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kaptai": {
+                "latitude": 22.5000,
+                "longitude": 92.2000,
+                "phone": "01320-109559",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Kaptai Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "tarash": {
-              "latitude": 24.5833,
-              "longitude": 89.2000,
-              "phone": "01320-129694",
-              "officePhone": 01577479,
-              "email": "ocsir.tar@police.gov.bd",
-              "name": "Tarash Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kamarkhand": {
-              "latitude": 24.4500,
-              "longitude": 89.6000,
-              "phone": "01320-129746",
-              "officePhone": 01577479,
-              "email": "ocsir.kam@police.gov.bd",
-              "name": "Kamarkhand Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kaukhali": {
+                "latitude": 22.5833,
+                "longitude": 92.1000,
+                "phone": "01320-109533",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Kaukhali Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "salonga": {
-              "latitude": 24.4000,
-              "longitude": 89.5500,
-              "phone": "01320-129850",
-              "officePhone": 01577479,
-              "email": "ocsir.sal@police.gov.bd",
-              "name": "Salonga Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "ullapara": {
-              "latitude": 24.3000,
-              "longitude": 89.6000,
-              "phone": "01320-129642",
-              "officePhone": 01577479,
-              "email": "ocsir.ull@police.gov.bd",
-              "name": "Ullapara Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "naniarchar": {
+                "latitude": 22.7333,
+                "longitude": 92.0333,
+                "phone": "01320-109507",
+                "email": "dhaka@gmail.com",
+                "name": "Naniarchar Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "shahjadpur": {
-              "latitude": 24.1833,
-              "longitude": 89.6000,
-              "phone": "01320-129616",
-              "officePhone": 01577479,
-              "email": "ocsir.sha@police.gov.bd",
-              "name": "Shahjadpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "enayetpur": {
-              "latitude": 24.2167,
-              "longitude": 89.5833,
-              "phone": "01320-129876",
-              "officePhone": 01577479,
-              "email": "ocsir.ena@police.gov.bd",
-              "name": "Enayetpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "longdu": {
+                "latitude": 22.9000,
+                "longitude": 92.1833,
+                "phone": "01320-109611",
+                "email": "dhaka@gmail.com",
+                "name": "Longdu Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "chauhali": {
-              "latitude": 24.0000,
-              "longitude": 89.7500,
-              "phone": "01320-129902",
-              "officePhone": 01577479,
-              "email": "ocsir.cha@police.gov.bd",
-              "name": "Chauhali Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "jurachhari": {
+                "latitude": 22.5167,
+                "longitude": 92.3333,
+                "phone": "01320-109689",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Jurachhari Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "baghaichhari": {
+                "latitude": 23.1000,
+                "longitude": 92.2333,
+                "phone": "01320-109637",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Baghaichhari Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "barkal": {
+                "latitude": 22.6500,
+                "longitude": 92.4000,
+                "phone": "01842-392596",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Barkal Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bilaichhari": {
+                "latitude": 22.5833,
+                "longitude": 92.3500,
+                "phone": "01320-109741",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Bilaichhari Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rajsthali": {
+                "latitude": 22.4333,
+                "longitude": 92.1333,
+                "phone": "01320-109663",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Rajsthali Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "chandroghona": {
+                "latitude": 22.4700,
+                "longitude": 92.1430,
+                "phone": "01320-109585",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Chandroghona Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sajek": {
+                "latitude": 23.2500,
+                "longitude": 92.4333,
+                "phone": "01320-109715",
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "name": "Sajek Police Station",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
@@ -6556,2725 +4709,1795 @@ var bdInformations = {
         },
       },
     },
-    //khulna thana completed
-    "khulna": {
-      "name": "Khulna",
-      "Latitude": 22.3569,
-      "Longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "Districts": {
-        "bagerhat": {
-          "name": "Bagerhat",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "bagerhatSadar": {
-              "latitude": 22.6510,
-              "longitude": 89.7850,
-              "phone": "01320141179",
-              "officePhone": "0468-62707",
-              "email": "bagerhatmodelps@gmail.com",
-              "name": "Bagerhat Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "fakirhat": {
-              "latitude": 22.7000,
-              "longitude": 89.8000,
-              "phone": "01320141205",
-              "officePhone": null,
-              "email": "fakirhatps@gmail.com",
-              "name": "Fakirhat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+    {
+      "rajshahi": {
+        "name": "Rajshahi",
+        "latitude": 22.3569,
+        "longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "bogura": {
+            "name": "Bogra (Bogura)",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "boguraSadar": {
+                "latitude": 24.8510,
+                "longitude": 89.3697,
+                "phone": "01320-126601",
+                "officePhone": "051-64959",
+                "email": "oc.bogurasadar@police.gov.bd",
+                "name": "Bogura Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mollahat": {
-              "latitude": 22.8500,
-              "longitude": 89.8500,
-              "phone": "01320141231",
-              "officePhone": "04655-56010",
-              "email": "mollahatps@gmail.com",
-              "name": "Mollahat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "chitalmari": {
-              "latitude": 22.7500,
-              "longitude": 89.9000,
-              "phone": "01320141257",
-              "officePhone": "04652-56003",
-              "email": "chitalmarips@gmail.com",
-              "name": "Chitalmari Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "shibganj": {
+                "latitude": 24.8167,
+                "longitude": 89.3500,
+                "phone": "01320-126627",
+                "officePhone": "051-64960",
+                "email": "oc.shibganj@police.gov.bd",
+                "name": "Shibganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kachua": {
-              "latitude": 22.7000,
-              "longitude": 89.9500,
-              "phone": "01320141283",
-              "officePhone": "04654-56014",
-              "email": "kachuaps@gmail.com",
-              "name": "name",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "morrelganj": {
-              "latitude": 22.5000,
-              "longitude": 89.8500,
-              "phone": "01320141309",
-              "officePhone": null,
-              "email": "morrelganjps@gmail.com",
-              "name": "Kachua Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "sonatala": {
+                "latitude": 24.8833,
+                "longitude": 89.4500,
+                "phone": "01320-126653",
+                "officePhone": "051-64961",
+                "email": "oc.sonatala@police.gov.bd",
+                "name": "Sonatala Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "sharankhola": {
-              "latitude": 22.3000,
-              "longitude": 89.8000,
-              "phone": "01320141335",
-              "officePhone": "04659-56007",
-              "email": "shoronkholaps@gmail.com",
-              "name": "Sharankhola Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "mongla": {
-              "latitude": 22.4833,
-              "longitude": 89.6000,
-              "phone": "01320141361",
-              "officePhone": "04658-73222",
-              "email": "monglaps@gmail.com",
-              "name": "Mongla Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "gabtoli": {
+                "latitude": 24.8500,
+                "longitude": 89.3667,
+                "phone": "01320-126679",
+                "officePhone": "051-64962",
+                "email": "oc.gabtoli@police.gov.bd",
+                "name": "Gabtoli Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "rampal": {
-              "latitude": 22.6500,
-              "longitude": 89.6500,
-              "phone": "01320141387",
-              "officePhone": null,
-              "email": "rampalps@gmail.com",
-              "name": "Rampal Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "chuadanga": {
-          "name": "Chuadanga",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "chuadangaSadar": {
-              "latitude": 23.6400,
-              "longitude": 88.8400,
-              "phone": "01320-148169",
-              "officePhone": "0761-62252",
-              "email": null,
-              "name": "Chuadanga Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "sariakandi": {
+                "latitude": 24.9000,
+                "longitude": 89.5167,
+                "phone": "01320-126705",
+                "officePhone": "051-64963",
+                "email": "oc.sariakandi@police.gov.bd",
+                "name": "Sariakandi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "alamdanga": {
-              "latitude": 23.7500,
-              "longitude": 88.9500,
-              "phone": "01320-148195",
-              "officePhone": "07622-56242",
-              "email": null,
-              "name": "Alamdanga Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "jibannagar": {
-              "latitude": 23.5500,
-              "longitude": 88.7500,
-              "phone": "01320-148221",
-              "officePhone": "07624-75017",
-              "email": null,
-              "name": "Jibannagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "adamdighi": {
+                "latitude": 24.8333,
+                "longitude": 89.0500,
+                "phone": "01320-126721",
+                "officePhone": "051-64964",
+                "email": "oc.adamdighi@police.gov.bd",
+                "name": "Adamdighi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "damurhuda": {
-              "latitude": 23.6000,
-              "longitude": 88.8000,
-              "phone": "01320-148247",
-              "officePhone": "07623-65005",
-              "email": null,
-              "name": "Damurhuda Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "dupchanchia": {
+                "latitude": 24.8500,
+                "longitude": 89.2000,
+                "phone": "01320-126747",
+                "officePhone": "051-64965",
+                "email": "oc.dupchanchia@police.gov.bd",
+                "name": "Dupchanchia Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "darshana": {
-              "latitude": 23.5000,
-              "longitude": 88.9000,
-              "phone": "01320-148273",
-              "officePhone": "07623-56005",
-              "email": null,
-              "name": "Darshana Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kahaloo": {
+                "latitude": 24.8000,
+                "longitude": 89.2000,
+                "phone": "01320-126773",
+                "officePhone": "051-64966",
+                "email": "oc.kahaloo@police.gov.bd",
+                "name": "Kahaloo Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "sherpur": {
+                "latitude": 24.7833,
+                "longitude": 89.3167,
+                "phone": "01320-126799",
+                "officePhone": "051-64967",
+                "email": "oc.sherpur@police.gov.bd",
+                "name": "Sherpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dhunat": {
+                "latitude": 24.8667,
+                "longitude": 89.5167,
+                "phone": "01320-126825",
+                "officePhone": "051-64968",
+                "email": "oc.dhunat@police.gov.bd",
+                "name": "Dhunat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nandigram": {
+                "latitude": 24.7500,
+                "longitude": 89.1000,
+                "phone": "01320-126851",
+                "officePhone": "051-64969",
+                "email": "oc.nandigram@police.gov.bd",
+                "name": "Nandigram Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shajahanpur": {
+                "latitude": 24.8500,
+                "longitude": 89.3833,
+                "phone": "01320-126877",
+                "officePhone": "051-64970",
+                "email": "oc.shajahanpur@police.gov.bd",
+                "name": "Shajahanpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "jashore": {
-          "name": "Jashore (Jessore)",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "kotwali": {
-              "latitude": 23.1700,
-              "longitude": 89.2000,
-              "phone": "01713-374171",
-              "officePhone": "0421-65034",
-              "email": "ockotowalijessore@gmail.com",
-              "name": "Kotwali Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "chaugachha": {
-              "latitude": 23.3000,
-              "longitude": 89.1000,
-              "phone": "01713-374174",
-              "officePhone": "0422-456202",
-              "email": "occhowgacha@gmail.com",
-              "name": "Chaugachha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "joypurhat": {
+            "name": "Joypurhat",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "joypurhatSadar": {
+                "latitude": 25.0968,
+                "longitude": 89.0227,
+                "phone": "01320-127569",
+                "officePhone": "0571-62000",
+                "email": "oc.joypurhatsadar@police.gov.bd",
+                "name": "Joypurhat Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "abhaynagar": {
-              "latitude": 23.0000,
-              "longitude": 89.4000,
-              "phone": "01713-374162",
-              "officePhone": "0422-271274",
-              "email": "ocavaynagar@gmail.com",
-              "name": "Abhaynagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bagharpara": {
-              "latitude": 23.2000,
-              "longitude": 89.3000,
-              "phone": "01713-374158",
-              "officePhone": "0422-356004",
-              "email": "ocbagharpara@gmail.com",
-              "name": "Bagharpara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "panchbibi": {
+                "latitude": 25.1833,
+                "longitude": 89.1000,
+                "phone": "01720-127595",
+                "officePhone": "0571-62001",
+                "email": "oc.panchbibi@police.gov.bd",
+                "name": "Panchbibi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "manirampur": {
-              "latitude": 23.1000,
-              "longitude": 89.2500,
-              "phone": "01713-374153",
-              "officePhone": "0422-778224",
-              "email": "ocmanirampur@gmail.com",
-              "name": "Manirampur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "keshabpur": {
-              "latitude": 22.9000,
-              "longitude": 89.2000,
-              "phone": "01713-374154",
-              "officePhone": "0422-456202",
-              "email": "ockeshabpur@gmail.com",
-              "name": "Keshabpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "khetlal": {
+                "latitude": 25.0167,
+                "longitude": 89.1667,
+                "phone": "01720-127621",
+                "officePhone": "0571-62002",
+                "email": "oc.khetlal@police.gov.bd",
+                "name": "Khetlal Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "jhikargachha": {
-              "latitude": 23.1500,
-              "longitude": 89.1000,
-              "phone": "01713-374172",
-              "officePhone": "0422-571303",
-              "email": "ocjhikorgacha@gmail.com",
-              "name": "Jhikargachha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sharsha": {
-              "latitude": 23.0500,
-              "longitude": 88.9500,
-              "phone": "01713-374173",
-              "officePhone": "0422-875300",
-              "email": "ocsharsa@gmail.com",
-              "name": "Sharsha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "akkelpur": {
+                "latitude": 25.1000,
+                "longitude": 89.0000,
+                "phone": "01720-127673",
+                "officePhone": "0571-62003",
+                "email": "oc.akkelpur@police.gov.bd",
+                "name": "Akkelpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "benapole": {
-              "latitude": 23.0400,
-              "longitude": 88.9300,
-              "phone": "01713-374179",
-              "officePhone": "0422-875400",
-              "email": "ocbenapole@gmail.com",
-              "name": "Benapole Port Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kalai": {
+                "latitude": 25.0667,
+                "longitude": 89.2000,
+                "phone": "01720-127647",
+                "officePhone": "0571-62004",
+                "email": "oc.kalai@police.gov.bd",
+                "name": "Kalai Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "jhenaidah": {
-          "name": "Jhenaidah",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "jhenaidah": {
-              "latitude": 23.5400,
-              "longitude": 89.0000,
-              "phone": "01320-144100",
-              "officePhone": "0451-62513",
-              "email": "spjhenaidah@police.gov.bd",
-              "name": "Jhenaidah Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "shailkupa": {
-              "latitude": 23.6705,
-              "longitude": 89.2393,
-              "phone": null,
-              "officePhone": null,
-              "email": null,
-              "name": "Shailkupa Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "naogaon": {
+            "name": "Naogaon",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "naogaonSadar": {
+                "latitude": 24.7895,
+                "longitude": 88.9550,
+                "phone": "01713-373836",
+                "officePhone": "0741-62201",
+                "email": "ocnao.nao@police.gov.bd",
+                "name": "Naogaon Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "harinakunda": {
-              "latitude": 23.6786,
-              "longitude": 89.0834,
-              "phone": null,
-              "officePhone": null,
-              "email": null,
-              "name": "Harinakunda Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kaliganj": {
-              "latitude": 23.4167,
-              "longitude": 89.1500,
-              "phone": null,
-              "officePhone": null,
-              "email": null,
-              "name": "Kaliganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "raninagar": {
+                "latitude": 24.7000,
+                "longitude": 88.9500,
+                "phone": "01713-373837",
+                "officePhone": "07433-56004",
+                "email": "ocnao.ran@police.gov.bd",
+                "name": "Raninagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kotchandpur": {
-              "latitude": 23.4167,
-              "longitude": 89.0000,
-              "phone": null,
-              "officePhone": null,
-              "email": null,
-              "name": "Kotchandpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "maheshpur": {
-              "latitude": 23.4000,
-              "longitude": 88.9500,
-              "phone": null,
-              "officePhone": null,
-              "email": null,
-              "name": "Maheshpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "atrai": {
+                "latitude": 24.5833,
+                "longitude": 88.9500,
+                "phone": "01713-373838",
+                "officePhone": "07422-71011",
+                "email": "ocnao.atr@police.gov.bd",
+                "name": "Atrai Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-          },
-        },
-        "khulna": {
-          "name": "Khulna",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "rupsha": {
-              "latitude": 22.8000,
-              "longitude": 89.6000,
-              "phone": "01320-140181",
-              "officePhone": "041-800104",
-              "email": "ocrupsha@gmail.com",
-              "name": "Rupsha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "badalgachhi": {
+                "latitude": 24.9645,
+                "longitude": 88.9051,
+                "phone": "01320-123694",
+                "officePhone": "07423-56002",
+                "email": "ocnao.bad@police.gov.bd",
+                "name": "Badalgachhi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "terokhada": {
-              "latitude": 22.9000,
-              "longitude": 89.6500,
-              "phone": "01320-140207",
-              "officePhone": "04029-56003",
-              "email": "terokhadaps@gmail.com",
-              "name": "Terokhada Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "digholia": {
-              "latitude": 22.9500,
-              "longitude": 89.5500,
-              "phone": "01320-140233",
-              "officePhone": "041-890014",
-              "email": "ocdigholiaps@gmail.com",
-              "name": "Digholia Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "mohadevpur": {
+                "latitude": 24.8500,
+                "longitude": 88.8500,
+                "phone": "01320-123720",
+                "officePhone": "07426-75004",
+                "email": "ocnao.mah@police.gov.bd",
+                "name": "Mohadevpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "fultala": {
-              "latitude": 22.9500,
-              "longitude": 89.4500,
-              "phone": "01320-140259",
-              "officePhone": "041-701146",
-              "email": "psphultala@gmail.com",
-              "name": "Fultala Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dumuria": {
-              "latitude": 22.9000,
-              "longitude": 89.3000,
-              "phone": "01320-140285",
-              "officePhone": "04025-56003",
-              "email": "dumuria.thana@gmail.com",
-              "name": "Dumuria Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "niamatpur": {
+                "latitude": 24.7500,
+                "longitude": 88.8500,
+                "phone": "01713-373843",
+                "officePhone": "07427-56012",
+                "email": "ocnao.nya@police.gov.bd",
+                "name": "Niamatpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "batiaghata": {
-              "latitude": 22.7500,
-              "longitude": 89.5000,
-              "phone": "01320-140363",
-              "officePhone": "04022-56002",
-              "email": "batiaghatathana@gmail.com",
-              "name": "Batiaghata Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dacope": {
-              "latitude": 22.6000,
-              "longitude": 89.5000,
-              "phone": "01320-140337",
-              "officePhone": "04023-56003",
-              "email": "dakopthana@gmail.com",
-              "name": "Dacope Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "manda": {
+                "latitude": 24.6833,
+                "longitude": 88.7500,
+                "phone": "01713-373844",
+                "officePhone": "07425-62013",
+                "email": "ocnao.man@police.gov.bd",
+                "name": "Manda Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "paikgacha": {
-              "latitude": 22.6000,
-              "longitude": 89.3500,
-              "phone": "01320-140311",
-              "officePhone": "04027-56055",
-              "email": "paikgachathana@gmail.com",
-              "name": "Paikgacha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "patnitala": {
+                "latitude": 25.0333,
+                "longitude": 88.8500,
+                "phone": "01713-373842",
+                "officePhone": "07428-63015",
+                "email": "ocnao.pat@police.gov.bd",
+                "name": "Patnitala Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "koyra": {
-              "latitude": 22.4000,
-              "longitude": 89.2500,
-              "phone": "01320-140389",
-              "officePhone": "04026-56002",
-              "email": "koyraps@gmail.com",
-              "name": "Koyra Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "dhamoirhat": {
+                "latitude": 25.1000,
+                "longitude": 88.7500,
+                "phone": "01320-123668",
+                "officePhone": "07424-56003",
+                "email": "ocnao.dah@police.gov.bd",
+                "name": "Dhamoirhat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "sapahar": {
+                "latitude": 25.1167,
+                "longitude": 88.6000,
+                "phone": "01713-373845",
+                "officePhone": "07432-74014",
+                "email": "ocnao.sha@police.gov.bd",
+                "name": "Sapahar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "porsha": {
+                "latitude": 25.0000,
+                "longitude": 88.5500,
+                "phone": "01320-123850",
+                "officePhone": "07429-56022",
+                "email": "ocnao.por@police.gov.bd",
+                "name": "Porsha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "kushtia": {
-          "name": "Kushtia",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "kushtiaSadar": {
-              "latitude": 23.9028,
-              "longitude": 89.1191,
-              "phone": "01713374226",
-              "officePhone": "02477782400",
-              "email": "spkustia@police.gov.bd",
-              "name": "Kushtia Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kumarkhali": {
-              "latitude": 23.9000,
-              "longitude": 89.1500,
-              "phone": "01713374221",
-              "officePhone": null,
-              "email": null,
-              "name": "Kumarkhali Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "natore": {
+            "name": "Natore",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "natoreSadar": {
+                "latitude": 24.4139,
+                "longitude": 88.9300,
+                "phone": "01320-124574",
+                "officePhone": "0771-66922",
+                "email": "ocnat.nat@police.gov.bd",
+                "name": "Natore Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "khoksa": {
-              "latitude": 23.8500,
-              "longitude": 89.2000,
-              "phone": "01713374221",
-              "officePhone": null,
-              "email": null,
-              "name": "Khoksa Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "mirpur": {
-              "latitude": 23.9500,
-              "longitude": 89.0000,
-              "phone": "01713374225",
-              "officePhone": null,
-              "email": null,
-              "name": "Mirpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "singra": {
+                "latitude": 24.5000,
+                "longitude": 89.1667,
+                "phone": "01320-124600",
+                "officePhone": "02588875733",
+                "email": "ocnat.sin@police.gov.bd",
+                "name": "Singra Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bheramara": {
-              "latitude": 24.0000,
-              "longitude": 88.9500,
-              "phone": "01713374222",
-              "officePhone": null,
-              "email": null,
-              "name": "Bheramara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "daulatpur": {
-              "latitude": 23.9500,
-              "longitude": 88.9000,
-              "phone": "01713374224",
-              "officePhone": null,
-              "email": null,
-              "name": "Daulatpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bagatipara": {
+                "latitude": 24.3833,
+                "longitude": 88.9500,
+                "phone": "01320-124626",
+                "officePhone": "02588875004",
+                "email": "ocnat.bag@police.gov.bd",
+                "name": "Bagatipara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "islami": {
-              "latitude": 23.9500,
-              "longitude": 89.1500,
-              "phone": "01713374226",
-              "officePhone": null,
-              "email": null,
-              "name": "Islami University Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "magura": {
-          "name": "Magura",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "magura": {
-              "latitude": 23.4850,
-              "longitude": 89.4190,
-              "phone": "01320-145170",
-              "officePhone": "0488-62235",
-              "email": "ocmag.mag@police.gov.bd",
-              "name": "Magura Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "gurudaspur": {
+                "latitude": 24.4333,
+                "longitude": 89.0000,
+                "phone": "01320-124652",
+                "officePhone": "02588874415",
+                "email": "ocnat.gur@police.gov.bd",
+                "name": "Lalpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "sreepur": {
-              "latitude": 23.6000,
-              "longitude": 89.4500,
-              "phone": "01320-145196",
-              "officePhone": "04858-56104",
-              "email": "ocmag.sre@police.gov.bd",
-              "name": "Sreepur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "mohammadpur": {
-              "latitude": 23.4000,
-              "longitude": 89.3000,
-              "phone": "01320-145222",
-              "officePhone": "04852-75014",
-              "email": "ocmag.moh@police.gov.bd",
-              "name": "Mohammadpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "lalpur": {
+                "latitude": 24.1833,
+                "longitude": 88.9833,
+                "phone": "01320-124678",
+                "officePhone": "02588875409",
+                "email": "ocnat.lal@police.gov.bd",
+                "name": "name",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "shalikha": {
-              "latitude": 23.5000,
-              "longitude": 89.3500,
-              "phone": "01320-145248",
-              "officePhone": "04853-56024",
-              "email": "ocmag.sha@police.gov.bd",
-              "name": "Shalikha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "baraigram": {
+                "latitude": 24.2500,
+                "longitude": 89.0500,
+                "phone": "01320-124704",
+                "officePhone": "0000000",
+                "email": "ocnat.bur@police.gov.bd",
+                "name": "Baraigram Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "naldanga": {
+                "latitude": 24.4000,
+                "longitude": 88.9500,
+                "phone": "01320-124730",
+                "officePhone": "02588876603",
+                "email": "ocnat.nol@police.gov.bd",
+                "name": "Naldanga Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "meherpur": {
-          "name": "Meherpur",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "meherpur": {
-              "latitude": 23.7620,
-              "longitude": 88.6310,
-              "phone": "01713-374249",
-              "officePhone": "0791-62203",
-              "email": "ocmeh.meh@police.gov.bd",
-              "name": "Meherpur Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "gangni": {
-              "latitude": 23.9000,
-              "longitude": 88.7500,
-              "phone": "01713-374250",
-              "officePhone": null,
-              "email": "ocgangni@gmail.com",
-              "name": "Gangni Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "chapainawabganj": {
+            "name": "Chapainawabganj",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "chapainawabganjSadar": {
+                "latitude": 24.5960,
+                "longitude": 88.2775,
+                "phone": "01320-125570",
+                "officePhone": "0781-62000",
+                "email": "ocnaw.naw@police.gov.bd",
+                "name": "Chapainawabganj Sadar Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mujibnagar": {
-              "latitude": 23.8000,
-              "longitude": 88.7000,
-              "phone": "01713-374251",
-              "officePhone": null,
-              "email": "ocmujibnagar@gmail.com",
-              "name": "Mujibnagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "narail": {
-          "name": "Narail",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "narail": {
-              "latitude": 23.1633,
-              "longitude": 89.5386,
-              "phone": "01713-374206",
-              "officePhone": "0481-62235",
-              "email": "ocnarailsadar@police.gov.bd",
-              "name": "Narail Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "shibganj": {
+                "latitude": 24.6833,
+                "longitude": 88.1500,
+                "phone": "01320-125596",
+                "officePhone": "0782-62001",
+                "email": "ocnaw.shi@police.gov.bd",
+                "name": "Shibganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kalia": {
-              "latitude": 23.0167,
-              "longitude": 89.4167,
-              "phone": "01713-374207",
-              "officePhone": "0482-56004",
-              "email": "ockalia@police.gov.bd",
-              "name": "Kalia Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "lohagara": {
-              "latitude": 22.9000,
-              "longitude": 89.4167,
-              "phone": "01713-374208",
-              "officePhone": "0483-56002",
-              "email": "oclohagara@police.gov.bd",
-              "name": "Lohagara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "gomostapur": {
+                "latitude": 24.7833,
+                "longitude": 88.2500,
+                "phone": "01320-125622",
+                "officePhone": "0783-62002",
+                "email": "ocnaw.gom@police.gov.bd",
+                "name": "Gomostapur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "naragati": {
-              "latitude": 23.1000,
-              "longitude": 89.4167,
-              "phone": "01713-374209",
-              "officePhone": "0484-56001",
-              "email": "ocnaragati@police.gov.bd",
-              "name": "Naragati Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "nachole": {
+                "latitude": 24.7000,
+                "longitude": 88.3000,
+                "phone": "01320-125648",
+                "officePhone": "0784-62003",
+                "email": "ocnaw.nac@police.gov.bd",
+                "name": "Nachole Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "bholahat": {
+                "latitude": 24.8167,
+                "longitude": 88.2000,
+                "phone": "01320-125674",
+                "officePhone": "0785-62004",
+                "email": "ocnaw.bho@police.gov.bd",
+                "name": "Bholahat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "satkhira": {
-          "name": "Satkhira",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "satkhira": {
-              "latitude": 22.7026,
-              "longitude": 89.0800,
-              "phone": "01320-142179",
-              "officePhone": "0481-62235",
-              "email": "oc.satkhira@police.gov.bd",
-              "name": "Satkhira Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kolaroa": {
-              "latitude": 22.9383,
-              "longitude": 89.3845,
-              "phone": "01320-142205",
-              "officePhone": "0482-56004",
-              "email": "oc.kolaroa@police.gov.bd",
-              "name": "Kolaroa Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "pabna": {
+            "name": "Pabna",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "pabnaSadar": {
+                "latitude": 24.0064,
+                "longitude": 89.2372,
+                "phone": "01320-128586",
+                "officePhone": "0731-65005",
+                "email": "ocpabna@police.gov.bd",
+                "name": "Pabna Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "tala": {
-              "latitude": 22.6801,
-              "longitude": 89.2185,
-              "phone": "01320-142231",
-              "officePhone": "0483-56002",
-              "email": "oc.tala@police.gov.bd",
-              "name": "Tala Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "patkelghata": {
-              "latitude": 22.7062,
-              "longitude": 89.3101,
-              "phone": "01320-142361",
-              "officePhone": "0484-56001",
-              "email": "oc.patkelghata@police.gov.bd",
-              "name": "Patkelghata Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ishwardi": {
+                "latitude": 24.1333,
+                "longitude": 89.0667,
+                "phone": "01320-128612",
+                "officePhone": "0732-65006",
+                "email": "ocishwardi@police.gov.bd",
+                "name": "Ishwardi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kaliganj": {
-              "latitude": 22.7915,
-              "longitude": 89.3610,
-              "phone": "01320-142257",
-              "officePhone": "0484-56002",
-              "email": "oc.kaliganj@police.gov.bd",
-              "name": "Kaliganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "debhata": {
-              "latitude": 22.7087,
-              "longitude": 89.2999,
-              "phone": "01320-142309",
-              "officePhone": "0485-56001",
-              "email": "oc.debhata@police.gov.bd",
-              "name": "Debhata Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ataikula": {
+                "latitude": 24.0500,
+                "longitude": 89.2500,
+                "phone": "01320-128820",
+                "officePhone": "0731-65007",
+                "email": "ocataikulapabna@police.gov.bd",
+                "name": "Ataikula Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "ashashuni": {
-              "latitude": 22.4597,
-              "longitude": 89.2165,
-              "phone": "01320-142149",
-              "officePhone": "0486-56004",
-              "email": "oc.ashashuni@police.gov.bd",
-              "name": "Ashashuni Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "shyamnagar": {
-              "latitude": 22.4000,
-              "longitude": 89.2428,
-              "phone": "01320-142283",
-              "officePhone": "0487-56003",
-              "email": "oc.shyamnagar@police.gov.bd",
-              "name": "Shyamnagar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "atghoria": {
+                "latitude": 24.1000,
+                "longitude": 89.3000,
+                "phone": "01320-128638",
+                "officePhone": "0731-65008",
+                "email": "ocartghariapabna@police.gov.bd",
+                "name": "Atghoria Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-          },
-        },
-      },
-    },
-    //barisal thana completed
-    "barishal": {
-      "name": "Barishal",
-      "latitude": 22.3569,
-      "longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "barisal": {
-          "name": "Barisal",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "agailjhara": {
-              "name": "Agailjhara",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chatmohar": {
+                "latitude": 24.2167,
+                "longitude": 89.2167,
+                "phone": "01320-128664",
+                "officePhone": "0731-65009",
+                "email": "occhatmoharpabna@police.gov.bd",
+                "name": "Chatmohar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "babuganj": {
-              "name": "Babuganj",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bakerganj": {
-              "name": "Bakerganj",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bhangura": {
+                "latitude": 24.2500,
+                "longitude": 89.2000,
+                "phone": "01320-128690",
+                "officePhone": "0731-65010",
+                "email": "ocvanggurapabna@police.gov.bd",
+                "name": "Bhangura Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "banaripara": {
-              "name": "Banaripara",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "barisalSadar": {
-              "name": "Barisal Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "sujanagar": {
+                "latitude": 24.0500,
+                "longitude": 89.1500,
+                "phone": "01320-128742",
+                "officePhone": "0731-65011",
+                "email": "ocsujanagarpabna@police.gov.bd",
+                "name": "Sujanagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "gournadi": {
-              "name": "Gournadi",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "hizla": {
-              "name": "Hizla",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bera": {
+                "latitude": 24.0833,
+                "longitude": 89.6500,
+                "phone": "01320-128768",
+                "officePhone": "0731-65012",
+                "email": "ocberapabna@police.gov.bd",
+                "name": "Bera Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mehendiganj": {
-              "name": "Mehendiganj",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "muladi": {
-              "name": "Muladi",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "santhia": {
+                "latitude": 24.0500,
+                "longitude": 89.4000,
+                "phone": "01320-128794",
+                "officePhone": "0731-65013",
+                "email": "ocsanthiapabna@police.gov.bd",
+                "name": "Santhia Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "wazirpur": {
-              "name": "Wazirpur",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "faridpur": {
+                "latitude": 24.0500,
+                "longitude": 89.1000,
+                "phone": "01320-128716",
+                "officePhone": "0731-65014",
+                "email": "ocfaridpurpabna@police.gov.bd",
+                "name": "Faridpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "aminpur": {
+                "latitude": 24.0333,
+                "longitude": 89.2000,
+                "phone": "01320-128846",
+                "officePhone": "0731-65015",
+                "email": "ocaminpurpabna@police.gov.bd",
+                "name": "Aminpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "barguna": {
-          "name": "Barguna",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "amtali": {
-              "name": "Amtali",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bamna": {
-              "name": "Bamna",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "rajshahi": {
+            "name": "Rajshahi",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "godagari": {
+                "latitude": 24.4667,
+                "longitude": 88.6000,
+                "phone": "01320-122594",
+                "officePhone": "0722-556003",
+                "email": "ocraj.god@police.gov.bd",
+                "name": "Godagari Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bargunaSadar": {
-              "name": "Barguna Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "betagi": {
-              "name": "Betagi",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "tanore": {
+                "latitude": 24.5833,
+                "longitude": 88.5167,
+                "phone": "01320-122620",
+                "officePhone": "0247-851011",
+                "email": "ocraj.tan@police.gov.bd",
+                "name": "Tanore Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "patharghata": {
-              "name": "Patharghata",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "taltali": {
-              "name": "Taltali",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "mohanpur": {
+                "latitude": 24.6167,
+                "longitude": 88.8500,
+                "phone": "01320-122646",
+                "officePhone": "0722-656001",
+                "email": "ocraj.moh@police.gov.bd",
+                "name": "Mohanpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-          },
-        },
-        "bhola": {
-          "name": " Bhola",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "bholaSadar": {
-              "name": "Bhola Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bagmara": {
+                "latitude": 24.7000,
+                "longitude": 88.8500,
+                "phone": "01320-122698",
+                "officePhone": "0722-256006",
+                "email": "ocraj.bam@police.gov.bd",
+                "name": "Bagmara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "burhanuddin": {
-              "name": "Burhanuddin",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "charFasson": {
-              "name": "Char Fasson",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "puthia": {
+                "latitude": 24.3667,
+                "longitude": 88.8333,
+                "phone": "01320-122672",
+                "officePhone": "0722-856103",
+                "email": "ocraj.put@police.gov.bd",
+                "name": "Puthia Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "daulatkhan": {
-              "name": "Daulatkhan",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "lalmohan": {
-              "name": "Lalmohan",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "durgapur": {
+                "latitude": 24.3833,
+                "longitude": 88.9500,
+                "phone": "01320-122724",
+                "officePhone": "0722-456004",
+                "email": "ocraj.dur@police.gov.bd",
+                "name": "Durgapur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "manpura": {
-              "name": "Manpura",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bagha": {
+                "latitude": 24.2000,
+                "longitude": 88.8500,
+                "phone": "01320-122776",
+                "officePhone": "0723-356012",
+                "email": "ocraj.bag@police.gov.bd",
+                "name": "Bagha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "tazumuddin": {
-              "name": "Tazumuddin",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "charghat": {
+                "latitude": 24.2500,
+                "longitude": 88.8500,
+                "phone": "01320-122750",
+                "officePhone": "0722-356033",
+                "email": "ocraj.cha@police.gov.bd",
+                "name": "Charghat Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "jhalokati": {
-          "name": " Jhalokati",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "jhalokatiSadar": {
-              "name": "Jhalokati Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kathalia": {
-              "name": "Kathalia",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "sirajganj": {
+            "name": "Sirajganj",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sirajganj": {
+                "latitude": 24.4560,
+                "longitude": 89.7000,
+                "phone": "01320-129590",
+                "officePhone": 01577479,
+                "email": "ocsir.sir@police.gov.bd",
+                "name": "Sirajganj Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "nalchity": {
-              "name": "Nalchity",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "rajapur": {
-              "name": "Rajapur",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kazipur": {
+                "latitude": 24.7833,
+                "longitude": 89.6500,
+                "phone": "01320-129720",
+                "officePhone": 01577479,
+                "email": "ocsir.kaz@police.gov.bd",
+                "name": "Kazipur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-          },
-        },
-        "patuakhali": {
-          "name": " Patuakhali",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "bauphal": {
-              "name": "Bauphal",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "belkuchi": {
+                "latitude": 24.4167,
+                "longitude": 89.6833,
+                "phone": "01320-129798",
+                "officePhone": 01577479,
+                "email": "ocsir.bel@police.gov.bd",
+                "name": "Belkuchi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "dashmina": {
-              "name": "Dashmina",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dumki": {
-              "name": "Dumki",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bangabandhu": {
+                "latitude": 24.4500,
+                "longitude": 89.7667,
+                "phone": "01320-129824",
+                "officePhone": 01577479,
+                "email": "ocsir.bbw@police.gov.bd",
+                "name": "Bangabandhu Bridge West Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "galachipa": {
-              "name": "Galachipa",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kalapara": {
-              "name": "Kalapara",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "raiganj": {
+                "latitude": 24.6000,
+                "longitude": 89.3000,
+                "phone": "01320-129772",
+                "officePhone": 01577479,
+                "email": "ocsir.rai@police.gov.bd",
+                "name": "Raiganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mirzaganj": {
-              "name": "Mirzaganj",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "patuakhaliSadar": {
-              "name": "Patuakhali Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "tarash": {
+                "latitude": 24.5833,
+                "longitude": 89.2000,
+                "phone": "01320-129694",
+                "officePhone": 01577479,
+                "email": "ocsir.tar@police.gov.bd",
+                "name": "Tarash Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "rangabali": {
-              "name": "Rangabali",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "pirojpur": {
-          "name": " Pirojpur",
-          "latitude": 25.7558,
-          "longitude": 89.2440,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "bhandaria": {
-              "name": "Bhandaria",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kamarkhand": {
+                "latitude": 24.4500,
+                "longitude": 89.6000,
+                "phone": "01320-129746",
+                "officePhone": 01577479,
+                "email": "ocsir.kam@police.gov.bd",
+                "name": "Kamarkhand Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "indurkani": {
-              "name": "Indurkani",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kawkhali": {
-              "name": "Kawkhali",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "salonga": {
+                "latitude": 24.4000,
+                "longitude": 89.5500,
+                "phone": "01320-129850",
+                "officePhone": 01577479,
+                "email": "ocsir.sal@police.gov.bd",
+                "name": "Salonga Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "mathbaria": {
-              "name": "Mathbaria",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nazirpur": {
-              "name": "Nazirpur",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "ullapara": {
+                "latitude": 24.3000,
+                "longitude": 89.6000,
+                "phone": "01320-129642",
+                "officePhone": 01577479,
+                "email": "ocsir.ull@police.gov.bd",
+                "name": "Ullapara Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "nesarabad": {
-              "name": "Nesarabad (Swarupkathi)",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "shahjadpur": {
+                "latitude": 24.1833,
+                "longitude": 89.6000,
+                "phone": "01320-129616",
+                "officePhone": 01577479,
+                "email": "ocsir.sha@police.gov.bd",
+                "name": "Shahjadpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "pirojpurSadar": {
-              "name": "Pirojpur Sadar",
-              "latitude": 25.5333,
-              "longitude": 89.2833,
-              "phone": 01701577479,
-              "officePhone": 01577479,
-              "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "enayetpur": {
+                "latitude": 24.2167,
+                "longitude": 89.5833,
+                "phone": "01320-129876",
+                "officePhone": 01577479,
+                "email": "ocsir.ena@police.gov.bd",
+                "name": "Enayetpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "chauhali": {
+                "latitude": 24.0000,
+                "longitude": 89.7500,
+                "phone": "01320-129902",
+                "officePhone": 01577479,
+                "email": "ocsir.cha@police.gov.bd",
+                "name": "Chauhali Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
@@ -9282,3272 +6505,6067 @@ var bdInformations = {
         },
       },
     },
-    //thana completed
-    "sylhet": {
-      "name": "Sylhet",
-      "latitude": 22.3569,
-      "longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "Sylhet": {
-          "name": "Sylhet",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "osmaninagar": {
-              "name": "Osmaninagar",
-              "latitude": 24.7740,
-              "longitude": 91.8697,
-              "phone": "01320-117786",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "golapganj": {
-              "name": "golapganj",
-              "latitude": 24.8635,
-              "longitude": 91.9986,
-              "phone": "01320-117891",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+    {
+      "khulna": {
+        "name": "Khulna",
+        "Latitude": 22.3569,
+        "Longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "Districts": {
+          "bagerhat": {
+            "name": "Bagerhat",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "bagerhatSadar": {
+                "latitude": 22.6510,
+                "longitude": 89.7850,
+                "phone": "01320141179",
+                "officePhone": "0468-62707",
+                "email": "bagerhatmodelps@gmail.com",
+                "name": "Bagerhat Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "bishwanath": {
-              "name": "Bishwanath",
-              "latitude": 24.8167,
-              "longitude": 91.7000,
-              "phone": "01320-117838",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "beanibazar": {
-              "name": "Beanibazar",
-              "latitude": 24.8167,
-              "longitude": 92.0833,
-              "phone": "01320-117917",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "fakirhat": {
+                "latitude": 22.7000,
+                "longitude": 89.8000,
+                "phone": "01320141205",
+                "officePhone": null,
+                "email": "fakirhatps@gmail.com",
+                "name": "Fakirhat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "kanaighat": {
-              "name": "Kanaighat",
-              "latitude": 25.0167,
-              "longitude": 92.0167,
-              "phone": "01320-117943",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "jaintiapur": {
-              "name": "Jaintiapur",
-              "latitude": 25.1000,
-              "longitude": 92.1000,
-              "phone": "01320-118047",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "mollahat": {
+                "latitude": 22.8500,
+                "longitude": 89.8500,
+                "phone": "01320141231",
+                "officePhone": "04655-56010",
+                "email": "mollahatps@gmail.com",
+                "name": "Mollahat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "companyganj": {
-              "name": "Companyganj",
-              "latitude": 25.0500,
-              "longitude": 91.8333,
-              "phone": "01320-117995",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "balaganj": {
-              "name": "Balaganj",
-              "latitude": 24.7167,
-              "longitude": 91.7500,
-              "phone": "01320-117812",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chitalmari": {
+                "latitude": 22.7500,
+                "longitude": 89.9000,
+                "phone": "01320141257",
+                "officePhone": "04652-56003",
+                "email": "chitalmarips@gmail.com",
+                "name": "Chitalmari Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "fenchuganj": {
-              "name": "Fenchuganj",
-              "latitude": 24.6833,
-              "longitude": 91.9333,
-              "phone": "01320-117865",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "gowainghat": {
-              "name": "Gowainghat",
-              "latitude": 25.1000,
-              "longitude": 91.8333,
-              "phone": "01320-117969",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "kachua": {
+                "latitude": 22.7000,
+                "longitude": 89.9500,
+                "phone": "01320141283",
+                "officePhone": "04654-56014",
+                "email": "kachuaps@gmail.com",
+                "name": "name",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "zakiganj": {
-              "name": "Zakiganj",
-              "latitude": 24.9000,
-              "longitude": 92.1833,
-              "phone": "01320-118021",
-              "officePhone": 01577479,
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "morrelganj": {
+                "latitude": 22.5000,
+                "longitude": 89.8500,
+                "phone": "01320141309",
+                "officePhone": null,
+                "email": "morrelganjps@gmail.com",
+                "name": "Kachua Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "sharankhola": {
+                "latitude": 22.3000,
+                "longitude": 89.8000,
+                "phone": "01320141335",
+                "officePhone": "04659-56007",
+                "email": "shoronkholaps@gmail.com",
+                "name": "Sharankhola Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mongla": {
+                "latitude": 22.4833,
+                "longitude": 89.6000,
+                "phone": "01320141361",
+                "officePhone": "04658-73222",
+                "email": "monglaps@gmail.com",
+                "name": "Mongla Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rampal": {
+                "latitude": 22.6500,
+                "longitude": 89.6500,
+                "phone": "01320141387",
+                "officePhone": null,
+                "email": "rampalps@gmail.com",
+                "name": "Rampal Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "moulvibazar": {
-          "name": "Moulvibazar",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "sreemangal": {
-              "name": "Sreemangal",
-              "latitude": 24.3033,
-              "longitude": 91.7278,
-              "phone": "01713374440",
-              "officePhone": "02996600011",
-              "email": "sreemangal@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kamalganj": {
-              "name": "Kamalganj",
-              "latitude": 24.3311,
-              "longitude": 91.7622,
-              "phone": "01713374441",
-              "officePhone": "02996600012",
-              "email": "kamalganj@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "chuadanga": {
+            "name": "Chuadanga",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "chuadangaSadar": {
+                "latitude": 23.6400,
+                "longitude": 88.8400,
+                "phone": "01320-148169",
+                "officePhone": "0761-62252",
+                "email": null,
+                "name": "Chuadanga Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "rajnagar": {
-              "name": "Rajnagar",
-              "latitude": 24.5139,
-              "longitude": 91.8250,
-              "phone": "01713374442",
-              "officePhone": "02996600013",
-              "email": "rajnagar@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kulaura": {
-              "name": "Kulaura",
-              "latitude": 24.5944,
-              "longitude": 91.7894,
-              "phone": "01713374443",
-              "officePhone": "02996600014",
-              "email": "kulaura@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "alamdanga": {
+                "latitude": 23.7500,
+                "longitude": 88.9500,
+                "phone": "01320-148195",
+                "officePhone": "07622-56242",
+                "email": null,
+                "name": "Alamdanga Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "baralekha": {
-              "name": "Baralekha",
-              "latitude": 24.7533,
-              "longitude": 91.7583,
-              "phone": "01713374444",
-              "officePhone": "02996600015",
-              "email": "baralekha@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "jibannagar": {
+                "latitude": 23.5500,
+                "longitude": 88.7500,
+                "phone": "01320-148221",
+                "officePhone": "07624-75017",
+                "email": null,
+                "name": "Jibannagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "juri": {
-              "name": "Juri",
-              "latitude": 24.8883,
-              "longitude": 91.8317,
-              "phone": "01713374445",
-              "officePhone": "02996600016",
-              "email": "juri@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "damurhuda": {
+                "latitude": 23.6000,
+                "longitude": 88.8000,
+                "phone": "01320-148247",
+                "officePhone": "07623-65005",
+                "email": null,
+                "name": "Damurhuda Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "darshana": {
+                "latitude": 23.5000,
+                "longitude": 88.9000,
+                "phone": "01320-148273",
+                "officePhone": "07623-56005",
+                "email": null,
+                "name": "Darshana Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "habiganj": {
-          "name": "Habiganj",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "habiganjSadar": {
-              "name": "Habiganj Sadar",
-              "latitude": 24.3694,
-              "longitude": 91.4383,
-              "phone": "01320-118700",
-              "officePhone": "02996604520",
-              "email": "sphabigonj@police.gov.bd",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "madhabpur": {
-              "name": "Madhabpur",
-              "latitude": 24.5147,
-              "longitude": 91.4811,
-              "phone": "01320-118754",
-              "officePhone": "02996604521",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "jashore": {
+            "name": "Jashore (Jessore)",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "kotwali": {
+                "latitude": 23.1700,
+                "longitude": 89.2000,
+                "phone": "01713-374171",
+                "officePhone": "0421-65034",
+                "email": "ockotowalijessore@gmail.com",
+                "name": "Kotwali Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "chunarughat": {
-              "name": "Chunarughat",
-              "latitude": 24.6744,
-              "longitude": 91.6883,
-              "phone": "01320-118759",
-              "officePhone": "02996604522",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bahubal": {
-              "name": "Bahubal",
-              "latitude": 24.6883,
-              "longitude": 91.4300,
-              "phone": "01320-118759",
-              "officePhone": "02996604523",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "chaugachha": {
+                "latitude": 23.3000,
+                "longitude": 89.1000,
+                "phone": "01713-374174",
+                "officePhone": "0422-456202",
+                "email": "occhowgacha@gmail.com",
+                "name": "Chaugachha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "lakhai": {
-              "name": "Lakhai",
-              "latitude": 24.7044,
-              "longitude": 91.4267,
-              "phone": "01320-118759",
-              "officePhone": "02996604524",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nabiganj": {
-              "name": "Nabiganj",
-              "latitude": 24.7367,
-              "longitude": 91.4533,
-              "phone": "01320-118759",
-              "officePhone": "02996604525",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "abhaynagar": {
+                "latitude": 23.0000,
+                "longitude": 89.4000,
+                "phone": "01713-374162",
+                "officePhone": "0422-271274",
+                "email": "ocavaynagar@gmail.com",
+                "name": "Abhaynagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
-            },
-            "shayestaganj": {
-              "name": "Shayestaganj",
-              "latitude": 24.7572,
-              "longitude": 91.4236,
-              "phone": "01320-118759",
-              "officePhone": "02996604526",
-              "email": null,
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              "bagharpara": {
+                "latitude": 23.2000,
+                "longitude": 89.3000,
+                "phone": "01713-374158",
+                "officePhone": "0422-356004",
+                "email": "ocbagharpara@gmail.com",
+                "name": "Bagharpara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "manirampur": {
+                "latitude": 23.1000,
+                "longitude": 89.2500,
+                "phone": "01713-374153",
+                "officePhone": "0422-778224",
+                "email": "ocmanirampur@gmail.com",
+                "name": "Manirampur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "keshabpur": {
+                "latitude": 22.9000,
+                "longitude": 89.2000,
+                "phone": "01713-374154",
+                "officePhone": "0422-456202",
+                "email": "ockeshabpur@gmail.com",
+                "name": "Keshabpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "jhikargachha": {
+                "latitude": 23.1500,
+                "longitude": 89.1000,
+                "phone": "01713-374172",
+                "officePhone": "0422-571303",
+                "email": "ocjhikorgacha@gmail.com",
+                "name": "Jhikargachha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sharsha": {
+                "latitude": 23.0500,
+                "longitude": 88.9500,
+                "phone": "01713-374173",
+                "officePhone": "0422-875300",
+                "email": "ocsharsa@gmail.com",
+                "name": "Sharsha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "benapole": {
+                "latitude": 23.0400,
+                "longitude": 88.9300,
+                "phone": "01713-374179",
+                "officePhone": "0422-875400",
+                "email": "ocbenapole@gmail.com",
+                "name": "Benapole Port Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
           },
-        },
-        "sunamganj": {
-          "name": "Sunamganj",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "sadar": {
-              "name": "Sadar",
-              "latitude": 25.0061,
-              "longitude": 91.3975,
-              "phone": "01713374418",
-              "officePhone": "02996600021",
-              "email": "pssunamgonj@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          "jhenaidah": {
+            "name": "Jhenaidah",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "jhenaidah": {
+                "latitude": 23.5400,
+                "longitude": 89.0000,
+                "phone": "01320-144100",
+                "officePhone": "0451-62513",
+                "email": "spjhenaidah@police.gov.bd",
+                "name": "Jhenaidah Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "shailkupa": {
+                "latitude": 23.6705,
+                "longitude": 89.2393,
+                "phone": null,
+                "officePhone": null,
+                "email": null,
+                "name": "Shailkupa Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "harinakunda": {
+                "latitude": 23.6786,
+                "longitude": 89.0834,
+                "phone": null,
+                "officePhone": null,
+                "email": null,
+                "name": "Harinakunda Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kaliganj": {
+                "latitude": 23.4167,
+                "longitude": 89.1500,
+                "phone": null,
+                "officePhone": null,
+                "email": null,
+                "name": "Kaliganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kotchandpur": {
+                "latitude": 23.4167,
+                "longitude": 89.0000,
+                "phone": null,
+                "officePhone": null,
+                "email": null,
+                "name": "Kotchandpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "maheshpur": {
+                "latitude": 23.4000,
+                "longitude": 88.9500,
+                "phone": null,
+                "officePhone": null,
+                "email": null,
+                "name": "Maheshpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "chatak": {
-              "name": "Chatak",
-              "latitude": 25.0167,
-              "longitude": 91.7167,
-              "phone": "01713374419",
-              "officePhone": "02996600022",
-              "email": "pschatak@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "khulna": {
+            "name": "Khulna",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "rupsha": {
+                "latitude": 22.8000,
+                "longitude": 89.6000,
+                "phone": "01320-140181",
+                "officePhone": "041-800104",
+                "email": "ocrupsha@gmail.com",
+                "name": "Rupsha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "terokhada": {
+                "latitude": 22.9000,
+                "longitude": 89.6500,
+                "phone": "01320-140207",
+                "officePhone": "04029-56003",
+                "email": "terokhadaps@gmail.com",
+                "name": "Terokhada Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "digholia": {
+                "latitude": 22.9500,
+                "longitude": 89.5500,
+                "phone": "01320-140233",
+                "officePhone": "041-890014",
+                "email": "ocdigholiaps@gmail.com",
+                "name": "Digholia Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "fultala": {
+                "latitude": 22.9500,
+                "longitude": 89.4500,
+                "phone": "01320-140259",
+                "officePhone": "041-701146",
+                "email": "psphultala@gmail.com",
+                "name": "Fultala Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dumuria": {
+                "latitude": 22.9000,
+                "longitude": 89.3000,
+                "phone": "01320-140285",
+                "officePhone": "04025-56003",
+                "email": "dumuria.thana@gmail.com",
+                "name": "Dumuria Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "batiaghata": {
+                "latitude": 22.7500,
+                "longitude": 89.5000,
+                "phone": "01320-140363",
+                "officePhone": "04022-56002",
+                "email": "batiaghatathana@gmail.com",
+                "name": "Batiaghata Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dacope": {
+                "latitude": 22.6000,
+                "longitude": 89.5000,
+                "phone": "01320-140337",
+                "officePhone": "04023-56003",
+                "email": "dakopthana@gmail.com",
+                "name": "Dacope Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "paikgacha": {
+                "latitude": 22.6000,
+                "longitude": 89.3500,
+                "phone": "01320-140311",
+                "officePhone": "04027-56055",
+                "email": "paikgachathana@gmail.com",
+                "name": "Paikgacha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "koyra": {
+                "latitude": 22.4000,
+                "longitude": 89.2500,
+                "phone": "01320-140389",
+                "officePhone": "04026-56002",
+                "email": "koyraps@gmail.com",
+                "name": "Koyra Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "jagannathpur": {
-              "name": "Jagannathpur",
-              "latitude": 24.9333,
-              "longitude": 91.4167,
-              "phone": "01713374420",
-              "officePhone": "02996600023",
-              "email": "psjagannathpur@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "kushtia": {
+            "name": "Kushtia",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "kushtiaSadar": {
+                "latitude": 23.9028,
+                "longitude": 89.1191,
+                "phone": "01713374226",
+                "officePhone": "02477782400",
+                "email": "spkustia@police.gov.bd",
+                "name": "Kushtia Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "kumarkhali": {
+                "latitude": 23.9000,
+                "longitude": 89.1500,
+                "phone": "01713374221",
+                "officePhone": null,
+                "email": null,
+                "name": "Kumarkhali Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "khoksa": {
+                "latitude": 23.8500,
+                "longitude": 89.2000,
+                "phone": "01713374221",
+                "officePhone": null,
+                "email": null,
+                "name": "Khoksa Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mirpur": {
+                "latitude": 23.9500,
+                "longitude": 89.0000,
+                "phone": "01713374225",
+                "officePhone": null,
+                "email": null,
+                "name": "Mirpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bheramara": {
+                "latitude": 24.0000,
+                "longitude": 88.9500,
+                "phone": "01713374222",
+                "officePhone": null,
+                "email": null,
+                "name": "Bheramara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "daulatpur": {
+                "latitude": 23.9500,
+                "longitude": 88.9000,
+                "phone": "01713374224",
+                "officePhone": null,
+                "email": null,
+                "name": "Daulatpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "islami": {
+                "latitude": 23.9500,
+                "longitude": 89.1500,
+                "phone": "01713374226",
+                "officePhone": null,
+                "email": null,
+                "name": "Islami University Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "tahirpur": {
-              "name": "Tahirpur",
-              "latitude": 25.0833,
-              "longitude": 91.6167,
-              "phone": "01713374421",
-              "officePhone": "02996600024",
-              "email": "pstahirpur@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "magura": {
+            "name": "Magura",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "magura": {
+                "latitude": 23.4850,
+                "longitude": 89.4190,
+                "phone": "01320-145170",
+                "officePhone": "0488-62235",
+                "email": "ocmag.mag@police.gov.bd",
+                "name": "Magura Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "sreepur": {
+                "latitude": 23.6000,
+                "longitude": 89.4500,
+                "phone": "01320-145196",
+                "officePhone": "04858-56104",
+                "email": "ocmag.sre@police.gov.bd",
+                "name": "Sreepur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mohammadpur": {
+                "latitude": 23.4000,
+                "longitude": 89.3000,
+                "phone": "01320-145222",
+                "officePhone": "04852-75014",
+                "email": "ocmag.moh@police.gov.bd",
+                "name": "Mohammadpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shalikha": {
+                "latitude": 23.5000,
+                "longitude": 89.3500,
+                "phone": "01320-145248",
+                "officePhone": "04853-56024",
+                "email": "ocmag.sha@police.gov.bd",
+                "name": "Shalikha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "biswambarpur": {
-              "name": "Biswambarpur",
-              "latitude": 25.0500,
-              "longitude": 91.4667,
-              "phone": "01713374422",
-              "officePhone": "02996600025",
-              "email": "psbiswambarpur@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "meherpur": {
+            "name": "Meherpur",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "meherpur": {
+                "latitude": 23.7620,
+                "longitude": 88.6310,
+                "phone": "01713-374249",
+                "officePhone": "0791-62203",
+                "email": "ocmeh.meh@police.gov.bd",
+                "name": "Meherpur Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "gangni": {
+                "latitude": 23.9000,
+                "longitude": 88.7500,
+                "phone": "01713-374250",
+                "officePhone": null,
+                "email": "ocgangni@gmail.com",
+                "name": "Gangni Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mujibnagar": {
+                "latitude": 23.8000,
+                "longitude": 88.7000,
+                "phone": "01713-374251",
+                "officePhone": null,
+                "email": "ocmujibnagar@gmail.com",
+                "name": "Mujibnagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "doyarbazar": {
-              "name": "Doyarbazar",
-              "latitude": 25.0667,
-              "longitude": 91.3833,
-              "phone": "01713374423",
-              "officePhone": "02996600026",
-              "email": "psdoyarbazar@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "narail": {
+            "name": "Narail",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "narail": {
+                "latitude": 23.1633,
+                "longitude": 89.5386,
+                "phone": "01713-374206",
+                "officePhone": "0481-62235",
+                "email": "ocnarailsadar@police.gov.bd",
+                "name": "Narail Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "kalia": {
+                "latitude": 23.0167,
+                "longitude": 89.4167,
+                "phone": "01713-374207",
+                "officePhone": "0482-56004",
+                "email": "ockalia@police.gov.bd",
+                "name": "Kalia Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "lohagara": {
+                "latitude": 22.9000,
+                "longitude": 89.4167,
+                "phone": "01713-374208",
+                "officePhone": "0483-56002",
+                "email": "oclohagara@police.gov.bd",
+                "name": "Lohagara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "naragati": {
+                "latitude": 23.1000,
+                "longitude": 89.4167,
+                "phone": "01713-374209",
+                "officePhone": "0484-56001",
+                "email": "ocnaragati@police.gov.bd",
+                "name": "Naragati Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "dirai": {
-              "name": "Dirai",
-              "latitude": 25.1000,
-              "longitude": 91.5000,
-              "phone": "01713374424",
-              "officePhone": "02996600027",
-              "email": "psdirai@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+          },
+          "satkhira": {
+            "name": "Satkhira",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "satkhira": {
+                "latitude": 22.7026,
+                "longitude": 89.0800,
+                "phone": "01320-142179",
+                "officePhone": "0481-62235",
+                "email": "oc.satkhira@police.gov.bd",
+                "name": "Satkhira Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
+              },
+              "kolaroa": {
+                "latitude": 22.9383,
+                "longitude": 89.3845,
+                "phone": "01320-142205",
+                "officePhone": "0482-56004",
+                "email": "oc.kolaroa@police.gov.bd",
+                "name": "Kolaroa Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tala": {
+                "latitude": 22.6801,
+                "longitude": 89.2185,
+                "phone": "01320-142231",
+                "officePhone": "0483-56002",
+                "email": "oc.tala@police.gov.bd",
+                "name": "Tala Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "patkelghata": {
+                "latitude": 22.7062,
+                "longitude": 89.3101,
+                "phone": "01320-142361",
+                "officePhone": "0484-56001",
+                "email": "oc.patkelghata@police.gov.bd",
+                "name": "Patkelghata Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kaliganj": {
+                "latitude": 22.7915,
+                "longitude": 89.3610,
+                "phone": "01320-142257",
+                "officePhone": "0484-56002",
+                "email": "oc.kaliganj@police.gov.bd",
+                "name": "Kaliganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "debhata": {
+                "latitude": 22.7087,
+                "longitude": 89.2999,
+                "phone": "01320-142309",
+                "officePhone": "0485-56001",
+                "email": "oc.debhata@police.gov.bd",
+                "name": "Debhata Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "ashashuni": {
+                "latitude": 22.4597,
+                "longitude": 89.2165,
+                "phone": "01320-142149",
+                "officePhone": "0486-56004",
+                "email": "oc.ashashuni@police.gov.bd",
+                "name": "Ashashuni Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shyamnagar": {
+                "latitude": 22.4000,
+                "longitude": 89.2428,
+                "phone": "01320-142283",
+                "officePhone": "0487-56003",
+                "email": "oc.shyamnagar@police.gov.bd",
+                "name": "Shyamnagar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
                 },
               },
             },
-            "shalna": {
-              "name": "Shalna",
-              "latitude": 25.1333,
-              "longitude": 91.4667,
-              "phone": "01713374425",
-              "officePhone": "02996600028",
-              "email": "psshalna@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "jamalganj": {
-              "name": "Jamalganj",
-              "latitude": 25.2000,
-              "longitude": 91.5333,
-              "phone": "01713374426",
-              "officePhone": "02996600029",
-              "email": "psjamalganj@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dharmapasha": {
-              "name": "Dharmapasha",
-              "latitude": 25.2500,
-              "longitude": 91.6000,
-              "phone": "01713374427",
-              "officePhone": "02996600030",
-              "email": "psdharmapasha@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "madhyanagar": {
-              "name": "Madhyanagar",
-              "latitude": 25.3000,
-              "longitude": 91.6500,
-              "phone": "01713374428",
-              "officePhone": "02996600031",
-              "email": "psmadhyanagar@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-
           },
         },
       },
     },
-    //rangpur thana completed
-    "rangpur": {
+    {
+      "barishal": {
+        "name": "Barishal",
+        "latitude": 22.3569,
+        "longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "barisal": {
+            "name": "Barisal",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "agailjhara": {
+                "name": "Agailjhara",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "babuganj": {
+                "name": "Babuganj",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bakerganj": {
+                "name": "Bakerganj",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "banaripara": {
+                "name": "Banaripara",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "barisalSadar": {
+                "name": "Barisal Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gournadi": {
+                "name": "Gournadi",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "hizla": {
+                "name": "Hizla",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mehendiganj": {
+                "name": "Mehendiganj",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "muladi": {
+                "name": "Muladi",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "wazirpur": {
+                "name": "Wazirpur",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "barguna": {
+            "name": "Barguna",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "amtali": {
+                "name": "Amtali",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bamna": {
+                "name": "Bamna",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bargunaSadar": {
+                "name": "Barguna Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "betagi": {
+                "name": "Betagi",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "patharghata": {
+                "name": "Patharghata",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "taltali": {
+                "name": "Taltali",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "bhola": {
+            "name": " Bhola",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "bholaSadar": {
+                "name": "Bhola Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "burhanuddin": {
+                "name": "Burhanuddin",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "charFasson": {
+                "name": "Char Fasson",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "daulatkhan": {
+                "name": "Daulatkhan",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "lalmohan": {
+                "name": "Lalmohan",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "manpura": {
+                "name": "Manpura",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tazumuddin": {
+                "name": "Tazumuddin",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "jhalokati": {
+            "name": " Jhalokati",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "jhalokatiSadar": {
+                "name": "Jhalokati Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kathalia": {
+                "name": "Kathalia",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nalchity": {
+                "name": "Nalchity",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rajapur": {
+                "name": "Rajapur",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "patuakhali": {
+            "name": " Patuakhali",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "bauphal": {
+                "name": "Bauphal",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dashmina": {
+                "name": "Dashmina",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dumki": {
+                "name": "Dumki",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "galachipa": {
+                "name": "Galachipa",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kalapara": {
+                "name": "Kalapara",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mirzaganj": {
+                "name": "Mirzaganj",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "patuakhaliSadar": {
+                "name": "Patuakhali Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rangabali": {
+                "name": "Rangabali",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "pirojpur": {
+            "name": " Pirojpur",
+            "latitude": 25.7558,
+            "longitude": 89.2440,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "bhandaria": {
+                "name": "Bhandaria",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "indurkani": {
+                "name": "Indurkani",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kawkhali": {
+                "name": "Kawkhali",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mathbaria": {
+                "name": "Mathbaria",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nazirpur": {
+                "name": "Nazirpur",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nesarabad": {
+                "name": "Nesarabad (Swarupkathi)",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "pirojpurSadar": {
+                "name": "Pirojpur Sadar",
+                "latitude": 25.5333,
+                "longitude": 89.2833,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+                "unions": {
+                  "Pahartali": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Sholashahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    {
+      "sylhet": {
+        "name": "Sylhet",
+        "latitude": 22.3569,
+        "longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "Sylhet": {
+            "name": "Sylhet",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "osmaninagar": {
+                "name": "Osmaninagar",
+                "latitude": 24.7740,
+                "longitude": 91.8697,
+                "phone": "01320-117786",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "golapganj": {
+                "name": "golapganj",
+                "latitude": 24.8635,
+                "longitude": 91.9986,
+                "phone": "01320-117891",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bishwanath": {
+                "name": "Bishwanath",
+                "latitude": 24.8167,
+                "longitude": 91.7000,
+                "phone": "01320-117838",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "beanibazar": {
+                "name": "Beanibazar",
+                "latitude": 24.8167,
+                "longitude": 92.0833,
+                "phone": "01320-117917",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kanaighat": {
+                "name": "Kanaighat",
+                "latitude": 25.0167,
+                "longitude": 92.0167,
+                "phone": "01320-117943",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "jaintiapur": {
+                "name": "Jaintiapur",
+                "latitude": 25.1000,
+                "longitude": 92.1000,
+                "phone": "01320-118047",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "companyganj": {
+                "name": "Companyganj",
+                "latitude": 25.0500,
+                "longitude": 91.8333,
+                "phone": "01320-117995",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "balaganj": {
+                "name": "Balaganj",
+                "latitude": 24.7167,
+                "longitude": 91.7500,
+                "phone": "01320-117812",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "fenchuganj": {
+                "name": "Fenchuganj",
+                "latitude": 24.6833,
+                "longitude": 91.9333,
+                "phone": "01320-117865",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gowainghat": {
+                "name": "Gowainghat",
+                "latitude": 25.1000,
+                "longitude": 91.8333,
+                "phone": "01320-117969",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "zakiganj": {
+                "name": "Zakiganj",
+                "latitude": 24.9000,
+                "longitude": 92.1833,
+                "phone": "01320-118021",
+                "officePhone": 01577479,
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "moulvibazar": {
+            "name": "Moulvibazar",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sreemangal": {
+                "name": "Sreemangal",
+                "latitude": 24.3033,
+                "longitude": 91.7278,
+                "phone": "01713374440",
+                "officePhone": "02996600011",
+                "email": "sreemangal@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kamalganj": {
+                "name": "Kamalganj",
+                "latitude": 24.3311,
+                "longitude": 91.7622,
+                "phone": "01713374441",
+                "officePhone": "02996600012",
+                "email": "kamalganj@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "rajnagar": {
+                "name": "Rajnagar",
+                "latitude": 24.5139,
+                "longitude": 91.8250,
+                "phone": "01713374442",
+                "officePhone": "02996600013",
+                "email": "rajnagar@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kulaura": {
+                "name": "Kulaura",
+                "latitude": 24.5944,
+                "longitude": 91.7894,
+                "phone": "01713374443",
+                "officePhone": "02996600014",
+                "email": "kulaura@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "baralekha": {
+                "name": "Baralekha",
+                "latitude": 24.7533,
+                "longitude": 91.7583,
+                "phone": "01713374444",
+                "officePhone": "02996600015",
+                "email": "baralekha@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "juri": {
+                "name": "Juri",
+                "latitude": 24.8883,
+                "longitude": 91.8317,
+                "phone": "01713374445",
+                "officePhone": "02996600016",
+                "email": "juri@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "habiganj": {
+            "name": "Habiganj",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "habiganjSadar": {
+                "name": "Habiganj Sadar",
+                "latitude": 24.3694,
+                "longitude": 91.4383,
+                "phone": "01320-118700",
+                "officePhone": "02996604520",
+                "email": "sphabigonj@police.gov.bd",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "madhabpur": {
+                "name": "Madhabpur",
+                "latitude": 24.5147,
+                "longitude": 91.4811,
+                "phone": "01320-118754",
+                "officePhone": "02996604521",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "chunarughat": {
+                "name": "Chunarughat",
+                "latitude": 24.6744,
+                "longitude": 91.6883,
+                "phone": "01320-118759",
+                "officePhone": "02996604522",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bahubal": {
+                "name": "Bahubal",
+                "latitude": 24.6883,
+                "longitude": 91.4300,
+                "phone": "01320-118759",
+                "officePhone": "02996604523",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "lakhai": {
+                "name": "Lakhai",
+                "latitude": 24.7044,
+                "longitude": 91.4267,
+                "phone": "01320-118759",
+                "officePhone": "02996604524",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nabiganj": {
+                "name": "Nabiganj",
+                "latitude": 24.7367,
+                "longitude": 91.4533,
+                "phone": "01320-118759",
+                "officePhone": "02996604525",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shayestaganj": {
+                "name": "Shayestaganj",
+                "latitude": 24.7572,
+                "longitude": 91.4236,
+                "phone": "01320-118759",
+                "officePhone": "02996604526",
+                "email": null,
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "sunamganj": {
+            "name": "Sunamganj",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sadar": {
+                "name": "Sadar",
+                "latitude": 25.0061,
+                "longitude": 91.3975,
+                "phone": "01713374418",
+                "officePhone": "02996600021",
+                "email": "pssunamgonj@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "chatak": {
+                "name": "Chatak",
+                "latitude": 25.0167,
+                "longitude": 91.7167,
+                "phone": "01713374419",
+                "officePhone": "02996600022",
+                "email": "pschatak@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "jagannathpur": {
+                "name": "Jagannathpur",
+                "latitude": 24.9333,
+                "longitude": 91.4167,
+                "phone": "01713374420",
+                "officePhone": "02996600023",
+                "email": "psjagannathpur@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tahirpur": {
+                "name": "Tahirpur",
+                "latitude": 25.0833,
+                "longitude": 91.6167,
+                "phone": "01713374421",
+                "officePhone": "02996600024",
+                "email": "pstahirpur@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "biswambarpur": {
+                "name": "Biswambarpur",
+                "latitude": 25.0500,
+                "longitude": 91.4667,
+                "phone": "01713374422",
+                "officePhone": "02996600025",
+                "email": "psbiswambarpur@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "doyarbazar": {
+                "name": "Doyarbazar",
+                "latitude": 25.0667,
+                "longitude": 91.3833,
+                "phone": "01713374423",
+                "officePhone": "02996600026",
+                "email": "psdoyarbazar@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dirai": {
+                "name": "Dirai",
+                "latitude": 25.1000,
+                "longitude": 91.5000,
+                "phone": "01713374424",
+                "officePhone": "02996600027",
+                "email": "psdirai@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "shalna": {
+                "name": "Shalna",
+                "latitude": 25.1333,
+                "longitude": 91.4667,
+                "phone": "01713374425",
+                "officePhone": "02996600028",
+                "email": "psshalna@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "jamalganj": {
+                "name": "Jamalganj",
+                "latitude": 25.2000,
+                "longitude": 91.5333,
+                "phone": "01713374426",
+                "officePhone": "02996600029",
+                "email": "psjamalganj@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dharmapasha": {
+                "name": "Dharmapasha",
+                "latitude": 25.2500,
+                "longitude": 91.6000,
+                "phone": "01713374427",
+                "officePhone": "02996600030",
+                "email": "psdharmapasha@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "madhyanagar": {
+                "name": "Madhyanagar",
+                "latitude": 25.3000,
+                "longitude": 91.6500,
+                "phone": "01713374428",
+                "officePhone": "02996600031",
+                "email": "psmadhyanagar@gmail.com",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+    {
       "name": "Rangpur",
       "latitude": 25.7558,
       "longitude": 89.2440,
       "phone": 01701577479,
       "officePhone": 01577479,
       "email": "dhaka@gmail.com",
-      "districts": {
-        "rangpur": {
+      "districts": [
+        {
           "name": "Rangpur",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "rangpurSadar": {
+          "upazilas":
+          [
+            {
               "name": "Rangpur Sadar",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+               {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "badarganj": {
+           {
               "name": "Badarganj",
               "latitude": 25.6745,
               "longitude": 88.9385,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "mithapukur": {
+             {
               "name": "Mithapukur",
               "latitude": 25.5333,
               "longitude": 89.2833,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "pirgachha": {
+            {
               "name": "Pirgachha",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+              "unions": [
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "pirganj": {
+          {
               "name": "Pirganj",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "kaunia": {
+          {
               "name": "Kaunia",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "tangachara": {
+          {
               "name": "Gangachara",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "taraganj": {
+            {
               "name": "Taraganj",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+              "unions": [
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-          },
+
+          ]
         },
-        "dinajpur": {
+        {
           "name": "Dinajpur",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "dinajpurSadar": {
+          "upazilas":
+          [
+             {
               "name": "Dinajpur Sadar",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "birganj": {
+             {
               "name": "Birganj",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "biral": {
+        {
               "name": "Biral",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+          "unions": [
+            {
+              "Latitude": 22.3569,
+              "Longitude": 91.7832,
+              "phone": 01701577479,
+              "officePhone": 01577479,
+              "email": "dhaka@gmail.com",
             },
-            "bochaganj": {
+            {
+              "Latitude": 22.3569,
+              "Longitude": 91.7832,
+              "phone": 01701577479,
+              "officePhone": 01577479,
+              "email": "dhaka@gmail.com",
+            },
+
+          ]
+            },
+           {
               "name": "Bochaganj",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "chirirbandar": {
+            {
               "name": "Chirirbandar",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+              "unions": [
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "fulbari": {
+         {
               "name": "Fulbari",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+           "unions": [
+             {
+               "Latitude": 22.3569,
+               "Longitude": 91.7832,
+               "phone": 01701577479,
+               "officePhone": 01577479,
+               "email": "dhaka@gmail.com",
+             },
+             {
+               "Latitude": 22.3569,
+               "Longitude": 91.7832,
+               "phone": 01701577479,
+               "officePhone": 01577479,
+               "email": "dhaka@gmail.com",
+             },
+
+           ]
             },
-            "ghoraghat": {
+            {
               "name": "Ghoraghat",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+              "unions": [
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
+                {
+                  "Latitude": 22.3569,
+                  "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "hakimpur": {
+           {
               "name": "Hakimpur",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "khansama": {
+             {
               "name": "Khansama",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "latitude": 25.7558,
-                  "longitude": 89.2440,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "nawabganj": {
+             {
               "name": "Nawabganj",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "parbatipur": {
+           {
               "name": "Parbatipur",
               "latitude": 25.7558,
               "longitude": 89.2440,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-          },
+
+          ]
         },
-        "kurigram": {
+        {
           "name": "Kurigram",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "kurigramSadar": {
+          "upazilas":
+          [
+             {
               "name": "Kurigram Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "Bhurungamari": {
+             {
               "name": "Bhurungamari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "chilmari": {
+           {
               "name": "Chilmari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "nageshwari": {
+           {
               "name": "Nageshwari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "rajarhat": {
+            {
               "name": "Rajarhat",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "ulipur": {
+            {
               "name": "Ulipur",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "phulbari": {
+          {
               "name": "Phulbari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "rowmari": {
+          {
               "name": "Rowmari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "charRajibpur": {
+          {
               "name": "Char Rajibpur",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-          },
+
+          ]
         },
-        "gaibandha": {
+        {
           "name": "Gaibandha",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "gaibandhaSadar": {
+          "upazilas":
+          [
+             {
               "name": "Gaibandha Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "fulchhari": {
+            {
               "name": "Fulchhari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "gobindaganj": {
+           {
               "name": "Gobindaganj",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "palashbari": {
+            {
               "name": "Palashbari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "sadullapur": {
+          {
               "name": "Sadullapur",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "Saghata": {
+             {
               "name": "Saghata",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "sundarganj": {
+         {
               "name": "Sundarganj",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+           "unions": [
+             {
+               "Latitude": 22.3569,
+               "Longitude": 91.7832,
+               "phone": 01701577479,
+               "officePhone": 01577479,
+               "email": "dhaka@gmail.com",
+             },
+             {
+               "Latitude": 22.3569,
+               "Longitude": 91.7832,
+               "phone": 01701577479,
+               "officePhone": 01577479,
+               "email": "dhaka@gmail.com",
+             },
+
+           ]
             },
-          },
+
+          ]
         },
-        "nilphamari": {
+        {
           "name": "Nilphamari",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "nilphamariSadar": {
+          "upazilas":[
+             {
               "name": "Nilphamari Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "saidpur": {
+            {
               "name": "Saidpur",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "domar": {
+            {
               "name": "Domar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "dimla": {
+            {
               "name": "Dimla",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "jaldhaka": {
+            {
               "name": "Jaldhaka",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "kishoreganj": {
+             {
               "name": "Kishoreganj",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-          },
+
+          ]
         },
-        "lalmonirhat": {
+        {
           "name": "Lalmonirhat",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "lalmonirhatSadar": {
+          "upazilas":[
+           {
               "name": "Lalmonirhat Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "aditmari": {
+            {
               "name": "Aditmari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "kaliganj": {
+             {
               "name": "Kaliganj",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "hatibandha": {
+            {
               "name": "Hatibandha",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "patgram": {
+           {
               "name": "Patgram",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-          },
+      ]
         },
-        "thakurgaon": {
+        {
           "name": "Thakurgaon",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "thakurgaonSadar": {
+          "upazilas": [
+             {
               "name": "Thakurgaon Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "baliadangi": {
+            {
               "name": "Baliadangi",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "haripur": {
+             {
               "name": "Haripur",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+               "unions": [
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+                 {
+                   "Latitude": 22.3569,
+                   "Longitude": 91.7832,
+                   "phone": 01701577479,
+                   "officePhone": 01577479,
+                   "email": "dhaka@gmail.com",
+                 },
+
+               ]
             },
-            "pirganj": {
+          {
               "name": "Pirganj (Thakurgaon)",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "ranishankail": {
+            {
               "name": "Ranishankail",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-          },
+
+          ]
         },
-        "panchagarh": {
+        {
           "name": "Panchagarh",
           "latitude": 25.7558,
           "longitude": 89.2440,
           "phone": 01701577479,
           "officePhone": 01577479,
           "email": "dhaka@gmail.com",
-          "upazilas": {
-            "panchagarhSadar": {
+          "upazilas": [
+
+          {
               "name": "Panchagarh Sadar",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
+            "unions": [
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
               },
+              {
+                "Latitude": 22.3569,
+                "Longitude": 91.7832,
+                "phone": 01701577479,
+                "officePhone": 01577479,
+                "email": "dhaka@gmail.com",
+              },
+
+            ]
             },
-            "atwari": {
+           {
               "name": "Atwari",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Sholashahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+             "unions": [
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+               {
+                 "Latitude": 22.3569,
+                 "Longitude": 91.7832,
+                 "phone": 01701577479,
+                 "officePhone": 01577479,
+                 "email": "dhaka@gmail.com",
+               },
+
+             ]
             },
-            "boda": {
+            {
               "name": "Boda",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "debiganj": {
+            {
               "name": "Debiganj",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
+
+              ]
             },
-            "tetulia": {
+            {
               "name": "Tetulia",
               "latitude": 22.3569,
               "longitude": 91.7832,
               "phone": 01701577479,
               "officePhone": 01577479,
               "email": "dhaka@gmail.com",
-              "unions": {
-                "Pahartali": {
+              "unions": [
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-                "Sholashahar": {
+                {
                   "Latitude": 22.3569,
                   "Longitude": 91.7832,
                   "phone": 01701577479,
                   "officePhone": 01577479,
                   "email": "dhaka@gmail.com",
                 },
-              },
-            },
-          },
-        },
-      },
-    },
-    //thana completed
-    "mymensingh": {
-      "name": "Mymensingh",
-      "latitude": 22.3569,
-      "longitude": 91.7832,
-      "phone": 01701577479,
-      "officePhone": 01577479,
-      "email": "dhaka@gmail.com",
-      "districts": {
-        "mymensingh": {
-          "name": "Mymensingh",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "kotwali": {
-              "Latitude": 24.7560,
-              "Longitude": 90.4065,
-              "phone": "01320-103191",
-              "officePhone": "01320103196",
-              "email": null,
-              "name": "Kotwali Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "muktagacha": {
-              "latitude": 24.7610,
-              "longitude": 90.2650,
-              "phone": "01320-103217",
-              "officePhone": "01320103222",
-              "email": null,
-              "name": "Muktagacha Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dhobaura": {
-              "latitude": 25.0250,
-              "longitude": 90.5000,
-              "phone": "01320-103877",
-              "officePhone": "01320103534",
-              "email": null,
-              "name": "Dhobaura Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "haluaghat": {
-              "latitude": 25.1000,
-              "longitude": 90.6000,
-              "phone": "01320-103529",
-              "officePhone": "01320103508",
-              "email": null,
-              "name": "Haluaghat Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "phulpur": {
-              "latitude": 24.9500,
-              "longitude": 90.5000,
-              "phone": "01320-103503",
-              "officePhone": "01320103456",
-              "email": null,
-              "name": "Phulpur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "tarakanda": {
-              "latitude": 24.8500,
-              "longitude": 90.4000,
-              "phone": "01320-103451",
-              "officePhone": "01320103482",
-              "email": null,
-              "name": "Tarakanda Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nandail": {
-              "latitude": 24.7500,
-              "longitude": 90.6500,
-              "phone": "01320-103425",
-              "officePhone": "01320103430",
-              "email": null,
-              "name": "Nandail Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "ishwarganj": {
-              "latitude": 24.7000,
-              "longitude": 90.7000,
-              "phone": "01320-103399",
-              "officePhone": "01320103404",
-              "email": null,
-              "name": "Ishwarganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "pagla": {
-              "latitude": 24.6000,
-              "longitude": 90.8000,
-              "phone": "01320-103389",
-              "officePhone": "01320103352",
-              "email": null,
-              "name": "Pagla Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "gafargaon": {
-              "latitude": 24.5000,
-              "longitude": 90.5500,
-              "phone": "01320-103321",
-              "officePhone": "01320103326",
-              "email": null,
-              "name": "Gafargaon Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "gauripur": {
-              "latitude": 24.7500,
-              "longitude": 90.6000,
-              "phone": "01320-103201",
-              "officePhone": "01320103378",
-              "email": null,
-              "name": "Gauripur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "bhaluka": {
-              "latitude": 24.4000,
-              "longitude": 90.3500,
-              "phone": "01320-103295",
-              "officePhone": "01320103300",
-              "email": null,
-              "name": "Bhaluka Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "trishal": {
-              "latitude": 24.5000,
-              "longitude": 90.4000,
-              "phone": "01320-103269",
-              "officePhone": "01320103274",
-              "email": null,
-              "name": "Trishal Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "phulbaria": {
-              "latitude": 24.8000,
-              "longitude": 90.3000,
-              "phone": "01320-103283",
-              "officePhone": "01320103248",
-              "email": null,
-              "name": "Phulbaria Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "railway": {
-              "latitude": 24.7600,
-              "longitude": 90.4100,
-              "phone": "01320178719",
-              "officePhone": "01320178724",
-              "email": null,
-              "name": "Railway Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "netrokona": {
-          "name": "Netrokona",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "sadar": {
-              "latitude": 24.8810,
-              "longitude": 90.7270,
-              "phone": "01320-104185",
-              "officePhone": "01320-104190",
-              "email": null,
-              "name": "Sadar Model Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kendua": {
-              "latitude": 24.7230,
-              "longitude": 90.7750,
-              "phone": "01320-104341",
-              "officePhone": "01320-104346",
-              "email": null,
-              "name": "Kendua Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "barhatta": {
-              "latitude": 24.8250,
-              "longitude": 90.8500,
-              "phone": "01320-104211",
-              "officePhone": "01320-104216",
-              "email": null,
-              "name": "Barhatta Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "atpara": {
-              "latitude": 24.7500,
-              "longitude": 90.7000,
-              "phone": "01320-104263",
-              "officePhone": "01320-104268",
-              "email": null,
-              "name": "Atpara Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "mohanganj": {
-              "latitude": 24.8700,
-              "longitude": 90.9500,
-              "phone": "01320-104393",
-              "officePhone": "01320-104398",
-              "email": null,
-              "name": "Mohanganj Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "kalmakanda": {
-              "latitude": 25.0500,
-              "longitude": 90.8500,
-              "phone": "01320-104237",
-              "officePhone": "01320-104242",
-              "email": null,
-              "name": "Kalmakanda Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "durgapur": {
-              "latitude": 25.1000,
-              "longitude": 90.7000,
-              "phone": "01320-104289",
-              "officePhone": "01320-104294",
-              "email": null,
-              "name": "Durgapur Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "purbadhala": {
-              "latitude": 24.9000,
-              "longitude": 90.6500,
-              "phone": "01320-104315",
-              "officePhone": "01320-104320",
-              "email": null,
-              "name": "Purbadhala Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "madan": {
-              "latitude": 24.8500,
-              "longitude": 90.9000,
-              "phone": "01320-104367",
-              "officePhone": "01320-104372",
-              "email": null,
-              "name": "Madan Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "khaliajuri": {
-              "latitude": 24.7000,
-              "longitude": 91.0500,
-              "phone": "01320-104289",
-              "officePhone": "01320-104424",
-              "email": null,
-              "name": "Khaliajuri Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "jamalpur": {
-          "name": "Jamalpur",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "jamalpurSadar": {
-              "latitude": 24.9190,
-              "longitude": 89.9500,
-              "phone": "01320-105178",
-              "officePhone": null,
-              "email": "ocjam.jam@police.gov.bd",
-              "name": "Jamalpur Sadar",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sarishabari": {
-              "latitude": 24.7500,
-              "longitude": 89.8000,
-              "phone": "01320-105205",
-              "officePhone": null,
-              "email": "ocjam.sha@police.gov.bd",
-              "name": "Sarishabari",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "melandah": {
-              "latitude": 24.9500,
-              "longitude": 89.9500,
-              "phone": "01320-105231",
-              "officePhone": null,
-              "email": "ocjam.mel@police.gov.bd",
-              "name": "Melandah",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "madarganj": {
-              "latitude": 24.8500,
-              "longitude": 89.9000,
-              "phone": "01320-105257",
-              "officePhone": null,
-              "email": "ocjam.mad@police.gov.bd",
-              "name": "Madarganj",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "islampur": {
-              "latitude": 25.0500,
-              "longitude": 89.9000,
-              "phone": "01320-105283",
-              "officePhone": null,
-              "email": "ocjam.isl@police.gov.bd",
-              "name": "Islampur",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "dewanganj": {
-              "latitude": 25.1000,
-              "longitude": 89.9500,
-              "phone": "01320-105309",
-              "officePhone": null,
-              "email": "ocjam.dew@police.gov.bd",
-              "name": "Dewanganj",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "baksiganj": {
-              "latitude": 25.0000,
-              "longitude": 89.8500,
-              "phone": "01320-105335",
-              "officePhone": null,
-              "email": "ocjam.bak@police.gov.bd",
-              "name": "Baksiganj",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-          },
-        },
-        "sherpur": {
-          "name": "Sherpur",
-          "latitude": 22.3569,
-          "longitude": 91.7832,
-          "phone": 01701577479,
-          "officePhone": 01577479,
-          "email": "dhaka@gmail.com",
-          "upazilas": {
-            "sherpurSadar": {
-              "latitude": 25.0200,
-              "longitude": 90.0150,
-              "phone": "01320106169",
-              "officePhone": "0931-61278",
-              "email": "ocsherpur@gmail.com",
-              "name": "Sherpur Sadar Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "jhenaigati": {
-              "latitude": 25.1500,
-              "longitude": 90.0500,
-              "phone": "01320106273",
-              "officePhone": "01320106273",
-              "email": "ocjhenaigati@gmail.com",
-              "name": "Jhenaigati Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nalitabari": {
-              "latitude": 25.1000,
-              "longitude": 90.2000,
-              "phone": "01320106221",
-              "officePhone": "0932-473007",
-              "email": "ocnalitabari@gmail.com",
-              "name": "Nalitabari Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "sreebardi": {
-              "latitude": 25.0500,
-              "longitude": 89.9500,
-              "phone": "01320106247",
-              "officePhone": "0932-473007",
-              "email": "ocsreebardi@gmail.com",
-              "name": "Sreebardi Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
-            },
-            "nakla": {
-              "latitude": 24.9500,
-              "longitude": 90.0500,
-              "phone": "01320106295",
-              "officePhone": "0932-473007",
-              "email": "ocnakla@gmail.com",
-              "name": "Nakla Police Station",
-              "unions": {
-                "Chandgaon": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-                "Halishahar": {
-                  "Latitude": 22.3569,
-                  "Longitude": 91.7832,
-                  "phone": 01701577479,
-                  "officePhone": 01577479,
-                  "email": "dhaka@gmail.com",
-                },
-              },
+
+              ]
             },
 
+          ],
+        },
+      ],
+    },
+    {
+      "mymensingh": {
+        "name": "Mymensingh",
+        "latitude": 22.3569,
+        "longitude": 91.7832,
+        "phone": 01701577479,
+        "officePhone": 01577479,
+        "email": "dhaka@gmail.com",
+        "districts": {
+          "mymensingh": {
+            "name": "Mymensingh",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "kotwali": {
+                "Latitude": 24.7560,
+                "Longitude": 90.4065,
+                "phone": "01320-103191",
+                "officePhone": "01320103196",
+                "email": null,
+                "name": "Kotwali Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "muktagacha": {
+                "latitude": 24.7610,
+                "longitude": 90.2650,
+                "phone": "01320-103217",
+                "officePhone": "01320103222",
+                "email": null,
+                "name": "Muktagacha Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dhobaura": {
+                "latitude": 25.0250,
+                "longitude": 90.5000,
+                "phone": "01320-103877",
+                "officePhone": "01320103534",
+                "email": null,
+                "name": "Dhobaura Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "haluaghat": {
+                "latitude": 25.1000,
+                "longitude": 90.6000,
+                "phone": "01320-103529",
+                "officePhone": "01320103508",
+                "email": null,
+                "name": "Haluaghat Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "phulpur": {
+                "latitude": 24.9500,
+                "longitude": 90.5000,
+                "phone": "01320-103503",
+                "officePhone": "01320103456",
+                "email": null,
+                "name": "Phulpur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "tarakanda": {
+                "latitude": 24.8500,
+                "longitude": 90.4000,
+                "phone": "01320-103451",
+                "officePhone": "01320103482",
+                "email": null,
+                "name": "Tarakanda Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nandail": {
+                "latitude": 24.7500,
+                "longitude": 90.6500,
+                "phone": "01320-103425",
+                "officePhone": "01320103430",
+                "email": null,
+                "name": "Nandail Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "ishwarganj": {
+                "latitude": 24.7000,
+                "longitude": 90.7000,
+                "phone": "01320-103399",
+                "officePhone": "01320103404",
+                "email": null,
+                "name": "Ishwarganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "pagla": {
+                "latitude": 24.6000,
+                "longitude": 90.8000,
+                "phone": "01320-103389",
+                "officePhone": "01320103352",
+                "email": null,
+                "name": "Pagla Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gafargaon": {
+                "latitude": 24.5000,
+                "longitude": 90.5500,
+                "phone": "01320-103321",
+                "officePhone": "01320103326",
+                "email": null,
+                "name": "Gafargaon Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "gauripur": {
+                "latitude": 24.7500,
+                "longitude": 90.6000,
+                "phone": "01320-103201",
+                "officePhone": "01320103378",
+                "email": null,
+                "name": "Gauripur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "bhaluka": {
+                "latitude": 24.4000,
+                "longitude": 90.3500,
+                "phone": "01320-103295",
+                "officePhone": "01320103300",
+                "email": null,
+                "name": "Bhaluka Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "trishal": {
+                "latitude": 24.5000,
+                "longitude": 90.4000,
+                "phone": "01320-103269",
+                "officePhone": "01320103274",
+                "email": null,
+                "name": "Trishal Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "phulbaria": {
+                "latitude": 24.8000,
+                "longitude": 90.3000,
+                "phone": "01320-103283",
+                "officePhone": "01320103248",
+                "email": null,
+                "name": "Phulbaria Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "railway": {
+                "latitude": 24.7600,
+                "longitude": 90.4100,
+                "phone": "01320178719",
+                "officePhone": "01320178724",
+                "email": null,
+                "name": "Railway Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "netrokona": {
+            "name": "Netrokona",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sadar": {
+                "latitude": 24.8810,
+                "longitude": 90.7270,
+                "phone": "01320-104185",
+                "officePhone": "01320-104190",
+                "email": null,
+                "name": "Sadar Model Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kendua": {
+                "latitude": 24.7230,
+                "longitude": 90.7750,
+                "phone": "01320-104341",
+                "officePhone": "01320-104346",
+                "email": null,
+                "name": "Kendua Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "barhatta": {
+                "latitude": 24.8250,
+                "longitude": 90.8500,
+                "phone": "01320-104211",
+                "officePhone": "01320-104216",
+                "email": null,
+                "name": "Barhatta Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "atpara": {
+                "latitude": 24.7500,
+                "longitude": 90.7000,
+                "phone": "01320-104263",
+                "officePhone": "01320-104268",
+                "email": null,
+                "name": "Atpara Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "mohanganj": {
+                "latitude": 24.8700,
+                "longitude": 90.9500,
+                "phone": "01320-104393",
+                "officePhone": "01320-104398",
+                "email": null,
+                "name": "Mohanganj Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "kalmakanda": {
+                "latitude": 25.0500,
+                "longitude": 90.8500,
+                "phone": "01320-104237",
+                "officePhone": "01320-104242",
+                "email": null,
+                "name": "Kalmakanda Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "durgapur": {
+                "latitude": 25.1000,
+                "longitude": 90.7000,
+                "phone": "01320-104289",
+                "officePhone": "01320-104294",
+                "email": null,
+                "name": "Durgapur Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "purbadhala": {
+                "latitude": 24.9000,
+                "longitude": 90.6500,
+                "phone": "01320-104315",
+                "officePhone": "01320-104320",
+                "email": null,
+                "name": "Purbadhala Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "madan": {
+                "latitude": 24.8500,
+                "longitude": 90.9000,
+                "phone": "01320-104367",
+                "officePhone": "01320-104372",
+                "email": null,
+                "name": "Madan Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "khaliajuri": {
+                "latitude": 24.7000,
+                "longitude": 91.0500,
+                "phone": "01320-104289",
+                "officePhone": "01320-104424",
+                "email": null,
+                "name": "Khaliajuri Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "jamalpur": {
+            "name": "Jamalpur",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "jamalpurSadar": {
+                "latitude": 24.9190,
+                "longitude": 89.9500,
+                "phone": "01320-105178",
+                "officePhone": null,
+                "email": "ocjam.jam@police.gov.bd",
+                "name": "Jamalpur Sadar",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sarishabari": {
+                "latitude": 24.7500,
+                "longitude": 89.8000,
+                "phone": "01320-105205",
+                "officePhone": null,
+                "email": "ocjam.sha@police.gov.bd",
+                "name": "Sarishabari",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "melandah": {
+                "latitude": 24.9500,
+                "longitude": 89.9500,
+                "phone": "01320-105231",
+                "officePhone": null,
+                "email": "ocjam.mel@police.gov.bd",
+                "name": "Melandah",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "madarganj": {
+                "latitude": 24.8500,
+                "longitude": 89.9000,
+                "phone": "01320-105257",
+                "officePhone": null,
+                "email": "ocjam.mad@police.gov.bd",
+                "name": "Madarganj",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "islampur": {
+                "latitude": 25.0500,
+                "longitude": 89.9000,
+                "phone": "01320-105283",
+                "officePhone": null,
+                "email": "ocjam.isl@police.gov.bd",
+                "name": "Islampur",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "dewanganj": {
+                "latitude": 25.1000,
+                "longitude": 89.9500,
+                "phone": "01320-105309",
+                "officePhone": null,
+                "email": "ocjam.dew@police.gov.bd",
+                "name": "Dewanganj",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "baksiganj": {
+                "latitude": 25.0000,
+                "longitude": 89.8500,
+                "phone": "01320-105335",
+                "officePhone": null,
+                "email": "ocjam.bak@police.gov.bd",
+                "name": "Baksiganj",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
+          },
+          "sherpur": {
+            "name": "Sherpur",
+            "latitude": 22.3569,
+            "longitude": 91.7832,
+            "phone": 01701577479,
+            "officePhone": 01577479,
+            "email": "dhaka@gmail.com",
+            "upazilas": {
+              "sherpurSadar": {
+                "latitude": 25.0200,
+                "longitude": 90.0150,
+                "phone": "01320106169",
+                "officePhone": "0931-61278",
+                "email": "ocsherpur@gmail.com",
+                "name": "Sherpur Sadar Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "jhenaigati": {
+                "latitude": 25.1500,
+                "longitude": 90.0500,
+                "phone": "01320106273",
+                "officePhone": "01320106273",
+                "email": "ocjhenaigati@gmail.com",
+                "name": "Jhenaigati Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nalitabari": {
+                "latitude": 25.1000,
+                "longitude": 90.2000,
+                "phone": "01320106221",
+                "officePhone": "0932-473007",
+                "email": "ocnalitabari@gmail.com",
+                "name": "Nalitabari Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "sreebardi": {
+                "latitude": 25.0500,
+                "longitude": 89.9500,
+                "phone": "01320106247",
+                "officePhone": "0932-473007",
+                "email": "ocsreebardi@gmail.com",
+                "name": "Sreebardi Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+              "nakla": {
+                "latitude": 24.9500,
+                "longitude": 90.0500,
+                "phone": "01320106295",
+                "officePhone": "0932-473007",
+                "email": "ocnakla@gmail.com",
+                "name": "Nakla Police Station",
+                "unions": {
+                  "Chandgaon": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                  "Halishahar": {
+                    "Latitude": 22.3569,
+                    "Longitude": 91.7832,
+                    "phone": 01701577479,
+                    "officePhone": 01577479,
+                    "email": "dhaka@gmail.com",
+                  },
+                },
+              },
+            },
           },
         },
       },
     },
-  },
+  ],
 };

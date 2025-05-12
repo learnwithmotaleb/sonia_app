@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:geocoding/geocoding.dart';
+import 'package:get/get_utils/src/extensions/dynamic_extensions.dart';
+import 'package:sonia_app/app/core/constants/info_bd.dart';
 
 class GeoCodingAddress extends StatefulWidget {
   const GeoCodingAddress({super.key});
@@ -12,6 +14,10 @@ class _GeoCodingAddressState extends State<GeoCodingAddress> {
 
   String address ='';
   String latlong = '';
+
+
+
+
 
 
   @override

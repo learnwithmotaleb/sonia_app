@@ -5,6 +5,7 @@ import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
 
 import 'package:sonia_app/app/core/constants/app_images.dart';
+import '../../core/constants/app_strings.dart';
 import 'Widget/onboading_dot_navigation.dart';
 import 'Widget/onboading_next_button.dart';
 import 'Widget/onboading_page.dart';
@@ -30,28 +31,28 @@ class OnBoardingScreen extends StatelessWidget {
               children:  [
                 OnBoardingPage(
                     image: AppImage.image1,
-                    title: AppImage.title1,
-                    subtitle: AppImage.sub_Title1
+                    title: title1,
+                    subtitle: sub_Title1
                 ),
                 OnBoardingPage(
                     image: AppImage.image2,
-                    title: AppImage.title2,
-                    subtitle: AppImage.sub_Title2
+                    title:title2,
+                    subtitle: sub_Title2
                 ),
                 OnBoardingPage(
                     image: AppImage.image3,
-                    title: AppImage.title3,
-                    subtitle: AppImage.sub_Title3
+                    title:title3,
+                    subtitle: sub_Title3
                 ),
                 OnBoardingPage(
                     image: AppImage.image4,
-                    title: AppImage.title4,
-                    subtitle: AppImage.sub_Title4
+                    title: title4,
+                    subtitle:sub_Title4
                 ),
                 OnBoardingPage(
                     image: AppImage.image5,
-                    title: AppImage.title5,
-                    subtitle: AppImage.sub_Title5
+                    title: title5,
+                    subtitle: sub_Title5
                 ),
               ],
             ),

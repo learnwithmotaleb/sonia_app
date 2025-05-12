@@ -1,3 +1,17 @@
+//for onBoarding title
+const String title1 = "Welcome to Sonia";
+const String title2 = "Organize Smarter";
+const String title3 = "Optimize Your Life";
+const String title4 = "Stay Connected";
+const String title5 = "Ready to Begin?";
+
+//for onBoarding sub-title
+const String sub_Title1 = "Your Smart, Optimized, and Intelligent Assistant.";
+const String sub_Title2 = "Manage your tasks, events, and goals effortlessly.";
+const String sub_Title3 = "Track your progress and boost your productivity with intelligent insights.";
+const String sub_Title4 = "Sync across devices and access everything you need, anytime, anywhere.";
+const String sub_Title5 = "Join Sonia and experience the next generation of personal management.";
+
 
 
 //============Term And Condition=============
