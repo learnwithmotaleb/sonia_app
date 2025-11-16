@@ -26,7 +26,7 @@ class OnBoardingPage extends StatelessWidget {
               fit: BoxFit.fill,
               image: AssetImage(image)),
 
-          SizedBox(height: 40,),
+          SizedBox(height: 50,),
 
           Text(
             title,
