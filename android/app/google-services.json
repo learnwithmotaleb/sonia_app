@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "798183049780",
+    "project_id": "sonia-app-26f13",
+    "storage_bucket": "sonia-app-26f13.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798183049780:android:36dcea02203afe677e9861",
+        "android_client_info": {
+          "package_name": "com.lwm.sonia_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH455r43Fmkrkc8ZqBIbM1daEBKnniJbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
